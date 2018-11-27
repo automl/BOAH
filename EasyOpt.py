@@ -44,8 +44,7 @@ def easy_opt(func, func_args, config_space,
     This function's purpose is to give a fast and easy way to run BOHB on a
     optimisation objective on your local machine.
 
-    The signature of the optimized function must satisfy the following
-    conditions:
+    The optimized function must satisfy the following conditions:
     - Contain a parameter ``budget``:
         This parameter is passed by the optimizer.
         Its meaning is defined by your interpretation of budget used by your
@@ -65,19 +64,20 @@ def easy_opt(func, func_args, config_space,
 
     - Hyperparameter from the configuration space object:
         The function must implement all hyperparameters defined in the
-        configuration space. The parameter name of the function must be
+        configuration space. The parameter name in the function call must be
         equal to the name of the hyperparameter. Otherwise a exception will
         be thrown.
 
     - Function arguments in right order:
         Function arguments, which are not hyperparameters and therefore not
         defined in the configuration space must be passed to the
-        ``easy_opt`` call in the order of occurence in the function signature.
+        ``easy_opt`` call in the order of occurrence in the function signature.
         In the example below, for instance the training data, X and y, is a
         use case for this kind of function arguments.
 
     Example::
 
+        import numpy as np
         import ConfigSpace as CS
         cs = CS.ConfigurationSpace()
         cs.add_hyperparameter(
@@ -98,13 +98,15 @@ def easy_opt(func, func_args, config_space,
 
     Args:
         func (function): function to optimize. Must return a python scalar!
+            See also section above
+            **The optimized function must satisfy the following conditions**
         func_args (tuple): arguments, passed to the function by the user,
             e.g. the data (X,y). These arguments don't include
             optimized parameters. Those are defined in the
             configuration space object and will be passed by the master directly
             to the function.
         config_space (ConfigSpace.ConfigurationSpace):
-            Definition of the search space containing all hyperparameter
+            Definition of the search space containing all hyperparameters
             and their value ranges. You can find its definition in
             the `ConfiSpace repository <https://github.com/automl/ConfigSpace/>`_.
         eta (float): In each iteration, a complete run of sequential halving
