@@ -28,6 +28,7 @@ import hpbandster.core.result as hpres
 from hpbandster.optimizers import BOHB
 from hpbandster.core.worker import Worker
 
+from ConfigSpace.read_and_write import pcs_new, json
 
 class EasyOptWorker(Worker):
     """
@@ -241,7 +242,49 @@ def easy_opt(func, config_space, func_args=(),
     return inc_value, inc_cfg, result
 
 
+def load_func(path_to_function_file):
+    """
+    Parse optimization function
+
+    Args:
+        path_to_function_file (str): Path to the file, in which the function
+            with the name 'opt_func' is
+
+    Returns:
+        optimize function
+    """
+    from importlib.machinery import SourceFileLoader
+    loader = SourceFileLoader('opt_func', path_to_function_file)
+    module = loader.load_module()
+    function = getattr(module, 'opt_func')
+    return function
+
+
+def load_configspace(path_to_cs_file):
+    """
+    Load configuration space definition
+    Args:
+        path_to_cs_file: Path to the file, in which the configuration space is
+            defined. Must be in format pcs or json
+
+    Returns:
+        ConfigSpace.configuration_space
+    """
+    if path_to_cs_file.endswith('.pcs'):
+        with open(path_to_cs_file, 'r') as f:
+            cfg = pcs_new.read(f)
+    elif path_to_cs_file.endswith('.json'):
+        with open(path_to_cs_file, 'r') as f:
+            cfg = json.read(f.read())
+    else:
+        raise ImportError('Configuration space definition not understood. File'
+                          ' must be in format pcs or json.')
+
+    return cfg
+
+
 if __name__ == "__main__":
+
     parser = argparse.ArgumentParser(description='Easy Optimization for '
                                                  'HpBandSter')
     parser.add_argument('--func',
@@ -263,29 +306,10 @@ if __name__ == "__main__":
                         type=int, default=1)
     parser.add_argument('--output_dir', help='Output directory',
                         type=str, default='.')
-
     args = parser.parse_args()
 
-    # Parse optimization function
-    from importlib.machinery import SourceFileLoader
-    loader = SourceFileLoader('opt_func', args.func)
-    module = loader.load_module()
-    func = getattr(module, 'opt_func')
-
-    # Load configuration space definition
-    config = None
-    if args.config_space.endswith('.pcs'):
-        from ConfigSpace.read_and_write import pcs_new
-        with open(args.config_space, 'r') as f:
-            config = pcs_new.read(f)
-
-    elif args.config_space.endswith('.json'):
-        from ConfigSpace.read_and_write import json
-        with open(args.config_space, 'r') as f:
-            config = json.read(f.read())
-    else:
-        raise ImportError('Configuration space definition not understood. File'
-                          ' must be in format pcs or json.')
+    func = load_func(args.func)
+    config = load_configspace(args.config_space)
 
     inc_value, inc_cfg, result = easy_opt(func=func, config_space=config, eta=args.eta,
              min_budget=args.min_budget, max_budget=args.max_budget,
