@@ -1,7 +1,30 @@
-import numpy as np
+"""
+Welcome to EasyOpt for HpBandSter optimization runs.
+
+You can easily optimize a function with the optimization tools from HpBandSter,
+like BOHB.
+
+The function easy_opt is callable from the commandline, as well as in your code.
+
+To call it from command line, you must:
+
+- provide the path to a file containing a function with the name opt_func.
+- provide the path to a configuration space definition in pcs or json file
+    format
+- make sure to satisfy the conditions described in the docstring of
+    :method:: easy_opt
+
+"""
+
+# TODO:
+# - Remove visualization at end of file (in main)
+# - Think of better way to pass function arguments via commandline
+
+import argparse
+from pathlib import Path
+
 import hpbandster.core.nameserver as hpns
 import hpbandster.core.result as hpres
-
 from hpbandster.optimizers import BOHB
 from hpbandster.core.worker import Worker
 
@@ -35,9 +58,9 @@ class EasyOptWorker(Worker):
                 'info': {'budget': budget}}
 
 
-def easy_opt(func, func_args, config_space,
+def easy_opt(func, config_space, func_args=(),
              eta=2, min_budget=2, max_budget=4, num_iterations=1,
-             store_path='.'):
+             num_workers=1, output_dir='.'):
     """
     Starts a local BOHB optimization run for a function over a hyperparameter
     search space, which is referred to as configuration space.
@@ -76,39 +99,46 @@ def easy_opt(func, func_args, config_space,
         use case for this kind of function arguments.
 
     Example::
-
         import numpy as np
+        from EasyOpt import easy_opt
         import ConfigSpace as CS
+
+        # Create configuration space
         cs = CS.ConfigurationSpace()
         cs.add_hyperparameter(
-            CS.UniformIntegerHyperparameter('w', lower=-3, upper=3)
+            CS.UniformFloatHyperparameter('w', lower=-5, upper=5)
         )
 
-        X = np.arange(-5, 5)
-        y = np.arange(-5, 5)
+        # Create data from function
+        # f(x) = x + :math:`\mathcal{N}(0, 1)`
+        X = np.random.uniform(-5, 5, 100)
+        y = np.random.normal(X, 1)
 
-        # This simple example doesn't take the budget into account
-        opt_func = lambda x, y, w, budget: np.mean(y - w*x)**2 + 0*budget
+        # The function calculates the mean squared error for the first
+        # ``budget`` points compared to their responding true values.
+        # The expected minimum is at w = 1.
+        opt_func = lambda x, y, w, budget: np.mean((y[:int(budget)] - w*x[:int(budget)])**2)
 
-        # But the budget is still used to determine the number of
-        # configurations to be sampled.(See the description of ``budget`` above)
-        inc_best, inc_best_cfg, result = \
-            easy_opt(opt_func, (X, y), cs, min_budget=1, max_budget=10)
-
+        inc_best, inc_best_cfg, result = easy_opt(opt_func,
+                                                  cs, func_args=(X, y),
+                                                  min_budget=3,
+                                                  max_budget=len(X),
+                                                  num_iterations=3,
+                                                  num_worker=1)
 
     Args:
         func (function): function to optimize. Must return a python scalar!
             See also section above
             **The optimized function must satisfy the following conditions**
+        config_space (ConfigSpace.ConfigurationSpace):
+            Definition of the search space containing all hyperparameters
+            and their value ranges. You can find its definition in
+            the `ConfiSpace repository <https://github.com/automl/ConfigSpace/>`_.
         func_args (tuple): arguments, passed to the function by the user,
             e.g. the data (X,y). These arguments don't include
             optimized parameters. Those are defined in the
             configuration space object and will be passed by the master directly
             to the function.
-        config_space (ConfigSpace.ConfigurationSpace):
-            Definition of the search space containing all hyperparameters
-            and their value ranges. You can find its definition in
-            the `ConfiSpace repository <https://github.com/automl/ConfigSpace/>`_.
         eta (float): In each iteration, a complete run of sequential halving
             is executed. In it, after evaluating each configuration on the
             same subset size, only a fraction of 1/eta of them ‘advances’ to
@@ -125,10 +155,15 @@ def easy_opt(func, func_args, config_space,
             evaluate configurations on it.
         num_iterations (int, optional):   number of iterations to be performed
             in this run. By default, this value is set to 1.
-        store_path (str, pathlib.Path, optional): HpBandSter stores the sampled
+        num_workers (int, optional): number of parallel workers. By default, just
+            one worker is used.
+        output_dir (str, optional): HpBandSter stores the sampled
             configurations and the results on these configurations in two .json
             files. 'configs.json' and 'results.json'. Those files will be stored
             by default in the current directory (default='.').
+            Also, we store the configuration space definition for later use to
+            this directory. It may be used for further analysis via
+            `CAVE <https://automl.github.io/CAVE/stable/>`_.
 
     Returns:
         hpbandster.core.result.Run - Best run.
@@ -148,24 +183,33 @@ def easy_opt(func, func_args, config_space,
             configuration are extracted from this results-object.
 
     """
+    output_dir = Path(output_dir)
     # Set up a local nameserver and start it
     ns = hpns.NameServer(run_id='easy_opt',
                          nic_name=None,
-                         working_directory=store_path)
+                         working_directory=output_dir)
     ns_host, ns_port = ns.start()
 
-    # Create a worker and pass the function as well as the function arguments
-    # to it.
-    worker = EasyOptWorker(func=func, func_args=func_args,
-                           nameserver=ns_host,
-                           nameserver_port=ns_port,
-                           run_id='easy_opt')
-    worker.run(background=True)
+    # Create ``num_workers`` workers and pass the function as well as the
+    # function arguments to each of them.
+    workers = []
+    for _ in range(num_workers):
+        worker = EasyOptWorker(func=func, func_args=func_args,
+                               nameserver=ns_host,
+                               nameserver_port=ns_port,
+                               run_id='easy_opt')
+        worker.run(background=True)
+        workers.append(worker)
 
     # The result logger will store the intermediate results and the sampled
     # configurations in the passed directory.
-    result_logger = hpres.json_result_logger(directory=store_path,
+    result_logger = hpres.json_result_logger(directory=output_dir,
                                              overwrite=True)
+
+    # For hyperparameter importance analysis via CAVE we store the configuration
+    # space definition to file.
+    with open(output_dir / 'configSpace.pcs', 'w') as f:
+        f.write(pcs_new.write(config_space))
 
     # Set up a master, which is book keeping and decides what to run next.
     opt = BOHB(configspace=config_space,
@@ -179,40 +223,97 @@ def easy_opt(func, func_args, config_space,
                result_logger=result_logger)
 
     # The result object stores run information, e.g. the incumbent trajectory.
-    result = opt.run(n_iterations=num_iterations)
+    # Force the master to wait until all workers are ready.
+    result = opt.run(n_iterations=num_iterations, min_n_workers=num_workers)
 
-    # After the run has finished, shut down the master and the worker
+    # After the run has finished, shut down the master and the workers
     opt.shutdown(shutdown_workers=True)
     ns.shutdown()
 
-    # Extract the best configuration for each budget.
-    inc_per_budget = result.get_runs_by_id(result.get_incumbent_id())
+    # Return the optimal value and the responding configuration, as well as the
+    # result object. The result object can be used in a second step for further
+    # hyperparameter importance analysis with CAVE.
+    id2config = result.get_id2config_mapping()
+    incumbent = result.get_incumbent_id()
+    inc_value = result.get_runs_by_id(incumbent)[-1]['loss']
+    inc_cfg = id2config[incumbent]['config']
 
-    # Find best incumbent over budgets. It is possible, that in some cases
-    # results from intermediate budgets are better.
-    from operator import itemgetter
-    inc_best = sorted(inc_per_budget, key=itemgetter('loss'))[0]
-    inc_best_cfg = result.data.get(inc_best.config_id).config
-
-    return inc_best, inc_best_cfg, result
+    return inc_value, inc_cfg, result
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Easy Optimization for '
+                                                 'HpBandSter')
+    parser.add_argument('--func',
+                        help='Path to a py-file, containing a function to '
+                             'optimize and its arguments', type=str)
+    parser.add_argument('--config_space',
+                        help='Path to a ConfigSpace definition in pcs or json '
+                             'format', type=str)
+    parser.add_argument('--eta', help='ETA Parameter for HpBandSter',
+                        type=float, default=2)
+    parser.add_argument('--min_budget', help='Minimum budget for HpBandSter',
+                        type=float, default=2)
+    parser.add_argument('--max_budget', help='Maximum budget for HpBandSter',
+                        type=float, default=4)
+    parser.add_argument('--num_iterations',
+                        help='Number iterations of HpBandSter',
+                        type=int, default=1)
+    parser.add_argument('--num_workers', help='Number of parallel workers',
+                        type=int, default=1)
+    parser.add_argument('--output_dir', help='Output directory',
+                        type=str, default='.')
 
-    # Create configuration space
-    import ConfigSpace as CS
-    cs = CS.ConfigurationSpace()
-    cs.add_hyperparameter(
-        CS.UniformIntegerHyperparameter('w', lower=-3, upper=3)
-    )
+    args = parser.parse_args()
 
-    X = np.arange(-5, 5)
-    y = np.arange(-5, 5)
+    # Parse optimization function
+    from importlib.machinery import SourceFileLoader
+    loader = SourceFileLoader('opt_func', args.func)
+    module = loader.load_module()
+    func = getattr(module, 'opt_func')
 
-    opt_func = lambda x, y, w, budget: np.mean(y - w*x)**2 + 0*budget
+    # Load configuration space definition
+    config = None
+    if args.config_space.endswith('.pcs'):
+        from ConfigSpace.read_and_write import pcs_new
+        with open(args.config_space, 'r') as f:
+            config = pcs_new.read(f)
 
-    for w in cs.sample_configuration(size=3):
-        print("W: {} --> {}".format(w['w'], opt_func(X, y, **w, budget=0)))
+    elif args.config_space.endswith('.json'):
+        from ConfigSpace.read_and_write import json
+        with open(args.config_space, 'r') as f:
+            config = json.read(f.read())
+    else:
+        raise ImportError('Configuration space definition not understood. File'
+                          ' must be in format pcs or json.')
 
-    inc_best, inc_best_cfg, result = \
-        easy_opt(opt_func, (X, y), cs, min_budget=1, max_budget=10)
+    inc_value, inc_cfg, result = easy_opt(func=func, config_space=config, eta=args.eta,
+             min_budget=args.min_budget, max_budget=args.max_budget,
+             num_iterations=args.num_iterations, num_workers=args.num_workers,
+             output_dir=args.output_dir)
+
+    print('Found best value {} with the configuration {}'.format(inc_value,
+                                                                 inc_cfg))
+
+    # TODO THIS IS FOR DEMONSTRATION PURPOSE:
+    # Plot the results
+    id2config = result.get_id2config_mapping()
+    incumbent = result.get_incumbent_id()
+
+    traj = result.get_incumbent_trajectory()
+    budgets = [b for b in traj['budgets']]
+    values = [id2config[id]['config'] for id in traj['config_ids']]
+
+    import matplotlib.pyplot as plt
+    import numpy as np
+    np.random.seed(123)
+    X = np.random.uniform(-5, 5, 100)
+    y = np.random.normal(X, 1)
+    plt.scatter(X, y)
+    plt.xlim(-5, 5)
+    plt.ylim(-5, 5)
+    for i in range(len(values)):
+        plt.plot(X, values[i]['w'] * X,
+                 label="{}. W: {:.2f}".format(i + 1, values[i]['w']))
+    plt.legend(loc=1)
+    plt.show()
