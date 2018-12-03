@@ -17,8 +17,10 @@ To call it from command line, you must:
 """
 
 # TODO:
-# - Remove visualization at end of file (in main)
 # - Think of better way to pass function arguments via commandline
+
+# TODO:
+# - MLP BEISPIEL
 
 import argparse
 from pathlib import Path
@@ -318,26 +320,3 @@ if __name__ == "__main__":
 
     print('Found best value {} with the configuration {}'.format(inc_value,
                                                                  inc_cfg))
-
-    # TODO THIS IS FOR DEMONSTRATION PURPOSE:
-    # Plot the results
-    id2config = result.get_id2config_mapping()
-    incumbent = result.get_incumbent_id()
-
-    traj = result.get_incumbent_trajectory()
-    budgets = [b for b in traj['budgets']]
-    values = [id2config[id]['config'] for id in traj['config_ids']]
-
-    import matplotlib.pyplot as plt
-    import numpy as np
-    np.random.seed(123)
-    X = np.random.uniform(-5, 5, 100)
-    y = np.random.normal(X, 1)
-    plt.scatter(X, y)
-    plt.xlim(-5, 5)
-    plt.ylim(-5, 5)
-    for i in range(len(values)):
-        plt.plot(X, values[i]['w'] * X,
-                 label="{}. W: {:.2f}".format(i + 1, values[i]['w']))
-    plt.legend(loc=1)
-    plt.show()

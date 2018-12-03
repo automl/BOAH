@@ -21,8 +21,8 @@ class TestEasyOpt(unittest.TestCase):
             CS.CategoricalHyperparameter('w', [0, 1])
         )
 
-
     def test_predict(self):
+
         min_budget = 3
         max_budget = 100
         inc_best, inc_best_cfg, result = easy_opt(self.opt_func, self.cs,
@@ -66,9 +66,7 @@ class TestEasyOpt(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    """
     unittest.main()
-    """
 
     # TODO: REMOVE THIS AFTER MONDAY -> Just for demonstration purpose
     cs = CS.ConfigurationSpace()
