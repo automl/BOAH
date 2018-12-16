@@ -1,11 +1,11 @@
 import numpy as np
 import unittest
 import logging
-from EasyOpt import easy_opt, load_func, load_configspace
+from FMin import f_min, load_func, load_configspace
 import ConfigSpace as CS
 
 
-class TestEasyOpt(unittest.TestCase):
+class TestFMin(unittest.TestCase):
     def setUp(self):
         logging.basicConfig(level=logging.ERROR)
         np.random.seed(123)
@@ -25,7 +25,7 @@ class TestEasyOpt(unittest.TestCase):
 
         min_budget = 3
         max_budget = 100
-        inc_best, inc_best_cfg, result = easy_opt(self.opt_func, self.cs,
+        inc_best, inc_best_cfg, result = f_min(self.opt_func, self.cs,
                                                   func_args=(self.X, self.y),
                                                   min_budget=min_budget,
                                                   max_budget=max_budget,
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     for w in cs.sample_configuration(size=3):
         print("W: {} --> {}".format(w['w'], opt_func(X, y, **w, budget=3)))
 
-    inc_value, inc_cfg, result = easy_opt(opt_func, cs, func_args=(X, y),
+    inc_value, inc_cfg, result = f_min(opt_func, cs, func_args=(X, y),
                                               min_budget=3, max_budget=len(X),
                                               num_iterations=3, num_workers=1)
     # Plot the results
