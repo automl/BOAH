@@ -62,8 +62,8 @@ class FMinWorker(Worker):
 
 
 def f_min(func, config_space, func_args=(),
-             eta=2, min_budget=2, max_budget=4, num_iterations=1,
-             num_workers=1, output_dir='.'):
+          eta=2, min_budget=2, max_budget=4, num_iterations=1,
+          num_workers=1, output_dir='.'):
     """
     Starts a local BOHB optimization run for a function over a hyperparameter
     search space, which is referred to as configuration space.
@@ -187,6 +187,8 @@ def f_min(func, config_space, func_args=(),
 
     """
     output_dir = Path(output_dir)
+    output_dir.mkdir(exist_ok=True)
+
     # Set up a local nameserver and start it
     ns = hpns.NameServer(run_id='f_min',
                          nic_name=None,
@@ -232,6 +234,11 @@ def f_min(func, config_space, func_args=(),
     # After the run has finished, shut down the master and the workers
     opt.shutdown(shutdown_workers=True)
     ns.shutdown()
+
+    # Save to result object to file.
+    with open(output_dir / 'results.pkl', 'wb') as f:
+        import pickle
+        pickle.dump(result, f)
 
     # Return the optimal value and the responding configuration, as well as the
     # result object. The result object can be used in a second step for further
