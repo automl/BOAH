@@ -16,11 +16,6 @@ To call it from command line, you must:
 
 """
 
-# TODO:
-# - Think of better way to pass function arguments via commandline
-
-# TODO:
-# - MLP BEISPIEL
 
 import argparse
 from pathlib import Path
@@ -213,8 +208,8 @@ def f_min(func, config_space, func_args=(),
 
     # For hyperparameter importance analysis via CAVE we store the configuration
     # space definition to file.
-    with open(output_dir / 'configSpace.pcs', 'w') as f:
-        f.write(pcs_new.write(config_space))
+    with open(output_dir / 'configSpace.json', 'w') as f:
+        f.write(json.write(config_space))
 
     # Set up a master, which is book keeping and decides what to run next.
     opt = BOHB(configspace=config_space,
@@ -305,9 +300,9 @@ if __name__ == "__main__":
     parser.add_argument('--eta', help='ETA Parameter for HpBandSter',
                         type=float, default=2)
     parser.add_argument('--min_budget', help='Minimum budget for HpBandSter',
-                        type=float, default=2)
+                        type=float, default=1)
     parser.add_argument('--max_budget', help='Maximum budget for HpBandSter',
-                        type=float, default=4)
+                        type=float, default=1)
     parser.add_argument('--num_iterations',
                         help='Number iterations of HpBandSter',
                         type=int, default=1)
@@ -325,5 +320,6 @@ if __name__ == "__main__":
              num_iterations=args.num_iterations, num_workers=args.num_workers,
              output_dir=args.output_dir)
 
-    print('Found best value {} with the configuration {}'.format(inc_value,
+    print('Found best value {} with the configuration {}\n'.format(inc_value,
                                                                  inc_cfg))
+    print('Result object is stored to {}'.format(args.output_dir))

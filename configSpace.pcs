@@ -1,1 +1,1 @@
-w categorical {0, 1} [0]
+w real [0.0, 2.0] [0.0]
