@@ -1,10 +1,10 @@
-"""
+﻿"""
 Welcome to FMin for HpBandSter optimization runs.
 
 You can easily optimize a function with the optimization tools from HpBandSter,
 like BOHB.
 
-The function f_min is callable from the commandline, as well as in your code.
+The function fmin is callable from the commandline, as well as in your code.
 
 To call it from command line, you must:
 
@@ -12,7 +12,7 @@ To call it from command line, you must:
 - provide the path to a configuration space definition in pcs or json file
     format
 - make sure to satisfy the conditions described in the docstring of
-    :method:: f_min
+    :method:: fmin
 
 """
 
@@ -56,7 +56,7 @@ class FMinWorker(Worker):
                 'info': {'budget': budget}}
 
 
-def f_min(func, config_space, func_args=(),
+def fmin(func, config_space, func_args=(),
           eta=2, min_budget=2, max_budget=4, num_iterations=1,
           num_workers=1, output_dir='.'):
     """
@@ -92,13 +92,13 @@ def f_min(func, config_space, func_args=(),
     - Function arguments in right order:
         Function arguments, which are not hyperparameters and therefore not
         defined in the configuration space must be passed to the
-        ``f_min`` call in the order of occurrence in the function signature.
+        ``fmin`` call in the order of occurrence in the function signature.
         In the example below, for instance the training data, X and y, is a
         use case for this kind of function arguments.
 
     Example::
         import numpy as np
-        from FMin import f_min
+        from FMin import fmin
         import ConfigSpace as CS
 
         # Create configuration space
@@ -117,7 +117,7 @@ def f_min(func, config_space, func_args=(),
         # The expected minimum is at w = 1.
         opt_func = lambda x, y, w, budget: np.mean((y[:int(budget)] - w*x[:int(budget)])**2)
 
-        inc_best, inc_best_cfg, result = f_min(opt_func,
+        inc_best, inc_best_cfg, result = fmin(opt_func,
                                                   cs, func_args=(X, y),
                                                   min_budget=3,
                                                   max_budget=len(X),
@@ -185,7 +185,7 @@ def f_min(func, config_space, func_args=(),
     output_dir.mkdir(exist_ok=True)
 
     # Set up a local nameserver and start it
-    ns = hpns.NameServer(run_id='f_min',
+    ns = hpns.NameServer(run_id='fmin',
                          nic_name=None,
                          working_directory=output_dir)
     ns_host, ns_port = ns.start()
@@ -197,7 +197,7 @@ def f_min(func, config_space, func_args=(),
         worker = FMinWorker(func=func, func_args=func_args,
                                nameserver=ns_host,
                                nameserver_port=ns_port,
-                               run_id='f_min')
+                               run_id='fmin')
         worker.run(background=True)
         workers.append(worker)
 
@@ -213,7 +213,7 @@ def f_min(func, config_space, func_args=(),
 
     # Set up a master, which is book keeping and decides what to run next.
     opt = BOHB(configspace=config_space,
-               run_id='f_min',
+               run_id='fmin',
                min_budget=min_budget,
                max_budget=max_budget,
                eta=eta,
@@ -315,7 +315,7 @@ if __name__ == "__main__":
     func = load_func(args.func)
     config = load_configspace(args.config_space)
 
-    inc_value, inc_cfg, result = f_min(func=func, config_space=config, eta=args.eta,
+    inc_value, inc_cfg, result = fmin(func=func, config_space=config, eta=args.eta,
              min_budget=args.min_budget, max_budget=args.max_budget,
              num_iterations=args.num_iterations, num_workers=args.num_workers,
              output_dir=args.output_dir)
