@@ -4,14 +4,19 @@ Hyperparameter optimization and architecture search can easily become prohibitiv
 
 ## Repository
 
-This respository provides an example how to use BOHB with minimal efforts and how to run CAVE to generate a comprehensive analysis of BOHB's outcomes.
+This repository provides an example how to use BOHB with minimal efforts and how to run CAVE to generate a comprehensive analysis of BOHB's outcomes.
+
+## Requirements
+
+This is a Python3 package (developed under Python 3.6). 
+For convenience, we recommend to install Anaconda with a recent Python 3 (see also `setup.sh`).
 
 ## Content
 
- * setup.sh provides a simple BASH script to create an ananconda environment and installs all requirements from `requirements.txt`
- * examples/EasyOpt.py provides an easy command line interface to run BOHB
- * examples/notebook_mlp_on_digits.ipynb is a Jyputer notebook showing and explaining how to use BOHB for optimizing the hyperparameters of a simple MLP network on the DIGITS dataset
- * examples/example_mlp_on_digits.py implements the network and the hyperparameter optimization space
+ * `setup.sh` provides a simple BASH script to create an anaconda environment and installs all requirements from `requirements.txt`
+ * `examples/EasyOpt.py` provides an easy command line interface to run BOHB
+ * `examples/notebook_mlp_on_digits.ipynb` is a Jyputer notebook showing and explaining how to use BOHB for optimizing the hyperparameters of a simple MLP network on the DIGITS dataset
+ * `examples/example_mlp_on_digits.py` implements the network and the hyperparameter optimization space
 
 ## License
 
@@ -19,4 +24,4 @@ This program is free software: you can redistribute it and/or modify it under th
 
 ## Contact
 
-This repository is developped by the [AutoML Group Freiburg](https://www.automl.org)
+This repository is developed by the [AutoML Group Freiburg](https://www.automl.org)
