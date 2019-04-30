@@ -1,0 +1,4 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
+0.000000, 2147483648.000000, 0.000357, 1, 0.000357, burn_in='0.6366132108139522', l_rate='0.007812133521750205', mdecay='0.7822969392825124', n_units_1='72', n_units_2='59'
+46.228334, 375.024259, 46.283263, 1, 0.054929, burn_in='0.6366132108139522', l_rate='0.007812133521750205', mdecay='0.7822969392825124', n_units_1='72', n_units_2='59'
+191.246768, 14.037102, 191.974723, 2, 0.727954, burn_in='0.45364269906708066', l_rate='0.07767477745522469', mdecay='0.9413248911823285', n_units_1='78', n_units_2='328'

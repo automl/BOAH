@@ -18,7 +18,7 @@ class BNNWorker(BaseWorker):
             b = BNNOnYearPrediction()
         else:
             raise ValueError('Unknown dataset %s!'%dataset)
-        #cs = b.get_configuration_space()        
+        #cs = b.get_configuration_space()
         #super().__init__(benchmark=b, configspace=cs, **kwargs)
 
         super().__init__(benchmark=b, **kwargs)
