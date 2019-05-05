@@ -1,0 +1,445 @@
+cpu-bind=MASK - metaex24, task  0  0 [39492]: mask 0x1d00 set
+19:45:01 WORKER: Connected to nameserver <Pyro4.core.Proxy at 0x7f9a29c45be0; connected IPv4; for PYRO:Pyro.NameServer@10.5.166.34:46841>
+19:45:01 WORKER: found dispatcher hpbandster.run_42.dispatcher
+19:45:01 WORKER: start listening for jobs
+19:45:02 WORKER: start processing job (0, 0, 0)
+19:45:02 WORKER: args: ()
+19:45:02 WORKER: kwargs: {'config': {'burn_in': 0.17040788224434478, 'l_rate': 6.743227504893532e-05, 'mdecay': 0.28059492767725547, 'n_units_1': 489, 'n_units_2': 19}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:13 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:13 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:19 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:19 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:27 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:27 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:33 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:33 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:41 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:41 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:47 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:47 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:45:56 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:56 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:03 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:03 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:09 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:09 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:19 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:19 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:26 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:26 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:32 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:32 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:40 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:40 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:47 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:47 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:46:56 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:56 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:47:03 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:03 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:47:12 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:12 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39501')
+19:47:21 Waiting for existing lock by process '34818' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:21 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '39510' (I am process '39501')
+19:47:29 Waiting for existing lock by process '39510' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:29 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '39502' (I am process '39501')
+19:47:35 Waiting for existing lock by process '39502' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:35 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '39502' (I am process '39501')
+19:47:44 Waiting for existing lock by process '39502' (I am process '39501')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:44 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+WARNING (theano.tensor.blas): We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+19:47:55 We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+WARNING (theano.tensor.blas): We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+19:47:57 We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+19:47:59 Starting sampling
+19:48:12 Iter        0 : NLL =  5.3730e+02 MSE = 1.0658e+00 Time = 190.07
+19:48:15 Iter      100 : NLL =  5.3678e+02 MSE = 1.0648e+00 Samples= 1 Time = 193.41
+19:48:16 Iter      200 : NLL =  5.3648e+02 MSE = 1.0642e+00 Samples= 2 Time = 193.83
+19:48:16 Iter      300 : NLL =  5.3620e+02 MSE = 1.0636e+00 Samples= 3 Time = 194.26
+19:48:17 WORKER: done with job (0, 0, 0), trying to register it.
+19:48:17 WORKER: registered result for job (0, 0, 0) with dispatcher
+19:48:17 WORKER: start processing job (0, 0, 13)
+19:48:17 WORKER: args: ()
+19:48:17 WORKER: kwargs: {'config': {'burn_in': 0.6849706472276438, 'l_rate': 1.3489241122152824e-06, 'mdecay': 0.30574134946428344, 'n_units_1': 193, 'n_units_2': 21}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:18 Starting sampling
+19:48:22 Iter        0 : NLL =  3.2832e+02 MSE = 6.4781e-01 Time =  5.75
+19:48:26 Iter      300 : NLL =  3.2832e+02 MSE = 6.4781e-01 Samples= 1 Time =  9.16
+/home/marbenj/BOHBsCAVE/.ve_BOHBsCAVE/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:1704: RuntimeWarning: divide by zero encountered in double_scalars
+  x = np.asarray((x - loc)/scale, dtype=dtyp)
+19:48:26 WORKER: done with job (0, 0, 13), trying to register it.
+19:48:26 WORKER: registered result for job (0, 0, 13) with dispatcher
+19:48:26 WORKER: start processing job (0, 0, 17)
+19:48:26 WORKER: args: ()
+19:48:26 WORKER: kwargs: {'config': {'burn_in': 0.13324956361293347, 'l_rate': 0.013396733503239267, 'mdecay': 0.7104639152901427, 'n_units_1': 278, 'n_units_2': 258}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:28 Starting sampling
+19:48:32 Iter        0 : NLL =  1.8096e+04 MSE = 4.4335e+01 Time =  5.87
+19:48:40 Iter      100 : NLL =  5.0802e+02 MSE = 1.3732e+00 Samples= 1 Time = 13.80
+19:48:43 Iter      200 : NLL =  2.2470e+02 MSE = 6.0093e-01 Samples= 2 Time = 16.93
+19:48:46 Iter      300 : NLL =  1.4229e+02 MSE = 3.7593e-01 Samples= 3 Time = 20.07
+19:48:48 WORKER: done with job (0, 0, 17), trying to register it.
+19:48:48 WORKER: registered result for job (0, 0, 17) with dispatcher
+19:48:49 WORKER: start processing job (0, 0, 23)
+19:48:49 WORKER: args: ()
+19:48:49 WORKER: kwargs: {'config': {'burn_in': 0.7312961860338041, 'l_rate': 8.209857088115294e-05, 'mdecay': 0.2840316634014639, 'n_units_1': 315, 'n_units_2': 180}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:50 Starting sampling
+19:48:54 Iter        0 : NLL =  5.4071e+02 MSE = 1.0726e+00 Time =  5.75
+19:49:08 Iter      300 : NLL =  5.3810e+02 MSE = 1.0674e+00 Samples= 1 Time = 19.38
+19:49:10 WORKER: done with job (0, 0, 23), trying to register it.
+19:49:10 WORKER: registered result for job (0, 0, 23) with dispatcher
+19:49:10 WORKER: start processing job (1, 0, 2)
+19:49:10 WORKER: args: ()
+19:49:10 WORKER: kwargs: {'config': {'burn_in': 0.10870335776915557, 'l_rate': 0.057796775599991156, 'mdecay': 0.691679159724157, 'n_units_1': 362, 'n_units_2': 229}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:49:12 Starting sampling
+19:49:16 Iter        0 : NLL =  5.2536e+03 MSE = 1.4547e+02 Time =  5.85
+19:49:30 Iter      200 : NLL =  1.0100e+02 MSE = 1.9722e+01 Samples= 1 Time = 19.63
+19:49:34 Iter      300 : NLL =  5.2270e+01 MSE = 7.8610e+00 Samples= 2 Time = 23.21
+19:49:38 Iter      400 : NLL =  3.7421e+01 MSE = 4.0915e+00 Samples= 3 Time = 27.77
+19:49:43 Iter      500 : NLL =  3.2919e+01 MSE = 2.9292e+00 Samples= 4 Time = 32.58
+19:49:48 Iter      600 : NLL =  2.9910e+01 MSE = 2.1321e+00 Samples= 5 Time = 37.40
+19:49:53 Iter      700 : NLL =  2.7451e+01 MSE = 1.4666e+00 Samples= 6 Time = 42.21
+19:49:57 Iter      800 : NLL =  2.6941e+01 MSE = 1.3294e+00 Samples= 7 Time = 47.02
+19:50:02 Iter      900 : NLL =  2.6313e+01 MSE = 1.1592e+00 Samples= 8 Time = 51.80
+19:50:07 Iter     1000 : NLL =  2.5769e+01 MSE = 1.0117e+00 Samples= 9 Time = 56.60
+19:50:12 Iter     1100 : NLL =  2.5185e+01 MSE = 8.5316e-01 Samples= 10 Time = 61.41
+19:50:13 WORKER: done with job (1, 0, 2), trying to register it.
+19:50:13 WORKER: registered result for job (1, 0, 2) with dispatcher
+19:50:13 WORKER: start processing job (0, 0, 25)
+19:50:13 WORKER: args: ()
+19:50:13 WORKER: kwargs: {'config': {'burn_in': 0.1542426087571268, 'l_rate': 0.004281978838038023, 'mdecay': 0.9059685091053697, 'n_units_1': 26, 'n_units_2': 245}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:50:14 Starting sampling
+19:50:18 Iter        0 : NLL =  2.9490e+02 MSE = 5.8374e-01 Time =  5.63
+19:50:21 Iter      200 : NLL =  1.9786e+02 MSE = 3.9033e-01 Samples= 1 Time =  8.79
+19:50:22 Iter      300 : NLL =  1.7978e+02 MSE = 3.5435e-01 Samples= 2 Time =  9.07
+19:50:22 Iter      400 : NLL =  1.6527e+02 MSE = 3.2540e-01 Samples= 3 Time =  9.35
+19:50:22 Iter      500 : NLL =  1.5457e+02 MSE = 3.0419e-01 Samples= 4 Time =  9.63
+19:50:22 Iter      600 : NLL =  1.4585e+02 MSE = 2.8687e-01 Samples= 5 Time =  9.85
+19:50:23 Iter      700 : NLL =  1.3872e+02 MSE = 2.7264e-01 Samples= 6 Time = 10.01
+19:50:23 Iter      800 : NLL =  1.3225e+02 MSE = 2.5979e-01 Samples= 7 Time = 10.17
+19:50:23 Iter      900 : NLL =  1.2711e+02 MSE = 2.4959e-01 Samples= 8 Time = 10.33
+19:50:23 Iter     1000 : NLL =  1.2230e+02 MSE = 2.4009e-01 Samples= 9 Time = 10.49
+19:50:23 Iter     1100 : NLL =  1.1872e+02 MSE = 2.3295e-01 Samples= 10 Time = 10.70
+19:50:23 WORKER: done with job (0, 0, 25), trying to register it.
+19:50:23 WORKER: registered result for job (0, 0, 25) with dispatcher
+19:50:24 WORKER: start processing job (1, 0, 3)
+19:50:24 WORKER: args: ()
+19:50:24 WORKER: kwargs: {'config': {'burn_in': 0.15932096359065226, 'l_rate': 0.021025075186985986, 'mdecay': 0.6952715712220763, 'n_units_1': 190, 'n_units_2': 511}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:50:25 Starting sampling
+19:50:30 Iter        0 : NLL =  1.0785e+04 MSE = 2.2688e+01 Time =  5.97
+19:50:48 Iter      200 : NLL =  1.2460e+02 MSE = 3.1603e-01 Samples= 1 Time = 24.08
+19:50:54 Iter      300 : NLL =  4.0709e+01 MSE = 9.8857e-02 Samples= 2 Time = 29.72
+19:50:59 Iter      400 : NLL =  2.5057e+01 MSE = 5.6355e-02 Samples= 3 Time = 35.37
+19:51:05 Iter      500 : NLL =  2.3663e+01 MSE = 5.3246e-02 Samples= 4 Time = 40.98
+19:51:10 Iter      600 : NLL =  2.0990e+01 MSE = 4.5973e-02 Samples= 5 Time = 46.62
+19:51:16 Iter      700 : NLL =  1.8438e+01 MSE = 3.9018e-02 Samples= 6 Time = 52.22
+19:51:22 Iter      800 : NLL =  1.9661e+01 MSE = 4.3216e-02 Samples= 7 Time = 57.74
+19:51:27 Iter      900 : NLL =  1.6769e+01 MSE = 3.4468e-02 Samples= 8 Time = 63.24
+19:51:33 Iter     1000 : NLL =  1.7941e+01 MSE = 3.8284e-02 Samples= 9 Time = 68.75
+19:51:38 Iter     1100 : NLL =  1.6380e+01 MSE = 3.3622e-02 Samples= 10 Time = 74.26
+19:51:39 WORKER: done with job (1, 0, 3), trying to register it.
+19:51:39 WORKER: registered result for job (1, 0, 3) with dispatcher
+19:51:39 WORKER: start processing job (1, 0, 0)
+19:51:39 WORKER: args: ()
+19:51:39 WORKER: kwargs: {'config': {'burn_in': 0.06141992346213904, 'l_rate': 0.06493664341080427, 'mdecay': 0.7052280213977413, 'n_units_1': 70, 'n_units_2': 16}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:41 Starting sampling
+19:51:45 Iter        0 : NLL =  5.3910e+03 MSE = 8.2759e+01 Time =  5.84
+19:51:48 Iter      300 : NLL =  2.3171e+01 MSE = 5.5572e-01 Samples= 1 Time =  8.95
+19:51:49 Iter      400 : NLL =  2.2325e+01 MSE = 4.4252e-01 Samples= 2 Time =  9.14
+19:51:49 Iter      500 : NLL =  2.1720e+01 MSE = 3.7650e-01 Samples= 3 Time =  9.34
+19:51:49 Iter      600 : NLL =  2.1191e+01 MSE = 3.3346e-01 Samples= 4 Time =  9.53
+19:51:49 Iter      700 : NLL =  2.1418e+01 MSE = 3.6034e-01 Samples= 5 Time =  9.73
+19:51:49 Iter      800 : NLL =  2.0497e+01 MSE = 2.7432e-01 Samples= 6 Time =  9.92
+19:51:50 Iter      900 : NLL =  2.0179e+01 MSE = 2.5674e-01 Samples= 7 Time = 10.12
+19:51:50 Iter     1000 : NLL =  2.0158e+01 MSE = 2.5793e-01 Samples= 8 Time = 10.31
+19:51:50 Iter     1100 : NLL =  1.9147e+01 MSE = 1.8503e-01 Samples= 9 Time = 10.51
+19:51:50 Iter     1200 : NLL =  2.0009e+01 MSE = 2.5346e-01 Samples= 10 Time = 10.70
+19:51:50 Iter     1300 : NLL =  1.8749e+01 MSE = 1.7474e-01 Samples= 11 Time = 10.90
+19:51:51 Iter     1400 : NLL =  1.8419e+01 MSE = 1.5792e-01 Samples= 12 Time = 11.09
+19:51:51 Iter     1500 : NLL =  1.9044e+01 MSE = 1.9667e-01 Samples= 13 Time = 11.29
+19:51:51 Iter     1600 : NLL =  1.8362e+01 MSE = 1.6113e-01 Samples= 14 Time = 11.48
+19:51:51 Iter     1700 : NLL =  1.8303e+01 MSE = 1.6148e-01 Samples= 15 Time = 11.68
+19:51:51 Iter     1800 : NLL =  1.9156e+01 MSE = 1.9928e-01 Samples= 16 Time = 11.87
+19:51:51 Iter     1900 : NLL =  2.0037e+01 MSE = 2.5114e-01 Samples= 17 Time = 12.07
+19:51:52 Iter     2000 : NLL =  1.7069e+01 MSE = 1.0742e-01 Samples= 18 Time = 12.26
+19:51:52 Iter     2100 : NLL =  1.8671e+01 MSE = 1.7928e-01 Samples= 19 Time = 12.46
+19:51:52 Iter     2200 : NLL =  2.2998e+01 MSE = 4.5418e-01 Samples= 20 Time = 12.65
+19:51:52 Iter     2300 : NLL =  1.7601e+01 MSE = 1.0624e-01 Samples= 21 Time = 12.84
+19:51:52 Iter     2400 : NLL =  1.7166e+01 MSE = 9.9124e-02 Samples= 22 Time = 13.04
+19:51:53 Iter     2500 : NLL =  1.6886e+01 MSE = 9.8320e-02 Samples= 23 Time = 13.23
+19:51:53 Iter     2600 : NLL =  1.8852e+01 MSE = 1.8678e-01 Samples= 24 Time = 13.43
+19:51:53 Iter     2700 : NLL =  1.6880e+01 MSE = 1.0461e-01 Samples= 25 Time = 13.62
+19:51:53 Iter     2800 : NLL =  1.7908e+01 MSE = 1.4742e-01 Samples= 26 Time = 13.82
+19:51:53 Iter     2900 : NLL =  1.6663e+01 MSE = 9.9777e-02 Samples= 27 Time = 14.01
+19:51:54 Iter     3000 : NLL =  1.7039e+01 MSE = 1.1602e-01 Samples= 28 Time = 14.20
+19:51:54 Iter     3100 : NLL =  2.2243e+01 MSE = 3.1779e-01 Samples= 29 Time = 14.39
+19:51:54 Iter     3200 : NLL =  1.8127e+01 MSE = 1.5602e-01 Samples= 30 Time = 14.59
+19:51:54 Iter     3300 : NLL =  2.1181e+01 MSE = 2.7851e-01 Samples= 31 Time = 14.79
+19:51:54 WORKER: done with job (1, 0, 0), trying to register it.
+19:51:54 WORKER: registered result for job (1, 0, 0) with dispatcher
+19:51:54 WORKER: start processing job (2, 0, 4)
+19:51:54 WORKER: args: ()
+19:51:54 WORKER: kwargs: {'config': {'burn_in': 0.010179240580805882, 'l_rate': 1.2409594290515e-05, 'mdecay': 0.23544208789791854, 'n_units_1': 136, 'n_units_2': 29}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:56 Starting sampling
+19:52:00 Iter        0 : NLL =  9.0095e+02 MSE = 1.7931e+00 Time =  5.60
+19:52:03 Iter      100 : NLL =  9.0093e+02 MSE = 1.7930e+00 Samples= 1 Time =  8.99
+19:52:04 Iter      200 : NLL =  9.0093e+02 MSE = 1.7930e+00 Samples= 2 Time =  9.25
+19:52:04 Iter      300 : NLL =  9.0092e+02 MSE = 1.7930e+00 Samples= 3 Time =  9.51
+19:52:04 Iter      400 : NLL =  9.0090e+02 MSE = 1.7930e+00 Samples= 4 Time =  9.77
+19:52:04 Iter      500 : NLL =  9.0088e+02 MSE = 1.7929e+00 Samples= 5 Time = 10.03
+19:52:05 Iter      600 : NLL =  9.0087e+02 MSE = 1.7929e+00 Samples= 6 Time = 10.29
+19:52:05 Iter      700 : NLL =  9.0086e+02 MSE = 1.7929e+00 Samples= 7 Time = 10.56
+19:52:05 Iter      800 : NLL =  9.0086e+02 MSE = 1.7929e+00 Samples= 8 Time = 10.82
+19:52:06 Iter      900 : NLL =  9.0084e+02 MSE = 1.7928e+00 Samples= 9 Time = 11.08
+19:52:06 Iter     1000 : NLL =  9.0082e+02 MSE = 1.7928e+00 Samples= 10 Time = 11.34
+19:52:06 Iter     1100 : NLL =  9.0082e+02 MSE = 1.7928e+00 Samples= 11 Time = 11.60
+19:52:06 Iter     1200 : NLL =  9.0081e+02 MSE = 1.7928e+00 Samples= 12 Time = 11.86
+19:52:07 Iter     1300 : NLL =  9.0081e+02 MSE = 1.7928e+00 Samples= 13 Time = 12.12
+19:52:07 Iter     1400 : NLL =  9.0080e+02 MSE = 1.7928e+00 Samples= 14 Time = 12.38
+19:52:07 Iter     1500 : NLL =  9.0081e+02 MSE = 1.7928e+00 Samples= 15 Time = 12.64
+19:52:07 Iter     1600 : NLL =  9.0081e+02 MSE = 1.7928e+00 Samples= 16 Time = 12.90
+19:52:08 Iter     1700 : NLL =  9.0079e+02 MSE = 1.7927e+00 Samples= 17 Time = 13.16
+19:52:08 Iter     1800 : NLL =  9.0079e+02 MSE = 1.7927e+00 Samples= 18 Time = 13.42
+19:52:08 Iter     1900 : NLL =  9.0078e+02 MSE = 1.7927e+00 Samples= 19 Time = 13.68
+19:52:08 Iter     2000 : NLL =  9.0077e+02 MSE = 1.7927e+00 Samples= 20 Time = 13.94
+19:52:09 Iter     2100 : NLL =  9.0076e+02 MSE = 1.7927e+00 Samples= 21 Time = 14.20
+19:52:09 Iter     2200 : NLL =  9.0075e+02 MSE = 1.7927e+00 Samples= 22 Time = 14.47
+19:52:09 Iter     2300 : NLL =  9.0074e+02 MSE = 1.7927e+00 Samples= 23 Time = 14.73
+19:52:09 Iter     2400 : NLL =  9.0073e+02 MSE = 1.7926e+00 Samples= 24 Time = 14.99
+19:52:10 Iter     2500 : NLL =  9.0071e+02 MSE = 1.7926e+00 Samples= 25 Time = 15.25
+19:52:10 Iter     2600 : NLL =  9.0071e+02 MSE = 1.7926e+00 Samples= 26 Time = 15.52
+19:52:10 Iter     2700 : NLL =  9.0069e+02 MSE = 1.7926e+00 Samples= 27 Time = 15.77
+19:52:10 Iter     2800 : NLL =  9.0069e+02 MSE = 1.7925e+00 Samples= 28 Time = 16.03
+19:52:11 Iter     2900 : NLL =  9.0068e+02 MSE = 1.7925e+00 Samples= 29 Time = 16.30
+19:52:11 Iter     3000 : NLL =  9.0067e+02 MSE = 1.7925e+00 Samples= 30 Time = 16.55
+19:52:11 Iter     3100 : NLL =  9.0066e+02 MSE = 1.7925e+00 Samples= 31 Time = 16.81
+19:52:12 Iter     3200 : NLL =  9.0066e+02 MSE = 1.7925e+00 Samples= 32 Time = 17.08
+19:52:12 Iter     3300 : NLL =  9.0064e+02 MSE = 1.7924e+00 Samples= 33 Time = 17.34
+19:52:12 WORKER: done with job (2, 0, 4), trying to register it.
+19:52:12 WORKER: registered result for job (2, 0, 4) with dispatcher
+19:52:12 WORKER: start processing job (2, 0, 1)
+19:52:12 WORKER: args: ()
+19:52:12 WORKER: kwargs: {'config': {'burn_in': 0.04353667527902095, 'l_rate': 0.09403929718058544, 'mdecay': 0.8343959013697574, 'n_units_1': 22, 'n_units_2': 17}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:52:13 Starting sampling
+19:52:18 Iter        0 : NLL =  5.7788e+01 MSE = 2.4683e+02 Time =  5.65
+19:52:21 Iter      500 : NLL =  5.0676e+01 MSE = 2.8171e+01 Samples= 1 Time =  8.67
+19:52:21 Iter      600 : NLL =  4.5213e+01 MSE = 1.5192e+01 Samples= 2 Time =  8.73
+19:52:21 Iter      700 : NLL =  4.0797e+01 MSE = 1.0528e+01 Samples= 3 Time =  8.78
+19:52:21 Iter      800 : NLL =  3.7024e+01 MSE = 5.3863e+00 Samples= 4 Time =  8.83
+19:52:21 Iter      900 : NLL =  5.0956e+01 MSE = 5.5336e+01 Samples= 5 Time =  8.88
+19:52:21 Iter     1000 : NLL =  3.3569e+01 MSE = 3.8643e+00 Samples= 6 Time =  8.94
+19:52:21 Iter     1100 : NLL =  3.4287e+01 MSE = 6.3227e+00 Samples= 7 Time =  8.99
+19:52:21 Iter     1200 : NLL =  3.2538e+01 MSE = 3.9215e+00 Samples= 8 Time =  9.04
+19:52:21 Iter     1300 : NLL =  3.9789e+01 MSE = 1.7842e+01 Samples= 9 Time =  9.10
+19:52:21 Iter     1400 : NLL =  3.4339e+01 MSE = 5.3895e+00 Samples= 10 Time =  9.15
+19:52:21 Iter     1500 : NLL =  3.5363e+01 MSE = 7.9368e+00 Samples= 11 Time =  9.20
+19:52:21 Iter     1600 : NLL =  3.1160e+01 MSE = 2.4635e+00 Samples= 12 Time =  9.25
+19:52:21 Iter     1700 : NLL =  3.2661e+01 MSE = 3.6187e+00 Samples= 13 Time =  9.31
+19:52:21 Iter     1800 : NLL =  3.4704e+01 MSE = 6.9618e+00 Samples= 14 Time =  9.36
+19:52:21 Iter     1900 : NLL =  3.5328e+01 MSE = 7.8764e+00 Samples= 15 Time =  9.41
+19:52:21 Iter     2000 : NLL =  3.3274e+01 MSE = 5.0996e+00 Samples= 16 Time =  9.46
+19:52:22 Iter     2100 : NLL =  3.1193e+01 MSE = 3.1534e+00 Samples= 17 Time =  9.52
+19:52:22 Iter     2200 : NLL =  3.5400e+01 MSE = 6.7907e+00 Samples= 18 Time =  9.57
+19:52:22 Iter     2300 : NLL =  3.1420e+01 MSE = 3.2742e+00 Samples= 19 Time =  9.62
+19:52:22 Iter     2400 : NLL =  4.1730e+01 MSE = 1.8499e+01 Samples= 20 Time =  9.67
+19:52:22 Iter     2500 : NLL =  3.2055e+01 MSE = 3.2972e+00 Samples= 21 Time =  9.73
+19:52:22 Iter     2600 : NLL =  4.8922e+01 MSE = 6.8800e+01 Samples= 22 Time =  9.78
+19:52:22 Iter     2700 : NLL =  4.6113e+01 MSE = 6.0298e+01 Samples= 23 Time =  9.83
+19:52:22 Iter     2800 : NLL =  4.0695e+01 MSE = 1.2039e+01 Samples= 24 Time =  9.88
+19:52:22 Iter     2900 : NLL =  3.5491e+01 MSE = 1.9007e+00 Samples= 25 Time =  9.94
+19:52:22 Iter     3000 : NLL =  3.2776e+01 MSE = 3.1872e+00 Samples= 26 Time =  9.99
+19:52:22 Iter     3100 : NLL =  3.0692e+01 MSE = 2.2718e+00 Samples= 27 Time = 10.04
+19:52:22 Iter     3200 : NLL =  3.0682e+01 MSE = 2.8206e+00 Samples= 28 Time = 10.09
+19:52:22 Iter     3300 : NLL =  3.8450e+01 MSE = 8.8136e+00 Samples= 29 Time = 10.14
+19:52:22 Iter     3400 : NLL =  3.4078e+01 MSE = 6.1334e+00 Samples= 30 Time = 10.20
+19:52:22 Iter     3500 : NLL =  3.2469e+01 MSE = 3.2112e+00 Samples= 31 Time = 10.25
+19:52:22 Iter     3600 : NLL =  3.3513e+01 MSE = 5.4651e+00 Samples= 32 Time = 10.30
+19:52:22 Iter     3700 : NLL =  3.2003e+01 MSE = 3.8757e+00 Samples= 33 Time = 10.35
+19:52:22 Iter     3800 : NLL =  3.4247e+01 MSE = 6.0635e+00 Samples= 34 Time = 10.41
+19:52:22 Iter     3900 : NLL =  3.3412e+01 MSE = 5.1780e+00 Samples= 35 Time = 10.46
+19:52:23 Iter     4000 : NLL =  3.0634e+01 MSE = 2.3236e+00 Samples= 36 Time = 10.51
+19:52:23 Iter     4100 : NLL =  2.9982e+01 MSE = 2.2874e+00 Samples= 37 Time = 10.56
+19:52:23 Iter     4200 : NLL =  3.3033e+01 MSE = 4.5383e+00 Samples= 38 Time = 10.61
+19:52:23 Iter     4300 : NLL =  3.6000e+01 MSE = 7.7407e+00 Samples= 39 Time = 10.67
+19:52:23 Iter     4400 : NLL =  3.0782e+01 MSE = 2.3606e+00 Samples= 40 Time = 10.72
+19:52:23 Iter     4500 : NLL =  4.0387e+01 MSE = 1.0707e+01 Samples= 41 Time = 10.77
+19:52:23 Iter     4600 : NLL =  3.7761e+01 MSE = 9.3493e+00 Samples= 42 Time = 10.82
+19:52:23 Iter     4700 : NLL =  3.2026e+01 MSE = 3.8842e+00 Samples= 43 Time = 10.88
+19:52:23 Iter     4800 : NLL =  3.0841e+01 MSE = 3.0770e+00 Samples= 44 Time = 10.93
+19:52:23 Iter     4900 : NLL =  3.1435e+01 MSE = 3.5431e+00 Samples= 45 Time = 10.98
+19:52:23 Iter     5000 : NLL =  2.7853e+01 MSE = 1.1993e+00 Samples= 46 Time = 11.04
+19:52:23 Iter     5100 : NLL =  2.9999e+01 MSE = 2.5198e+00 Samples= 47 Time = 11.09
+19:52:23 Iter     5200 : NLL =  3.3129e+01 MSE = 4.7163e+00 Samples= 48 Time = 11.14
+19:52:23 Iter     5300 : NLL =  3.0040e+01 MSE = 2.4164e+00 Samples= 49 Time = 11.19
+19:52:23 Iter     5400 : NLL =  2.8666e+01 MSE = 1.8136e+00 Samples= 50 Time = 11.24
+19:52:23 Iter     5500 : NLL =  3.0283e+01 MSE = 2.7689e+00 Samples= 51 Time = 11.30
+19:52:23 Iter     5600 : NLL =  2.7288e+01 MSE = 1.3312e+00 Samples= 52 Time = 11.35
+19:52:23 Iter     5700 : NLL =  3.2759e+01 MSE = 4.5855e+00 Samples= 53 Time = 11.40
+19:52:23 Iter     5800 : NLL =  2.6377e+01 MSE = 7.1368e-01 Samples= 54 Time = 11.45
+19:52:24 Iter     5900 : NLL =  2.4724e+01 MSE = 5.6118e-01 Samples= 55 Time = 11.50
+19:52:24 Iter     6000 : NLL =  3.1768e+01 MSE = 3.7767e+00 Samples= 56 Time = 11.56
+19:52:24 Iter     6100 : NLL =  3.6859e+01 MSE = 6.1518e+00 Samples= 57 Time = 11.61
+19:52:24 Iter     6200 : NLL =  3.2277e+01 MSE = 3.2708e+00 Samples= 58 Time = 11.66
+19:52:24 Iter     6300 : NLL =  3.0115e+01 MSE = 1.8984e+00 Samples= 59 Time = 11.71
+19:52:24 Iter     6400 : NLL =  2.8391e+01 MSE = 1.2865e+00 Samples= 60 Time = 11.76
+19:52:24 Iter     6500 : NLL =  2.9961e+01 MSE = 2.5766e+00 Samples= 61 Time = 11.82
+19:52:24 Iter     6600 : NLL =  3.5246e+01 MSE = 5.3248e+00 Samples= 62 Time = 11.87
+19:52:24 Iter     6700 : NLL =  2.7806e+01 MSE = 1.5882e+00 Samples= 63 Time = 11.93
+19:52:24 Iter     6800 : NLL =  4.2717e+01 MSE = 2.2834e+01 Samples= 64 Time = 11.98
+19:52:24 Iter     6900 : NLL =  3.6115e+01 MSE = 9.1739e+00 Samples= 65 Time = 12.03
+19:52:24 Iter     7000 : NLL =  3.4239e+01 MSE = 5.8793e+00 Samples= 66 Time = 12.08
+19:52:24 Iter     7100 : NLL =  3.3377e+01 MSE = 4.9641e+00 Samples= 67 Time = 12.13
+19:52:24 Iter     7200 : NLL =  3.4886e+01 MSE = 5.0971e+00 Samples= 68 Time = 12.19
+19:52:24 Iter     7300 : NLL =  3.3035e+01 MSE = 3.9160e+00 Samples= 69 Time = 12.24
+19:52:24 Iter     7400 : NLL =  3.1238e+01 MSE = 2.8752e+00 Samples= 70 Time = 12.29
+19:52:24 Iter     7500 : NLL =  4.1093e+01 MSE = 2.1137e+01 Samples= 71 Time = 12.34
+19:52:24 Iter     7600 : NLL =  3.2393e+01 MSE = 2.6883e+00 Samples= 72 Time = 12.39
+19:52:24 Iter     7700 : NLL =  3.0823e+01 MSE = 2.5339e+00 Samples= 73 Time = 12.45
+19:52:25 Iter     7800 : NLL =  3.0055e+01 MSE = 2.5435e+00 Samples= 74 Time = 12.50
+19:52:25 Iter     7900 : NLL =  2.9216e+01 MSE = 2.1026e+00 Samples= 75 Time = 12.55
+19:52:25 Iter     8000 : NLL =  2.7151e+01 MSE = 1.2492e+00 Samples= 76 Time = 12.60
+19:52:25 Iter     8100 : NLL =  2.6469e+01 MSE = 1.1041e+00 Samples= 77 Time = 12.65
+19:52:25 Iter     8200 : NLL =  2.7197e+01 MSE = 1.4002e+00 Samples= 78 Time = 12.70
+19:52:25 Iter     8300 : NLL =  2.7094e+01 MSE = 1.3653e+00 Samples= 79 Time = 12.76
+19:52:25 Iter     8400 : NLL =  2.7816e+01 MSE = 1.6088e+00 Samples= 80 Time = 12.81
+19:52:25 Iter     8500 : NLL =  2.6307e+01 MSE = 1.0959e+00 Samples= 81 Time = 12.86
+19:52:25 Iter     8600 : NLL =  2.5079e+01 MSE = 7.7022e-01 Samples= 82 Time = 12.91
+19:52:25 Iter     8700 : NLL =  3.7477e+01 MSE = 8.8172e+00 Samples= 83 Time = 12.96
+19:52:25 Iter     8800 : NLL =  2.9202e+01 MSE = 1.8101e+00 Samples= 84 Time = 13.02
+19:52:25 Iter     8900 : NLL =  2.8600e+01 MSE = 1.8038e+00 Samples= 85 Time = 13.07
+19:52:25 Iter     9000 : NLL =  2.8591e+01 MSE = 1.8806e+00 Samples= 86 Time = 13.12
+19:52:25 Iter     9100 : NLL =  2.8496e+01 MSE = 1.8638e+00 Samples= 87 Time = 13.17
+19:52:25 Iter     9200 : NLL =  2.6533e+01 MSE = 8.9181e-01 Samples= 88 Time = 13.23
+19:52:25 Iter     9300 : NLL =  3.0581e+01 MSE = 2.7082e+00 Samples= 89 Time = 13.28
+19:52:25 Iter     9400 : NLL =  2.5649e+01 MSE = 8.2559e-01 Samples= 90 Time = 13.33
+19:52:25 Iter     9500 : NLL =  2.5286e+01 MSE = 8.1055e-01 Samples= 91 Time = 13.38
+19:52:25 Iter     9600 : NLL =  3.8288e+01 MSE = 4.3230e+00 Samples= 92 Time = 13.43
+19:52:26 Iter     9700 : NLL =  2.5956e+01 MSE = 1.0568e+00 Samples= 93 Time = 13.48
+19:52:26 Iter     9800 : NLL =  2.7410e+01 MSE = 1.4675e+00 Samples= 94 Time = 13.54
+19:52:26 Iter     9900 : NLL =  2.5798e+01 MSE = 1.0009e+00 Samples= 95 Time = 13.59
+19:52:26 WORKER: done with job (2, 0, 1), trying to register it.
+19:52:26 WORKER: registered result for job (2, 0, 1) with dispatcher
+19:52:26 WORKER: start processing job (3, 0, 3)
+19:52:26 WORKER: args: ()
+19:52:26 WORKER: kwargs: {'config': {'burn_in': 0.41080566356693576, 'l_rate': 0.0004945585892874694, 'mdecay': 0.1252817797848388, 'n_units_1': 79, 'n_units_2': 39}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:52:27 Starting sampling
+19:52:32 Iter        0 : NLL =  7.5473e+02 MSE = 1.5010e+00 Time =  5.80
+19:52:32 Iter      512 : NLL =  6.2854e+02 MSE = 1.2515e+00 Time =  6.66
+19:52:33 Iter     1024 : NLL =  5.3866e+02 MSE = 1.0724e+00 Time =  7.44
+19:52:34 Iter     1536 : NLL =  4.6131e+02 MSE = 9.1792e-01 Time =  8.16
+19:52:35 Iter     2048 : NLL =  3.9355e+02 MSE = 7.8257e-01 Time =  8.89
+19:52:35 Iter     2560 : NLL =  3.3432e+02 MSE = 6.6388e-01 Time =  9.61
+19:52:36 Iter     3072 : NLL =  2.8452e+02 MSE = 5.6429e-01 Time = 10.33
+19:52:37 Iter     3584 : NLL =  2.4283e+02 MSE = 4.8078e-01 Time = 11.05
+19:52:38 Iter     4096 : NLL =  2.0949e+02 MSE = 4.1398e-01 Time = 11.77
+19:52:40 Iter     4200 : NLL =  2.0486e+02 MSE = 4.0471e-01 Samples= 1 Time = 14.64
+19:52:41 Iter     4300 : NLL =  2.0077e+02 MSE = 3.9646e-01 Samples= 2 Time = 14.75
+19:52:41 Iter     4400 : NLL =  1.9674e+02 MSE = 3.8840e-01 Samples= 3 Time = 14.90
+19:52:41 Iter     4500 : NLL =  1.9320e+02 MSE = 3.8129e-01 Samples= 4 Time = 15.01
+19:52:41 Iter     4600 : NLL =  1.8941e+02 MSE = 3.7370e-01 Samples= 5 Time = 15.17
+19:52:41 Iter     4700 : NLL =  1.8618e+02 MSE = 3.6716e-01 Samples= 6 Time = 15.30
+19:52:41 Iter     4800 : NLL =  1.8276e+02 MSE = 3.6029e-01 Samples= 7 Time = 15.46
+19:52:41 Iter     4900 : NLL =  1.7968e+02 MSE = 3.5413e-01 Samples= 8 Time = 15.56
+19:52:41 Iter     5000 : NLL =  1.7660e+02 MSE = 3.4796e-01 Samples= 9 Time = 15.72
+19:52:42 Iter     5100 : NLL =  1.7371e+02 MSE = 3.4209e-01 Samples= 10 Time = 15.83
+19:52:42 Iter     5200 : NLL =  1.7098e+02 MSE = 3.3658e-01 Samples= 11 Time = 15.98
+19:52:42 Iter     5300 : NLL =  1.6825e+02 MSE = 3.3108e-01 Samples= 12 Time = 16.09
+19:52:42 Iter     5400 : NLL =  1.6580e+02 MSE = 3.2614e-01 Samples= 13 Time = 16.25
+19:52:42 Iter     5500 : NLL =  1.6339e+02 MSE = 3.2128e-01 Samples= 14 Time = 16.35
+19:52:42 Iter     5600 : NLL =  1.6096e+02 MSE = 3.1639e-01 Samples= 15 Time = 16.51
+19:52:42 Iter     5700 : NLL =  1.5873e+02 MSE = 3.1189e-01 Samples= 16 Time = 16.62
+19:52:43 Iter     5800 : NLL =  1.5655e+02 MSE = 3.0750e-01 Samples= 17 Time = 16.78
+19:52:43 Iter     5900 : NLL =  1.5440e+02 MSE = 3.0319e-01 Samples= 18 Time = 16.88
+19:52:43 Iter     6000 : NLL =  1.5241e+02 MSE = 2.9917e-01 Samples= 19 Time = 17.04
+19:52:43 Iter     6100 : NLL =  1.5033e+02 MSE = 2.9502e-01 Samples= 20 Time = 17.15
+19:52:43 Iter     6200 : NLL =  1.4837e+02 MSE = 2.9111e-01 Samples= 21 Time = 17.31
+19:52:43 Iter     6300 : NLL =  1.4649e+02 MSE = 2.8734e-01 Samples= 22 Time = 17.41
+19:52:43 Iter     6400 : NLL =  1.4462e+02 MSE = 2.8357e-01 Samples= 23 Time = 17.57
+19:52:43 Iter     6500 : NLL =  1.4316e+02 MSE = 2.8062e-01 Samples= 24 Time = 17.67
+19:52:44 Iter     6600 : NLL =  1.4149e+02 MSE = 2.7726e-01 Samples= 25 Time = 17.83
+19:52:44 Iter     6700 : NLL =  1.4002e+02 MSE = 2.7430e-01 Samples= 26 Time = 17.94
+19:52:44 Iter     6800 : NLL =  1.3842e+02 MSE = 2.7106e-01 Samples= 27 Time = 18.10
+19:52:44 Iter     6900 : NLL =  1.3694e+02 MSE = 2.6812e-01 Samples= 28 Time = 18.20
+19:52:44 Iter     7000 : NLL =  1.3579e+02 MSE = 2.6582e-01 Samples= 29 Time = 18.36
+19:52:44 Iter     7100 : NLL =  1.3439e+02 MSE = 2.6298e-01 Samples= 30 Time = 18.47
+19:52:44 Iter     7200 : NLL =  1.3318e+02 MSE = 2.6055e-01 Samples= 31 Time = 18.62
+19:52:44 Iter     7300 : NLL =  1.3210e+02 MSE = 2.5838e-01 Samples= 32 Time = 18.73
+19:52:45 Iter     7400 : NLL =  1.3107e+02 MSE = 2.5630e-01 Samples= 33 Time = 18.89
+19:52:45 Iter     7500 : NLL =  1.2992e+02 MSE = 2.5401e-01 Samples= 34 Time = 18.99
+19:52:45 Iter     7600 : NLL =  1.2879e+02 MSE = 2.5176e-01 Samples= 35 Time = 19.15
+19:52:45 Iter     7700 : NLL =  1.2777e+02 MSE = 2.4967e-01 Samples= 36 Time = 19.26
+19:52:45 Iter     7800 : NLL =  1.2691e+02 MSE = 2.4795e-01 Samples= 37 Time = 19.42
+19:52:45 Iter     7900 : NLL =  1.2602e+02 MSE = 2.4616e-01 Samples= 38 Time = 19.52
+19:52:45 Iter     8000 : NLL =  1.2505e+02 MSE = 2.4422e-01 Samples= 39 Time = 19.69
+19:52:46 Iter     8100 : NLL =  1.2395e+02 MSE = 2.4201e-01 Samples= 40 Time = 19.85
+19:52:46 Iter     8200 : NLL =  1.2317e+02 MSE = 2.4045e-01 Samples= 41 Time = 19.95
+19:52:46 Iter     8300 : NLL =  1.2220e+02 MSE = 2.3853e-01 Samples= 42 Time = 20.11
+19:52:46 Iter     8400 : NLL =  1.2124e+02 MSE = 2.3660e-01 Samples= 43 Time = 20.22
+19:52:46 Iter     8500 : NLL =  1.2052e+02 MSE = 2.3516e-01 Samples= 44 Time = 20.44
+19:52:46 Iter     8600 : NLL =  1.1979e+02 MSE = 2.3368e-01 Samples= 45 Time = 20.65
+19:52:47 Iter     8700 : NLL =  1.1906e+02 MSE = 2.3222e-01 Samples= 46 Time = 20.86
+19:52:47 Iter     8800 : NLL =  1.1831e+02 MSE = 2.3071e-01 Samples= 47 Time = 21.01
+19:52:47 Iter     8900 : NLL =  1.1754e+02 MSE = 2.2919e-01 Samples= 48 Time = 21.12
+19:52:47 Iter     9000 : NLL =  1.1682e+02 MSE = 2.2773e-01 Samples= 49 Time = 21.29
+19:52:47 Iter     9100 : NLL =  1.1618e+02 MSE = 2.2645e-01 Samples= 50 Time = 21.40
+19:52:47 Iter     9200 : NLL =  1.1563e+02 MSE = 2.2531e-01 Samples= 51 Time = 21.56
+19:52:47 Iter     9300 : NLL =  1.1494e+02 MSE = 2.2394e-01 Samples= 52 Time = 21.69
+19:52:48 Iter     9400 : NLL =  1.1428e+02 MSE = 2.2262e-01 Samples= 53 Time = 21.89
+19:52:48 Iter     9500 : NLL =  1.1366e+02 MSE = 2.2139e-01 Samples= 54 Time = 22.07
+19:52:48 Iter     9600 : NLL =  1.1291e+02 MSE = 2.1988e-01 Samples= 55 Time = 22.23
+19:52:48 Iter     9700 : NLL =  1.1232e+02 MSE = 2.1868e-01 Samples= 56 Time = 22.34
+19:52:48 Iter     9800 : NLL =  1.1181e+02 MSE = 2.1768e-01 Samples= 57 Time = 22.51
+19:52:48 Iter     9900 : NLL =  1.1126e+02 MSE = 2.1657e-01 Samples= 58 Time = 22.62
+19:52:49 WORKER: done with job (3, 0, 3), trying to register it.
+19:52:49 WORKER: registered result for job (3, 0, 3) with dispatcher
+19:59:13 WORKER: shutting down now!
+WARNING (theano.gof.cmodule): Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpr9tis7sp for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpr9tis7sp/delete.me'
+19:59:13 Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpr9tis7sp for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpr9tis7sp/delete.me'
+WARNING (theano.gof.cmodule): Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp0k21_p52 for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp0k21_p52/delete.me'
+19:59:13 Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp0k21_p52 for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp0k21_p52/delete.me'
+WARNING (theano.gof.cmodule): Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4xsut8ub for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4xsut8ub/delete.me'
+19:59:13 Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4xsut8ub for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4xsut8ub/delete.me'
+WARNING (theano.gof.cmodule): Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpgd20fuwk for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpgd20fuwk/delete.me'
+19:59:13 Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpgd20fuwk for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmpgd20fuwk/delete.me'
+WARNING (theano.gof.cmodule): Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4jctbkzd for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4jctbkzd/delete.me'
+19:59:13 Failed to remove or mark cache directory /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4jctbkzd for removal [Errno 2] No such file or directory: '/home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/tmp4jctbkzd/delete.me'

@@ -1,0 +1,2695 @@
+cpu-bind=MASK - metaex24, task  0  0 [39486]: mask 0x78 set
+19:44:56 WORKER: Connected to nameserver <Pyro4.core.Proxy at 0x7fccc50a05f8; connected IPv4; for PYRO:Pyro.NameServer@10.5.166.34:46841>
+19:44:56 WORKER: No dispatcher found. Waiting for one to initiate contact.
+19:44:56 WORKER: start listening for jobs
+19:44:56 wait_for_workers trying to get the condition
+19:44:56 DISPATCHER: started the 'discover_worker' thread
+19:44:56 DISPATCHER: started the 'job_runner' thread
+19:44:56 DISPATCHER: Pyro daemon running on 10.5.166.34:33479
+19:44:56 HBMASTER: only 0 worker(s) available, waiting for at least 4.
+19:44:56 DISPATCHER: Starting worker discovery
+19:44:56 DISPATCHER: Found 1 potential workers, 0 currently in the pool.
+19:44:56 DISPATCHER: discovered new worker, hpbandster.run_42.worker.metaex24.39502140518608500544
+19:44:56 HBMASTER: number of workers changed to 1
+19:44:56 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:44:56 adjust_queue_size: lock accquired
+19:44:56 HBMASTER: adjusted queue size to (0, 1)
+19:44:56 DISPATCHER: Finished worker discovery
+19:44:56 DISPATCHER: A new worker triggered discover_worker
+19:44:56 DISPATCHER: Trying to submit another job.
+19:44:56 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:44:56 HBMASTER: only 1 worker(s) available, waiting for at least 4.
+19:44:56 DISPATCHER: Starting worker discovery
+19:44:56 DISPATCHER: Found 1 potential workers, 1 currently in the pool.
+19:44:56 DISPATCHER: Finished worker discovery
+19:44:57 DISPATCHER: A new worker triggered discover_worker
+19:44:57 HBMASTER: only 1 worker(s) available, waiting for at least 4.
+19:44:57 DISPATCHER: Starting worker discovery
+19:44:57 DISPATCHER: Found 1 potential workers, 1 currently in the pool.
+19:44:57 DISPATCHER: Finished worker discovery
+19:44:58 DISPATCHER: A new worker triggered discover_worker
+19:44:58 HBMASTER: only 1 worker(s) available, waiting for at least 4.
+19:44:58 DISPATCHER: Starting worker discovery
+19:44:58 DISPATCHER: Found 1 potential workers, 1 currently in the pool.
+19:44:58 DISPATCHER: Finished worker discovery
+19:44:59 DISPATCHER: A new worker triggered discover_worker
+19:44:59 HBMASTER: only 1 worker(s) available, waiting for at least 4.
+19:44:59 DISPATCHER: Starting worker discovery
+19:44:59 DISPATCHER: Found 1 potential workers, 1 currently in the pool.
+19:44:59 DISPATCHER: Finished worker discovery
+19:45:00 DISPATCHER: A new worker triggered discover_worker
+19:45:00 HBMASTER: only 1 worker(s) available, waiting for at least 4.
+19:45:00 DISPATCHER: Starting worker discovery
+19:45:00 DISPATCHER: Found 1 potential workers, 1 currently in the pool.
+19:45:00 DISPATCHER: Finished worker discovery
+19:45:01 DISPATCHER: A new worker triggered discover_worker
+19:45:01 DISPATCHER: A new worker triggered discover_worker
+19:45:01 DISPATCHER: Starting worker discovery
+19:45:01 DISPATCHER: Found 1 potential workers, 1 currently in the pool.
+19:45:01 DISPATCHER: Finished worker discovery
+19:45:01 DISPATCHER: A new worker triggered discover_worker
+19:45:01 HBMASTER: only 1 worker(s) available, waiting for at least 4.
+19:45:01 DISPATCHER: Starting worker discovery
+19:45:01 DISPATCHER: Found 3 potential workers, 1 currently in the pool.
+19:45:01 DISPATCHER: discovered new worker, hpbandster.run_42.worker.metaex24.39501
+19:45:01 DISPATCHER: discovered new worker, hpbandster.run_42.worker.metaex24.39510
+19:45:01 HBMASTER: number of workers changed to 3
+19:45:01 adjust_queue_size: lock accquired
+19:45:01 HBMASTER: adjusted queue size to (2, 3)
+19:45:01 DISPATCHER: Finished worker discovery
+19:45:01 DISPATCHER: A new worker triggered discover_worker
+19:45:01 DISPATCHER: Trying to submit another job.
+19:45:01 DISPATCHER: jobs to submit = 0, number of idle workers = 3 -> waiting!
+19:45:01 HBMASTER: only 3 worker(s) available, waiting for at least 4.
+19:45:01 DISPATCHER: Starting worker discovery
+19:45:01 DISPATCHER: Found 3 potential workers, 3 currently in the pool.
+19:45:01 DISPATCHER: Finished worker discovery
+19:45:01 DISPATCHER: A new worker triggered discover_worker
+19:45:01 DISPATCHER: Starting worker discovery
+19:45:01 DISPATCHER: Found 3 potential workers, 3 currently in the pool.
+19:45:01 DISPATCHER: Finished worker discovery
+19:45:02 DISPATCHER: A new worker triggered discover_worker
+19:45:02 HBMASTER: only 3 worker(s) available, waiting for at least 4.
+19:45:02 DISPATCHER: Starting worker discovery
+19:45:02 DISPATCHER: Found 4 potential workers, 3 currently in the pool.
+19:45:02 DISPATCHER: discovered new worker, hpbandster.run_42.worker.metaex19.34818
+19:45:02 HBMASTER: number of workers changed to 4
+19:45:02 adjust_queue_size: lock accquired
+19:45:02 HBMASTER: adjusted queue size to (3, 4)
+19:45:02 DISPATCHER: Finished worker discovery
+19:45:02 DISPATCHER: A new worker triggered discover_worker
+19:45:02 DISPATCHER: Trying to submit another job.
+19:45:02 DISPATCHER: jobs to submit = 0, number of idle workers = 4 -> waiting!
+19:45:02 Enough workers to start this run!
+19:45:02 DISPATCHER: Starting worker discovery
+19:45:02 HBMASTER: starting run at 1556473502.2896304
+19:45:02 start sampling a new configuration.
+19:45:02 done sampling a new configuration.
+19:45:02 DISPATCHER: Found 4 potential workers, 4 currently in the pool.
+19:45:02 HBMASTER: schedule new run for iteration 0
+19:45:02 HBMASTER: trying submitting job (0, 0, 0) to dispatcher
+19:45:02 HBMASTER: submitting job (0, 0, 0) to dispatcher
+19:45:02 DISPATCHER: trying to submit job (0, 0, 0)
+19:45:02 DISPATCHER: Finished worker discovery
+19:45:02 DISPATCHER: trying to notify the job_runner thread.
+19:45:02 HBMASTER: job (0, 0, 0) submitted to dispatcher
+19:45:02 DISPATCHER: Trying to submit another job.
+19:45:02 start sampling a new configuration.
+19:45:02 DISPATCHER: starting job (0, 0, 0) on hpbandster.run_42.worker.metaex24.39501
+19:45:02 done sampling a new configuration.
+19:45:02 DISPATCHER: job (0, 0, 0) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:45:02 DISPATCHER: jobs to submit = 0, number of idle workers = 3 -> waiting!
+19:45:02 HBMASTER: schedule new run for iteration 0
+19:45:02 HBMASTER: trying submitting job (0, 0, 1) to dispatcher
+19:45:02 HBMASTER: submitting job (0, 0, 1) to dispatcher
+19:45:02 DISPATCHER: trying to submit job (0, 0, 1)
+19:45:02 DISPATCHER: trying to notify the job_runner thread.
+19:45:02 HBMASTER: job (0, 0, 1) submitted to dispatcher
+19:45:02 DISPATCHER: Trying to submit another job.
+19:45:02 start sampling a new configuration.
+19:45:02 DISPATCHER: starting job (0, 0, 1) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:45:02 done sampling a new configuration.
+19:45:02 DISPATCHER: job (0, 0, 1) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:45:02 DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+19:45:02 WORKER: start processing job (0, 0, 1)
+19:45:02 WORKER: args: ()
+19:45:02 WORKER: kwargs: {'config': {'burn_in': 0.1488581768523096, 'l_rate': 0.0049146356950688285, 'mdecay': 0.9995835848079807, 'n_units_1': 38, 'n_units_2': 336}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:45:02 HBMASTER: schedule new run for iteration 0
+19:45:02 HBMASTER: trying submitting job (0, 0, 2) to dispatcher
+19:45:02 HBMASTER: submitting job (0, 0, 2) to dispatcher
+19:45:02 DISPATCHER: trying to submit job (0, 0, 2)
+19:45:02 DISPATCHER: trying to notify the job_runner thread.
+19:45:02 HBMASTER: job (0, 0, 2) submitted to dispatcher
+19:45:02 DISPATCHER: Trying to submit another job.
+19:45:02 start sampling a new configuration.
+19:45:02 DISPATCHER: starting job (0, 0, 2) on hpbandster.run_42.worker.metaex19.34818
+19:45:02 done sampling a new configuration.
+19:45:02 DISPATCHER: job (0, 0, 2) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:45:02 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:45:02 HBMASTER: schedule new run for iteration 0
+19:45:02 HBMASTER: trying submitting job (0, 0, 3) to dispatcher
+19:45:02 HBMASTER: submitting job (0, 0, 3) to dispatcher
+19:45:02 DISPATCHER: trying to submit job (0, 0, 3)
+19:45:02 DISPATCHER: trying to notify the job_runner thread.
+19:45:02 HBMASTER: job (0, 0, 3) submitted to dispatcher
+19:45:02 DISPATCHER: Trying to submit another job.
+19:45:02 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:45:02 DISPATCHER: starting job (0, 0, 3) on hpbandster.run_42.worker.metaex24.39510
+19:45:02 DISPATCHER: job (0, 0, 3) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:45:02 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:13 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:13 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:19 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:19 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:27 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:27 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:33 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:33 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:41 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:41 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:47 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:47 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:45:56 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:45:56 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:03 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:03 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:09 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:09 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:19 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:19 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:26 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:26 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:32 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:32 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:40 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:40 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:47 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:47 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:46:56 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:46:56 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:47:03 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:03 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:47:12 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:12 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '34818' (I am process '39502')
+19:47:21 Waiting for existing lock by process '34818' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:21 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:26 DISPATCHER: job (0, 0, 2) finished
+19:47:26 DISPATCHER: register_result: lock acquired
+19:47:26 DISPATCHER: job (0, 0, 2) on hpbandster.run_42.worker.metaex19.34818 finished
+19:47:26 job_id: (0, 0, 2)
+kwargs: {'config': {'burn_in': 0.7994961977618648, 'l_rate': 0.002250919236838576, 'mdecay': 0.8421028579793957, 'n_units_1': 34, 'n_units_2': 342}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 144.4123499393463}}
+exception: None
+
+19:47:26 job_callback for (0, 0, 2) started
+19:47:26 DISPATCHER: Trying to submit another job.
+19:47:26 job_callback for (0, 0, 2) got condition
+19:47:26 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:47:26 Only 1 run(s) for budget 370.370370 available, need more than 7 -> can't build model!
+19:47:26 HBMASTER: Trying to run another job!
+19:47:26 job_callback for (0, 0, 2) finished
+19:47:26 start sampling a new configuration.
+19:47:26 done sampling a new configuration.
+19:47:26 HBMASTER: schedule new run for iteration 0
+19:47:26 HBMASTER: trying submitting job (0, 0, 4) to dispatcher
+19:47:26 HBMASTER: submitting job (0, 0, 4) to dispatcher
+19:47:26 DISPATCHER: trying to submit job (0, 0, 4)
+19:47:26 DISPATCHER: trying to notify the job_runner thread.
+19:47:26 HBMASTER: job (0, 0, 4) submitted to dispatcher
+19:47:26 DISPATCHER: Trying to submit another job.
+19:47:26 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:47:26 DISPATCHER: starting job (0, 0, 4) on hpbandster.run_42.worker.metaex19.34818
+19:47:26 DISPATCHER: job (0, 0, 4) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:47:26 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO (theano.gof.compilelock): Waiting for existing lock by process '39510' (I am process '39502')
+19:47:29 Waiting for existing lock by process '39510' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:29 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+WARNING (theano.tensor.blas): We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+19:47:37 We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+WARNING (theano.tensor.blas): We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+19:47:39 We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+19:47:41 Starting sampling
+19:47:47 DISPATCHER: job (0, 0, 4) finished
+19:47:47 DISPATCHER: register_result: lock acquired
+19:47:47 DISPATCHER: job (0, 0, 4) on hpbandster.run_42.worker.metaex19.34818 finished
+19:47:47 job_id: (0, 0, 4)
+kwargs: {'config': {'burn_in': 0.2057146628412168, 'l_rate': 0.00020943864384262464, 'mdecay': 0.7017620750366657, 'n_units_1': 434, 'n_units_2': 171}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 3325073.683478384, 'info': {'function_value': 3325073.683478384, 'cost': 21.036758422851562}}
+exception: None
+
+19:47:47 job_callback for (0, 0, 4) started
+19:47:47 DISPATCHER: Trying to submit another job.
+19:47:47 job_callback for (0, 0, 4) got condition
+19:47:47 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:47:47 Only 2 run(s) for budget 370.370370 available, need more than 7 -> can't build model!
+19:47:47 HBMASTER: Trying to run another job!
+19:47:47 job_callback for (0, 0, 4) finished
+19:47:47 start sampling a new configuration.
+19:47:47 done sampling a new configuration.
+19:47:47 HBMASTER: schedule new run for iteration 0
+19:47:47 HBMASTER: trying submitting job (0, 0, 5) to dispatcher
+19:47:47 HBMASTER: submitting job (0, 0, 5) to dispatcher
+19:47:47 DISPATCHER: trying to submit job (0, 0, 5)
+19:47:47 DISPATCHER: trying to notify the job_runner thread.
+19:47:47 HBMASTER: job (0, 0, 5) submitted to dispatcher
+19:47:47 DISPATCHER: Trying to submit another job.
+19:47:47 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:47:47 DISPATCHER: starting job (0, 0, 5) on hpbandster.run_42.worker.metaex19.34818
+19:47:47 DISPATCHER: job (0, 0, 5) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:47:47 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+INFO (theano.gof.compilelock): Waiting for existing lock by process '39501' (I am process '39502')
+19:47:53 Waiting for existing lock by process '39501' (I am process '39502')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:53 To manually release the lock, delete /home/marbenj/.theano/compiledir_Linux-4.15--generic-x86_64-with-Ubuntu-18.04-bionic-x86_64-3.6.7-64/lock_dir
+19:47:55 DISPATCHER: job (0, 0, 3) finished
+19:47:55 DISPATCHER: register_result: lock acquired
+19:47:55 DISPATCHER: job (0, 0, 3) on hpbandster.run_42.worker.metaex24.39510 finished
+19:47:55 job_id: (0, 0, 3)
+kwargs: {'config': {'burn_in': 0.20433950490678213, 'l_rate': 0.0006739446502653602, 'mdecay': 0.9167880697885012, 'n_units_1': 38, 'n_units_2': 56}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 628673.2794968178, 'info': {'function_value': 628673.2794968178, 'cost': 173.4052631855011}}
+exception: None
+
+19:47:55 job_callback for (0, 0, 3) started
+19:47:55 DISPATCHER: Trying to submit another job.
+19:47:55 job_callback for (0, 0, 3) got condition
+19:47:55 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:47:55 Only 3 run(s) for budget 370.370370 available, need more than 7 -> can't build model!
+19:47:55 HBMASTER: Trying to run another job!
+19:47:55 job_callback for (0, 0, 3) finished
+19:47:55 start sampling a new configuration.
+19:47:55 done sampling a new configuration.
+19:47:55 HBMASTER: schedule new run for iteration 0
+19:47:55 HBMASTER: trying submitting job (0, 0, 6) to dispatcher
+19:47:55 HBMASTER: submitting job (0, 0, 6) to dispatcher
+19:47:55 DISPATCHER: trying to submit job (0, 0, 6)
+19:47:55 DISPATCHER: trying to notify the job_runner thread.
+19:47:55 HBMASTER: job (0, 0, 6) submitted to dispatcher
+19:47:55 DISPATCHER: Trying to submit another job.
+19:47:55 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:47:55 DISPATCHER: starting job (0, 0, 6) on hpbandster.run_42.worker.metaex24.39510
+19:47:55 DISPATCHER: job (0, 0, 6) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:47:55 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:47:56 DISPATCHER: job (0, 0, 5) finished
+19:47:56 DISPATCHER: register_result: lock acquired
+19:47:56 DISPATCHER: job (0, 0, 5) on hpbandster.run_42.worker.metaex19.34818 finished
+19:47:56 job_id: (0, 0, 5)
+kwargs: {'config': {'burn_in': 0.1871710393110159, 'l_rate': 3.9538676259416975e-06, 'mdecay': 0.10502001999005284, 'n_units_1': 16, 'n_units_2': 42}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 67594655737.44444, 'info': {'function_value': 67594655737.44444, 'cost': 9.079216718673706}}
+exception: None
+
+19:47:56 job_callback for (0, 0, 5) started
+19:47:56 DISPATCHER: Trying to submit another job.
+19:47:56 job_callback for (0, 0, 5) got condition
+19:47:56 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:47:56 Only 4 run(s) for budget 370.370370 available, need more than 7 -> can't build model!
+19:47:56 HBMASTER: Trying to run another job!
+19:47:56 job_callback for (0, 0, 5) finished
+19:47:56 start sampling a new configuration.
+19:47:56 done sampling a new configuration.
+19:47:56 HBMASTER: schedule new run for iteration 0
+19:47:56 HBMASTER: trying submitting job (0, 0, 7) to dispatcher
+19:47:56 HBMASTER: submitting job (0, 0, 7) to dispatcher
+19:47:56 DISPATCHER: trying to submit job (0, 0, 7)
+19:47:56 DISPATCHER: trying to notify the job_runner thread.
+19:47:56 HBMASTER: job (0, 0, 7) submitted to dispatcher
+19:47:56 DISPATCHER: Trying to submit another job.
+19:47:56 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:47:56 DISPATCHER: starting job (0, 0, 7) on hpbandster.run_42.worker.metaex19.34818
+19:47:56 DISPATCHER: job (0, 0, 7) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:47:56 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:02 Iter        0 : NLL =  4.9238e+02 MSE = 1.0039e+00 Time = 179.80
+19:48:05 Iter      100 : NLL =  3.3185e+02 MSE = 6.7521e-01 Samples= 1 Time = 182.94
+19:48:05 DISPATCHER: job (0, 0, 6) finished
+19:48:05 DISPATCHER: register_result: lock acquired
+19:48:05 DISPATCHER: job (0, 0, 6) on hpbandster.run_42.worker.metaex24.39510 finished
+19:48:05 job_id: (0, 0, 6)
+kwargs: {'config': {'burn_in': 0.42693525884048544, 'l_rate': 3.884397067995749e-06, 'mdecay': 0.6660169866977914, 'n_units_1': 218, 'n_units_2': 59}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 139294146681582.94, 'info': {'function_value': 139294146681582.94, 'cost': 9.666289329528809}}
+exception: None
+
+19:48:05 job_callback for (0, 0, 6) started
+19:48:05 job_callback for (0, 0, 6) got condition
+19:48:05 DISPATCHER: Trying to submit another job.
+19:48:05 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:05 Only 5 run(s) for budget 370.370370 available, need more than 7 -> can't build model!
+19:48:05 HBMASTER: Trying to run another job!
+19:48:05 job_callback for (0, 0, 6) finished
+19:48:05 start sampling a new configuration.
+19:48:05 done sampling a new configuration.
+19:48:05 HBMASTER: schedule new run for iteration 0
+19:48:05 HBMASTER: trying submitting job (0, 0, 8) to dispatcher
+19:48:05 HBMASTER: submitting job (0, 0, 8) to dispatcher
+19:48:05 DISPATCHER: trying to submit job (0, 0, 8)
+19:48:05 DISPATCHER: trying to notify the job_runner thread.
+19:48:05 HBMASTER: job (0, 0, 8) submitted to dispatcher
+19:48:05 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:05 DISPATCHER: Trying to submit another job.
+19:48:05 DISPATCHER: starting job (0, 0, 8) on hpbandster.run_42.worker.metaex24.39510
+19:48:05 DISPATCHER: job (0, 0, 8) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:48:05 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:05 Iter      200 : NLL =  2.4391e+02 MSE = 4.9483e-01 Samples= 2 Time = 183.25
+19:48:05 Iter      300 : NLL =  2.0459e+02 MSE = 4.1427e-01 Samples= 3 Time = 183.51
+19:48:06 WORKER: done with job (0, 0, 1), trying to register it.
+19:48:06 WORKER: registered result for job (0, 0, 1) with dispatcher
+19:48:06 DISPATCHER: job (0, 0, 1) finished
+19:48:06 DISPATCHER: register_result: lock acquired
+19:48:06 DISPATCHER: job (0, 0, 1) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:48:06 job_id: (0, 0, 1)
+kwargs: {'config': {'burn_in': 0.1488581768523096, 'l_rate': 0.0049146356950688285, 'mdecay': 0.9995835848079807, 'n_units_1': 38, 'n_units_2': 336}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 100.66618260735852, 'info': {'function_value': 100.66618260735852, 'cost': 183.72867441177368}}
+exception: None
+
+19:48:06 job_callback for (0, 0, 1) started
+19:48:06 DISPATCHER: Trying to submit another job.
+19:48:06 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:06 job_callback for (0, 0, 1) got condition
+19:48:06 HBMASTER: Trying to run another job!
+19:48:06 job_callback for (0, 0, 1) finished
+19:48:06 start sampling a new configuration.
+19:48:06 done sampling a new configuration.
+19:48:06 HBMASTER: schedule new run for iteration 0
+19:48:06 HBMASTER: trying submitting job (0, 0, 9) to dispatcher
+19:48:06 HBMASTER: submitting job (0, 0, 9) to dispatcher
+19:48:06 DISPATCHER: trying to submit job (0, 0, 9)
+19:48:06 DISPATCHER: trying to notify the job_runner thread.
+19:48:06 HBMASTER: job (0, 0, 9) submitted to dispatcher
+19:48:06 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:06 DISPATCHER: Trying to submit another job.
+19:48:06 DISPATCHER: starting job (0, 0, 9) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:06 DISPATCHER: job (0, 0, 9) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:06 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:06 WORKER: start processing job (0, 0, 9)
+19:48:06 WORKER: args: ()
+19:48:06 WORKER: kwargs: {'config': {'burn_in': 0.18820095690846347, 'l_rate': 1.4570817041855598e-06, 'mdecay': 0.3880117919791144, 'n_units_1': 25, 'n_units_2': 45}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:07 Starting sampling
+19:48:11 Iter        0 : NLL =  7.5851e+02 MSE = 1.5082e+00 Time =  5.71
+19:48:13 DISPATCHER: job (0, 0, 7) finished
+19:48:13 DISPATCHER: register_result: lock acquired
+19:48:13 DISPATCHER: job (0, 0, 7) on hpbandster.run_42.worker.metaex19.34818 finished
+19:48:13 job_id: (0, 0, 7)
+kwargs: {'config': {'burn_in': 0.7741272289474117, 'l_rate': 3.604786960848536e-05, 'mdecay': 0.6492560741038946, 'n_units_1': 284, 'n_units_2': 82}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 16.71703338623047}}
+exception: None
+
+19:48:13 job_callback for (0, 0, 7) started
+19:48:13 DISPATCHER: Trying to submit another job.
+19:48:13 job_callback for (0, 0, 7) got condition
+19:48:13 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:13 HBMASTER: Trying to run another job!
+19:48:13 job_callback for (0, 0, 7) finished
+19:48:13 start sampling a new configuration.
+19:48:13 done sampling a new configuration.
+19:48:13 HBMASTER: schedule new run for iteration 0
+19:48:13 HBMASTER: trying submitting job (0, 0, 10) to dispatcher
+19:48:13 HBMASTER: submitting job (0, 0, 10) to dispatcher
+19:48:13 DISPATCHER: trying to submit job (0, 0, 10)
+19:48:13 DISPATCHER: trying to notify the job_runner thread.
+19:48:13 HBMASTER: job (0, 0, 10) submitted to dispatcher
+19:48:13 DISPATCHER: Trying to submit another job.
+19:48:13 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:13 DISPATCHER: starting job (0, 0, 10) on hpbandster.run_42.worker.metaex19.34818
+19:48:13 DISPATCHER: job (0, 0, 10) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:48:13 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:14 Iter      100 : NLL =  7.5851e+02 MSE = 1.5082e+00 Samples= 1 Time =  8.58
+19:48:14 DISPATCHER: job (0, 0, 8) finished
+19:48:14 DISPATCHER: register_result: lock acquired
+19:48:14 DISPATCHER: job (0, 0, 8) on hpbandster.run_42.worker.metaex24.39510 finished
+19:48:14 job_id: (0, 0, 8)
+kwargs: {'config': {'burn_in': 0.009335675509209818, 'l_rate': 0.004916380581632049, 'mdecay': 0.6737769174022753, 'n_units_1': 17, 'n_units_2': 58}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 541.7921825608155, 'info': {'function_value': 541.7921825608155, 'cost': 9.25993824005127}}
+exception: None
+
+19:48:14 job_callback for (0, 0, 8) started
+19:48:14 DISPATCHER: Trying to submit another job.
+19:48:14 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:14 job_callback for (0, 0, 8) got condition
+19:48:14 HBMASTER: Trying to run another job!
+19:48:14 job_callback for (0, 0, 8) finished
+19:48:14 start sampling a new configuration.
+19:48:14 done sampling a new configuration.
+19:48:14 HBMASTER: schedule new run for iteration 0
+19:48:14 HBMASTER: trying submitting job (0, 0, 11) to dispatcher
+19:48:14 HBMASTER: submitting job (0, 0, 11) to dispatcher
+19:48:14 DISPATCHER: trying to submit job (0, 0, 11)
+19:48:14 DISPATCHER: trying to notify the job_runner thread.
+19:48:14 HBMASTER: job (0, 0, 11) submitted to dispatcher
+19:48:14 DISPATCHER: Trying to submit another job.
+19:48:14 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:14 DISPATCHER: starting job (0, 0, 11) on hpbandster.run_42.worker.metaex24.39510
+19:48:14 DISPATCHER: job (0, 0, 11) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:48:14 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:14 Iter      200 : NLL =  7.5851e+02 MSE = 1.5082e+00 Samples= 2 Time =  8.74
+19:48:14 Iter      300 : NLL =  7.5851e+02 MSE = 1.5082e+00 Samples= 3 Time =  8.90
+19:48:15 WORKER: done with job (0, 0, 9), trying to register it.
+19:48:15 WORKER: registered result for job (0, 0, 9) with dispatcher
+19:48:15 DISPATCHER: job (0, 0, 9) finished
+19:48:15 DISPATCHER: register_result: lock acquired
+19:48:15 DISPATCHER: job (0, 0, 9) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:48:15 job_id: (0, 0, 9)
+kwargs: {'config': {'burn_in': 0.18820095690846347, 'l_rate': 1.4570817041855598e-06, 'mdecay': 0.3880117919791144, 'n_units_1': 25, 'n_units_2': 45}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4486558014719.015, 'info': {'function_value': 4486558014719.015, 'cost': 9.028315782546997}}
+exception: None
+
+19:48:15 job_callback for (0, 0, 9) started
+19:48:15 DISPATCHER: Trying to submit another job.
+19:48:15 job_callback for (0, 0, 9) got condition
+19:48:15 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:15 HBMASTER: Trying to run another job!
+19:48:15 job_callback for (0, 0, 9) finished
+19:48:15 start sampling a new configuration.
+19:48:15 done sampling a new configuration.
+19:48:15 HBMASTER: schedule new run for iteration 0
+19:48:15 HBMASTER: trying submitting job (0, 0, 12) to dispatcher
+19:48:15 HBMASTER: submitting job (0, 0, 12) to dispatcher
+19:48:15 DISPATCHER: trying to submit job (0, 0, 12)
+19:48:15 DISPATCHER: trying to notify the job_runner thread.
+19:48:15 HBMASTER: job (0, 0, 12) submitted to dispatcher
+19:48:15 DISPATCHER: Trying to submit another job.
+19:48:15 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:15 DISPATCHER: starting job (0, 0, 12) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:15 DISPATCHER: job (0, 0, 12) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:15 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:15 WORKER: start processing job (0, 0, 12)
+19:48:15 WORKER: args: ()
+19:48:15 WORKER: kwargs: {'config': {'burn_in': 0.27939600012482035, 'l_rate': 2.1300373165129174e-05, 'mdecay': 0.5973224328897464, 'n_units_1': 38, 'n_units_2': 99}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:16 Starting sampling
+19:48:17 DISPATCHER: job (0, 0, 0) finished
+19:48:17 DISPATCHER: register_result: lock acquired
+19:48:17 DISPATCHER: job (0, 0, 0) on hpbandster.run_42.worker.metaex24.39501 finished
+19:48:17 job_id: (0, 0, 0)
+kwargs: {'config': {'burn_in': 0.17040788224434478, 'l_rate': 6.743227504893532e-05, 'mdecay': 0.28059492767725547, 'n_units_1': 489, 'n_units_2': 19}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 165771893.39529112, 'info': {'function_value': 165771893.39529112, 'cost': 194.72619557380676}}
+exception: None
+
+19:48:17 job_callback for (0, 0, 0) started
+19:48:17 job_callback for (0, 0, 0) got condition
+19:48:17 DISPATCHER: Trying to submit another job.
+19:48:17 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:17 HBMASTER: Trying to run another job!
+19:48:17 job_callback for (0, 0, 0) finished
+19:48:17 start sampling a new configuration.
+19:48:17 done sampling a new configuration.
+19:48:17 HBMASTER: schedule new run for iteration 0
+19:48:17 HBMASTER: trying submitting job (0, 0, 13) to dispatcher
+19:48:17 HBMASTER: submitting job (0, 0, 13) to dispatcher
+19:48:17 DISPATCHER: trying to submit job (0, 0, 13)
+19:48:17 DISPATCHER: trying to notify the job_runner thread.
+19:48:17 HBMASTER: job (0, 0, 13) submitted to dispatcher
+19:48:17 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:17 DISPATCHER: Trying to submit another job.
+19:48:17 DISPATCHER: starting job (0, 0, 13) on hpbandster.run_42.worker.metaex24.39501
+19:48:17 DISPATCHER: job (0, 0, 13) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:48:17 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:20 Iter        0 : NLL =  5.9090e+02 MSE = 1.1730e+00 Time =  5.77
+19:48:22 DISPATCHER: job (0, 0, 10) finished
+19:48:22 DISPATCHER: register_result: lock acquired
+19:48:22 DISPATCHER: job (0, 0, 10) on hpbandster.run_42.worker.metaex19.34818 finished
+19:48:22 job_id: (0, 0, 10)
+kwargs: {'config': {'burn_in': 0.559860773633869, 'l_rate': 0.00044891183096866646, 'mdecay': 0.40155052880467157, 'n_units_1': 86, 'n_units_2': 56}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 9.275703191757202}}
+exception: None
+
+19:48:22 job_callback for (0, 0, 10) started
+19:48:22 DISPATCHER: Trying to submit another job.
+19:48:22 job_callback for (0, 0, 10) got condition
+19:48:22 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:23 HBMASTER: Trying to run another job!
+19:48:23 job_callback for (0, 0, 10) finished
+19:48:23 start sampling a new configuration.
+19:48:23 done sampling a new configuration.
+19:48:23 HBMASTER: schedule new run for iteration 0
+19:48:23 HBMASTER: trying submitting job (0, 0, 14) to dispatcher
+19:48:23 HBMASTER: submitting job (0, 0, 14) to dispatcher
+19:48:23 DISPATCHER: trying to submit job (0, 0, 14)
+19:48:23 DISPATCHER: trying to notify the job_runner thread.
+19:48:23 HBMASTER: job (0, 0, 14) submitted to dispatcher
+19:48:23 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:23 DISPATCHER: Trying to submit another job.
+19:48:23 DISPATCHER: starting job (0, 0, 14) on hpbandster.run_42.worker.metaex19.34818
+19:48:23 DISPATCHER: job (0, 0, 14) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:48:23 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:23 Iter      200 : NLL =  5.9089e+02 MSE = 1.1730e+00 Samples= 1 Time =  8.80
+19:48:24 Iter      300 : NLL =  5.9088e+02 MSE = 1.1729e+00 Samples= 2 Time =  8.91
+19:48:24 WORKER: done with job (0, 0, 12), trying to register it.
+19:48:24 WORKER: registered result for job (0, 0, 12) with dispatcher
+19:48:24 DISPATCHER: job (0, 0, 12) finished
+19:48:24 DISPATCHER: register_result: lock acquired
+19:48:24 DISPATCHER: job (0, 0, 12) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:48:24 job_id: (0, 0, 12)
+kwargs: {'config': {'burn_in': 0.27939600012482035, 'l_rate': 2.1300373165129174e-05, 'mdecay': 0.5973224328897464, 'n_units_1': 38, 'n_units_2': 99}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 100066076824.75471, 'info': {'function_value': 100066076824.75471, 'cost': 9.011871337890625}}
+exception: None
+
+19:48:24 job_callback for (0, 0, 12) started
+19:48:24 DISPATCHER: Trying to submit another job.
+19:48:24 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:24 job_callback for (0, 0, 12) got condition
+19:48:24 done building a new model for budget 370.370370 based on 6/10 split
+Best loss for this budget:100.666183
+
+
+
+
+
+19:48:24 HBMASTER: Trying to run another job!
+19:48:24 job_callback for (0, 0, 12) finished
+19:48:24 start sampling a new configuration.
+19:48:24 best_vector: [0.1032605945235101, 0.9868833959533985, 0.7789611562114385, 0.7617681875247917, 0.9242058869121739], 0.0005710321457139901, 0.3149766299160925, 0.00017986178083074765
+19:48:24 done sampling a new configuration.
+19:48:24 HBMASTER: schedule new run for iteration 0
+19:48:24 HBMASTER: trying submitting job (0, 0, 15) to dispatcher
+19:48:24 HBMASTER: submitting job (0, 0, 15) to dispatcher
+19:48:24 DISPATCHER: trying to submit job (0, 0, 15)
+19:48:24 DISPATCHER: trying to notify the job_runner thread.
+19:48:24 HBMASTER: job (0, 0, 15) submitted to dispatcher
+19:48:24 DISPATCHER: Trying to submit another job.
+19:48:24 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:24 DISPATCHER: starting job (0, 0, 15) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:24 DISPATCHER: job (0, 0, 15) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:24 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:24 WORKER: start processing job (0, 0, 15)
+19:48:24 WORKER: args: ()
+19:48:24 WORKER: kwargs: {'config': {'burn_in': 0.08260847561880807, 'l_rate': 0.08598386834251442, 'mdecay': 0.7789611562114385, 'n_units_1': 223, 'n_units_2': 393}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:25 DISPATCHER: job (0, 0, 11) finished
+19:48:25 DISPATCHER: register_result: lock acquired
+19:48:25 DISPATCHER: job (0, 0, 11) on hpbandster.run_42.worker.metaex24.39510 finished
+19:48:25 job_id: (0, 0, 11)
+kwargs: {'config': {'burn_in': 0.2023308437911826, 'l_rate': 0.00015426287649134433, 'mdecay': 0.9719941040798612, 'n_units_1': 365, 'n_units_2': 33}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 41439692.493680306, 'info': {'function_value': 41439692.493680306, 'cost': 10.21675705909729}}
+exception: None
+
+19:48:25 job_callback for (0, 0, 11) started
+19:48:25 DISPATCHER: Trying to submit another job.
+19:48:25 job_callback for (0, 0, 11) got condition
+19:48:25 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:25 done building a new model for budget 370.370370 based on 6/11 split
+Best loss for this budget:100.666183
+
+
+
+
+
+19:48:25 HBMASTER: Trying to run another job!
+19:48:25 job_callback for (0, 0, 11) finished
+19:48:25 start sampling a new configuration.
+19:48:25 best_vector: [0.18678089048899776, 0.9784603860193902, 0.9976079898131723, 0.7861832799582203, 0.6359491100799101], 0.0005742436007677155, 0.29665200727387875, 0.00017035051683192268
+19:48:25 done sampling a new configuration.
+19:48:25 HBMASTER: schedule new run for iteration 0
+19:48:25 HBMASTER: trying submitting job (0, 0, 16) to dispatcher
+19:48:25 HBMASTER: submitting job (0, 0, 16) to dispatcher
+19:48:25 DISPATCHER: trying to submit job (0, 0, 16)
+19:48:25 DISPATCHER: trying to notify the job_runner thread.
+19:48:25 HBMASTER: job (0, 0, 16) submitted to dispatcher
+19:48:25 DISPATCHER: Trying to submit another job.
+19:48:25 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:25 DISPATCHER: starting job (0, 0, 16) on hpbandster.run_42.worker.metaex24.39510
+19:48:25 DISPATCHER: job (0, 0, 16) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:48:25 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:26 Starting sampling
+19:48:26 DISPATCHER: job (0, 0, 13) finished
+19:48:26 DISPATCHER: register_result: lock acquired
+19:48:26 DISPATCHER: job (0, 0, 13) on hpbandster.run_42.worker.metaex24.39501 finished
+19:48:26 job_id: (0, 0, 13)
+kwargs: {'config': {'burn_in': 0.6849706472276438, 'l_rate': 1.3489241122152824e-06, 'mdecay': 0.30574134946428344, 'n_units_1': 193, 'n_units_2': 21}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 9.339345693588257}}
+exception: None
+
+19:48:26 job_callback for (0, 0, 13) started
+19:48:26 DISPATCHER: Trying to submit another job.
+19:48:26 job_callback for (0, 0, 13) got condition
+19:48:26 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:26 done building a new model for budget 370.370370 based on 6/11 split
+Best loss for this budget:100.666183
+
+
+
+
+
+19:48:26 HBMASTER: Trying to run another job!
+19:48:26 job_callback for (0, 0, 13) finished
+19:48:26 start sampling a new configuration.
+19:48:26 best_vector: [0.16656195451616684, 0.8253997836363345, 0.7104639152901427, 0.8254656858247322, 0.8040426007228447], 0.0018016836438317163, 0.8325146798060583, 0.0014999280818563737
+19:48:26 done sampling a new configuration.
+19:48:26 HBMASTER: schedule new run for iteration 0
+19:48:26 HBMASTER: trying submitting job (0, 0, 17) to dispatcher
+19:48:26 HBMASTER: submitting job (0, 0, 17) to dispatcher
+19:48:26 DISPATCHER: trying to submit job (0, 0, 17)
+19:48:26 DISPATCHER: trying to notify the job_runner thread.
+19:48:26 HBMASTER: job (0, 0, 17) submitted to dispatcher
+19:48:26 DISPATCHER: Trying to submit another job.
+19:48:26 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:26 DISPATCHER: starting job (0, 0, 17) on hpbandster.run_42.worker.metaex24.39501
+19:48:26 DISPATCHER: job (0, 0, 17) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:48:26 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:30 Iter        0 : NLL =  1.0131e+05 MSE = 4.8801e+03 Time =  6.10
+19:48:32 DISPATCHER: job (0, 0, 14) finished
+19:48:32 DISPATCHER: register_result: lock acquired
+19:48:32 DISPATCHER: job (0, 0, 14) on hpbandster.run_42.worker.metaex19.34818 finished
+19:48:32 job_id: (0, 0, 14)
+kwargs: {'config': {'burn_in': 0.7682468447001704, 'l_rate': 0.0009065592194131619, 'mdecay': 0.5057113699287827, 'n_units_1': 38, 'n_units_2': 25}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 8.928914308547974}}
+exception: None
+
+19:48:32 job_callback for (0, 0, 14) started
+19:48:32 DISPATCHER: Trying to submit another job.
+19:48:32 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:32 job_callback for (0, 0, 14) got condition
+19:48:32 done building a new model for budget 370.370370 based on 6/12 split
+Best loss for this budget:100.666183
+
+
+
+
+
+19:48:32 HBMASTER: Trying to run another job!
+19:48:32 job_callback for (0, 0, 14) finished
+19:48:32 start sampling a new configuration.
+19:48:32 best_vector: [0.0587569180641647, 0.9965735357630086, 0.7569634178505533, 0.1615222281787832, 0.13860834442123965], 0.0007214674938942163, 0.5265829368955351, 0.000379912471809478
+19:48:32 done sampling a new configuration.
+19:48:32 HBMASTER: schedule new run for iteration 0
+19:48:32 HBMASTER: trying submitting job (0, 0, 18) to dispatcher
+19:48:32 HBMASTER: submitting job (0, 0, 18) to dispatcher
+19:48:32 DISPATCHER: trying to submit job (0, 0, 18)
+19:48:32 DISPATCHER: trying to notify the job_runner thread.
+19:48:32 HBMASTER: job (0, 0, 18) submitted to dispatcher
+19:48:32 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:32 DISPATCHER: Trying to submit another job.
+19:48:32 DISPATCHER: starting job (0, 0, 18) on hpbandster.run_42.worker.metaex19.34818
+19:48:32 DISPATCHER: job (0, 0, 18) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:48:32 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:38 Iter      100 : NLL =  2.1420e+03 MSE = 1.5627e+04 Samples= 1 Time = 14.24
+19:48:39 DISPATCHER: job (0, 0, 16) finished
+19:48:39 DISPATCHER: register_result: lock acquired
+19:48:39 DISPATCHER: job (0, 0, 16) on hpbandster.run_42.worker.metaex24.39510 finished
+19:48:39 job_id: (0, 0, 16)
+kwargs: {'config': {'burn_in': 0.14942471239119823, 'l_rate': 0.0780372452311741, 'mdecay': 0.9976079898131723, 'n_units_1': 243, 'n_units_2': 143}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 256.08540414990574, 'info': {'function_value': 256.08540414990574, 'cost': 14.233817100524902}}
+exception: None
+
+19:48:39 job_callback for (0, 0, 16) started
+19:48:39 DISPATCHER: Trying to submit another job.
+19:48:39 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:39 job_callback for (0, 0, 16) got condition
+19:48:39 done building a new model for budget 370.370370 based on 6/13 split
+Best loss for this budget:100.666183
+
+
+
+
+
+19:48:39 HBMASTER: Trying to run another job!
+19:48:39 job_callback for (0, 0, 16) finished
+19:48:39 start sampling a new configuration.
+19:48:39 done sampling a new configuration.
+19:48:39 HBMASTER: schedule new run for iteration 0
+19:48:39 HBMASTER: trying submitting job (0, 0, 19) to dispatcher
+19:48:39 HBMASTER: submitting job (0, 0, 19) to dispatcher
+19:48:39 DISPATCHER: trying to submit job (0, 0, 19)
+19:48:39 DISPATCHER: trying to notify the job_runner thread.
+19:48:39 HBMASTER: job (0, 0, 19) submitted to dispatcher
+19:48:39 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:39 DISPATCHER: Trying to submit another job.
+19:48:39 DISPATCHER: starting job (0, 0, 19) on hpbandster.run_42.worker.metaex24.39510
+19:48:39 DISPATCHER: job (0, 0, 19) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:48:39 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:41 DISPATCHER: job (0, 0, 18) finished
+19:48:41 DISPATCHER: register_result: lock acquired
+19:48:41 DISPATCHER: job (0, 0, 18) on hpbandster.run_42.worker.metaex19.34818 finished
+19:48:41 job_id: (0, 0, 18)
+kwargs: {'config': {'burn_in': 0.047005534451331765, 'l_rate': 0.09613193382258516, 'mdecay': 0.7569634178505533, 'n_units_1': 27, 'n_units_2': 25}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 36.88727663944238, 'info': {'function_value': 36.88727663944238, 'cost': 9.1213960647583}}
+exception: None
+
+19:48:41 job_callback for (0, 0, 18) started
+19:48:41 DISPATCHER: Trying to submit another job.
+19:48:41 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:41 job_callback for (0, 0, 18) got condition
+19:48:41 done building a new model for budget 370.370370 based on 6/14 split
+Best loss for this budget:36.887277
+
+
+
+
+
+19:48:41 HBMASTER: Trying to run another job!
+19:48:41 job_callback for (0, 0, 18) finished
+19:48:41 start sampling a new configuration.
+19:48:41 done sampling a new configuration.
+19:48:41 HBMASTER: schedule new run for iteration 0
+19:48:41 HBMASTER: trying submitting job (0, 0, 20) to dispatcher
+19:48:41 HBMASTER: submitting job (0, 0, 20) to dispatcher
+19:48:41 DISPATCHER: trying to submit job (0, 0, 20)
+19:48:41 DISPATCHER: trying to notify the job_runner thread.
+19:48:41 HBMASTER: job (0, 0, 20) submitted to dispatcher
+19:48:41 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:41 DISPATCHER: Trying to submit another job.
+19:48:41 DISPATCHER: starting job (0, 0, 20) on hpbandster.run_42.worker.metaex19.34818
+19:48:41 DISPATCHER: job (0, 0, 20) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:48:41 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:42 Iter      200 : NLL =  9.0011e+02 MSE = 6.8799e+03 Samples= 2 Time = 17.98
+19:48:45 Iter      300 : NLL =  5.1488e+02 MSE = 3.9074e+03 Samples= 3 Time = 21.69
+19:48:48 WORKER: done with job (0, 0, 15), trying to register it.
+19:48:48 WORKER: registered result for job (0, 0, 15) with dispatcher
+19:48:48 DISPATCHER: job (0, 0, 15) finished
+19:48:48 DISPATCHER: register_result: lock acquired
+19:48:48 DISPATCHER: job (0, 0, 15) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:48:48 job_id: (0, 0, 15)
+kwargs: {'config': {'burn_in': 0.08260847561880807, 'l_rate': 0.08598386834251442, 'mdecay': 0.7789611562114385, 'n_units_1': 223, 'n_units_2': 393}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 86.92934945355077, 'info': {'function_value': 86.92934945355077, 'cost': 24.35150718688965}}
+exception: None
+
+19:48:48 job_callback for (0, 0, 15) started
+19:48:48 DISPATCHER: Trying to submit another job.
+19:48:48 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:48 job_callback for (0, 0, 15) got condition
+19:48:48 done building a new model for budget 370.370370 based on 6/15 split
+Best loss for this budget:36.887277
+
+
+
+
+
+19:48:48 HBMASTER: Trying to run another job!
+19:48:48 job_callback for (0, 0, 15) finished
+19:48:48 start sampling a new configuration.
+19:48:48 best_vector: [0.08726241164402607, 0.9055694888447563, 0.894925933621048, 0.015565921680004813, 0.07240666570301035], 3.210445542912777e-05, 7.049774759664409, 0.00022632917955703595
+19:48:48 done sampling a new configuration.
+19:48:48 HBMASTER: schedule new run for iteration 0
+19:48:48 HBMASTER: trying submitting job (0, 0, 21) to dispatcher
+19:48:48 HBMASTER: submitting job (0, 0, 21) to dispatcher
+19:48:48 DISPATCHER: trying to submit job (0, 0, 21)
+19:48:48 DISPATCHER: trying to notify the job_runner thread.
+19:48:48 HBMASTER: job (0, 0, 21) submitted to dispatcher
+19:48:48 DISPATCHER: Trying to submit another job.
+19:48:48 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:48 DISPATCHER: starting job (0, 0, 21) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:48 DISPATCHER: job (0, 0, 21) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:48 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:48 WORKER: start processing job (0, 0, 21)
+19:48:48 WORKER: args: ()
+19:48:48 WORKER: kwargs: {'config': {'burn_in': 0.06980992931522086, 'l_rate': 0.033716884965698614, 'mdecay': 0.894925933621048, 'n_units_1': 16, 'n_units_2': 20}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:48 DISPATCHER: job (0, 0, 19) finished
+19:48:48 DISPATCHER: register_result: lock acquired
+19:48:48 DISPATCHER: job (0, 0, 19) on hpbandster.run_42.worker.metaex24.39510 finished
+19:48:48 job_id: (0, 0, 19)
+kwargs: {'config': {'burn_in': 0.10268560635153108, 'l_rate': 1.8486659070247932e-06, 'mdecay': 0.5307535739596823, 'n_units_1': 43, 'n_units_2': 242}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 1315575404349.3884, 'info': {'function_value': 1315575404349.3884, 'cost': 9.343600988388062}}
+exception: None
+
+19:48:48 job_callback for (0, 0, 19) started
+19:48:48 job_callback for (0, 0, 19) got condition
+19:48:48 DISPATCHER: Trying to submit another job.
+19:48:48 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:48 done building a new model for budget 370.370370 based on 6/16 split
+Best loss for this budget:36.887277
+
+
+
+
+
+19:48:48 HBMASTER: Trying to run another job!
+19:48:48 job_callback for (0, 0, 19) finished
+19:48:48 start sampling a new configuration.
+19:48:48 done sampling a new configuration.
+19:48:48 DISPATCHER: job (0, 0, 17) finished
+19:48:48 HBMASTER: schedule new run for iteration 0
+19:48:48 DISPATCHER: register_result: lock acquired
+19:48:48 HBMASTER: trying submitting job (0, 0, 22) to dispatcher
+19:48:48 DISPATCHER: job (0, 0, 17) on hpbandster.run_42.worker.metaex24.39501 finished
+19:48:48 HBMASTER: submitting job (0, 0, 22) to dispatcher
+19:48:48 job_id: (0, 0, 17)
+kwargs: {'config': {'burn_in': 0.13324956361293347, 'l_rate': 0.013396733503239267, 'mdecay': 0.7104639152901427, 'n_units_1': 278, 'n_units_2': 258}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 22.66922947479539, 'info': {'function_value': 22.66922947479539, 'cost': 22.31639075279236}}
+exception: None
+
+19:48:48 DISPATCHER: trying to submit job (0, 0, 22)
+19:48:48 job_callback for (0, 0, 17) started
+19:48:48 DISPATCHER: trying to notify the job_runner thread.
+19:48:48 HBMASTER: job (0, 0, 22) submitted to dispatcher
+19:48:48 DISPATCHER: Trying to submit another job.
+19:48:48 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:48 DISPATCHER: starting job (0, 0, 22) on hpbandster.run_42.worker.metaex24.39510
+19:48:48 job_callback for (0, 0, 17) got condition
+19:48:49 DISPATCHER: job (0, 0, 22) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:48:49 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:49 done building a new model for budget 370.370370 based on 6/17 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:48:49 HBMASTER: Trying to run another job!
+19:48:49 job_callback for (0, 0, 17) finished
+19:48:49 start sampling a new configuration.
+19:48:49 done sampling a new configuration.
+19:48:49 HBMASTER: schedule new run for iteration 0
+19:48:49 HBMASTER: trying submitting job (0, 0, 23) to dispatcher
+19:48:49 HBMASTER: submitting job (0, 0, 23) to dispatcher
+19:48:49 DISPATCHER: trying to submit job (0, 0, 23)
+19:48:49 DISPATCHER: trying to notify the job_runner thread.
+19:48:49 HBMASTER: job (0, 0, 23) submitted to dispatcher
+19:48:49 DISPATCHER: Trying to submit another job.
+19:48:49 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:49 DISPATCHER: starting job (0, 0, 23) on hpbandster.run_42.worker.metaex24.39501
+19:48:49 DISPATCHER: job (0, 0, 23) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:48:49 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:50 Starting sampling
+19:48:51 DISPATCHER: job (0, 0, 20) finished
+19:48:51 DISPATCHER: register_result: lock acquired
+19:48:51 DISPATCHER: job (0, 0, 20) on hpbandster.run_42.worker.metaex19.34818 finished
+19:48:51 job_id: (0, 0, 20)
+kwargs: {'config': {'burn_in': 0.3335735749490855, 'l_rate': 0.00027639066785614636, 'mdecay': 0.9489101894862153, 'n_units_1': 141, 'n_units_2': 38}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 409045578.997412, 'info': {'function_value': 409045578.997412, 'cost': 9.459255933761597}}
+exception: None
+
+19:48:51 job_callback for (0, 0, 20) started
+19:48:51 DISPATCHER: Trying to submit another job.
+19:48:51 job_callback for (0, 0, 20) got condition
+19:48:51 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:51 done building a new model for budget 370.370370 based on 6/17 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:48:51 HBMASTER: Trying to run another job!
+19:48:51 job_callback for (0, 0, 20) finished
+19:48:51 start sampling a new configuration.
+19:48:51 best_vector: [0.15477462247252874, 0.9394330638008597, 0.7316198251594179, 0.7320594587773958, 0.8694573913492387], 0.0003472477605202587, 37.31064423063467, 0.012956037652656
+19:48:51 done sampling a new configuration.
+19:48:51 HBMASTER: schedule new run for iteration 0
+19:48:51 HBMASTER: trying submitting job (0, 0, 24) to dispatcher
+19:48:51 HBMASTER: submitting job (0, 0, 24) to dispatcher
+19:48:51 DISPATCHER: trying to submit job (0, 0, 24)
+19:48:51 DISPATCHER: trying to notify the job_runner thread.
+19:48:51 HBMASTER: job (0, 0, 24) submitted to dispatcher
+19:48:51 DISPATCHER: Trying to submit another job.
+19:48:51 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:51 DISPATCHER: starting job (0, 0, 24) on hpbandster.run_42.worker.metaex19.34818
+19:48:51 DISPATCHER: job (0, 0, 24) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:48:51 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:54 Iter        0 : NLL =  9.5831e+02 MSE = 4.4400e+00 Time =  5.81
+19:48:57 Iter      100 : NLL =  5.0377e+01 MSE = 2.3520e-01 Samples= 1 Time =  8.53
+19:48:57 Iter      200 : NLL =  4.2596e+01 MSE = 1.9807e-01 Samples= 2 Time =  8.58
+19:48:57 Iter      300 : NLL =  3.8579e+01 MSE = 1.7805e-01 Samples= 3 Time =  8.63
+19:48:57 WORKER: done with job (0, 0, 21), trying to register it.
+19:48:57 WORKER: registered result for job (0, 0, 21) with dispatcher
+19:48:57 DISPATCHER: job (0, 0, 21) finished
+19:48:57 DISPATCHER: register_result: lock acquired
+19:48:57 DISPATCHER: job (0, 0, 21) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:48:57 job_id: (0, 0, 21)
+kwargs: {'config': {'burn_in': 0.06980992931522086, 'l_rate': 0.033716884965698614, 'mdecay': 0.894925933621048, 'n_units_1': 16, 'n_units_2': 20}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 189.1355517767766, 'info': {'function_value': 189.1355517767766, 'cost': 8.686755895614624}}
+exception: None
+
+19:48:57 job_callback for (0, 0, 21) started
+19:48:57 DISPATCHER: Trying to submit another job.
+19:48:57 job_callback for (0, 0, 21) got condition
+19:48:57 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:57 done building a new model for budget 370.370370 based on 6/18 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:48:57 HBMASTER: Trying to run another job!
+19:48:57 job_callback for (0, 0, 21) finished
+19:48:57 start sampling a new configuration.
+19:48:57 best_vector: [0.19280326094640848, 0.7263289033275071, 0.9059685091053697, 0.1525037852281139, 0.789384950771265], 0.003660547273730319, 30.449800141018518, 0.11146293289183841
+19:48:57 done sampling a new configuration.
+19:48:57 HBMASTER: schedule new run for iteration 0
+19:48:57 HBMASTER: trying submitting job (0, 0, 25) to dispatcher
+19:48:57 HBMASTER: submitting job (0, 0, 25) to dispatcher
+19:48:57 DISPATCHER: trying to submit job (0, 0, 25)
+19:48:57 DISPATCHER: trying to notify the job_runner thread.
+19:48:57 HBMASTER: job (0, 0, 25) submitted to dispatcher
+19:48:57 DISPATCHER: Trying to submit another job.
+19:48:57 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:57 DISPATCHER: starting job (0, 0, 25) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:57 DISPATCHER: job (0, 0, 25) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:48:57 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:57 WORKER: start processing job (0, 0, 25)
+19:48:57 WORKER: args: ()
+19:48:57 WORKER: kwargs: {'config': {'burn_in': 0.1542426087571268, 'l_rate': 0.004281978838038023, 'mdecay': 0.9059685091053697, 'n_units_1': 26, 'n_units_2': 245}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:48:58 DISPATCHER: job (0, 0, 22) finished
+19:48:58 DISPATCHER: register_result: lock acquired
+19:48:58 DISPATCHER: job (0, 0, 22) on hpbandster.run_42.worker.metaex24.39510 finished
+19:48:58 job_id: (0, 0, 22)
+kwargs: {'config': {'burn_in': 0.13199722897563193, 'l_rate': 6.648047100416347e-05, 'mdecay': 0.4347266864843836, 'n_units_1': 178, 'n_units_2': 38}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 155235831.78663236, 'info': {'function_value': 155235831.78663236, 'cost': 9.484727382659912}}
+exception: None
+
+19:48:58 job_callback for (0, 0, 22) started
+19:48:58 DISPATCHER: Trying to submit another job.
+19:48:58 job_callback for (0, 0, 22) got condition
+19:48:58 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:48:58 done building a new model for budget 370.370370 based on 6/19 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:48:58 HBMASTER: Trying to run another job!
+19:48:58 job_callback for (0, 0, 22) finished
+19:48:58 start sampling a new configuration.
+19:48:58 done sampling a new configuration.
+19:48:58 HBMASTER: schedule new run for iteration 0
+19:48:58 HBMASTER: trying submitting job (0, 0, 26) to dispatcher
+19:48:58 HBMASTER: submitting job (0, 0, 26) to dispatcher
+19:48:58 DISPATCHER: trying to submit job (0, 0, 26)
+19:48:58 DISPATCHER: trying to notify the job_runner thread.
+19:48:58 HBMASTER: job (0, 0, 26) submitted to dispatcher
+19:48:58 DISPATCHER: Trying to submit another job.
+19:48:58 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:48:58 DISPATCHER: starting job (0, 0, 26) on hpbandster.run_42.worker.metaex24.39510
+19:48:58 DISPATCHER: job (0, 0, 26) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:48:58 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:48:58 Starting sampling
+19:49:03 Iter        0 : NLL =  6.8021e+02 MSE = 1.3664e+00 Time =  5.66
+19:49:06 Iter      100 : NLL =  4.8705e+02 MSE = 9.7894e-01 Samples= 1 Time =  8.76
+19:49:06 Iter      200 : NLL =  3.7268e+02 MSE = 7.4822e-01 Samples= 2 Time =  8.92
+19:49:06 Iter      300 : NLL =  3.0312e+02 MSE = 6.0781e-01 Samples= 3 Time =  9.08
+19:49:06 WORKER: done with job (0, 0, 25), trying to register it.
+19:49:06 WORKER: registered result for job (0, 0, 25) with dispatcher
+19:49:06 DISPATCHER: job (0, 0, 25) finished
+19:49:06 DISPATCHER: register_result: lock acquired
+19:49:06 DISPATCHER: job (0, 0, 25) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:49:06 job_id: (0, 0, 25)
+kwargs: {'config': {'burn_in': 0.1542426087571268, 'l_rate': 0.004281978838038023, 'mdecay': 0.9059685091053697, 'n_units_1': 26, 'n_units_2': 245}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 697.3205609285263, 'info': {'function_value': 697.3205609285263, 'cost': 9.21906566619873}}
+exception: None
+
+19:49:06 job_callback for (0, 0, 25) started
+19:49:06 DISPATCHER: Trying to submit another job.
+19:49:06 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:06 job_callback for (0, 0, 25) got condition
+19:49:06 done building a new model for budget 370.370370 based on 6/20 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:49:06 HBMASTER: Trying to run another job!
+19:49:06 job_callback for (0, 0, 25) finished
+19:49:06 start sampling a new configuration.
+19:49:06 best_vector: [0.0767749043276738, 0.9624979672188196, 0.7052280213977413, 0.42951854850120463, 0.008425104641895692], 0.0012559770550484672, 25.739477436159728, 0.03232819306875437
+19:49:06 done sampling a new configuration.
+19:49:06 HBMASTER: schedule new run for iteration 1
+19:49:06 HBMASTER: trying submitting job (1, 0, 0) to dispatcher
+19:49:06 HBMASTER: submitting job (1, 0, 0) to dispatcher
+19:49:06 DISPATCHER: trying to submit job (1, 0, 0)
+19:49:06 DISPATCHER: trying to notify the job_runner thread.
+19:49:06 HBMASTER: job (1, 0, 0) submitted to dispatcher
+19:49:06 DISPATCHER: Trying to submit another job.
+19:49:06 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:06 DISPATCHER: starting job (1, 0, 0) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:49:06 DISPATCHER: job (1, 0, 0) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:49:06 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:06 WORKER: start processing job (1, 0, 0)
+19:49:06 WORKER: args: ()
+19:49:06 WORKER: kwargs: {'config': {'burn_in': 0.06141992346213904, 'l_rate': 0.06493664341080427, 'mdecay': 0.7052280213977413, 'n_units_1': 70, 'n_units_2': 16}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:49:08 Starting sampling
+19:49:08 DISPATCHER: job (0, 0, 26) finished
+19:49:08 DISPATCHER: register_result: lock acquired
+19:49:08 DISPATCHER: job (0, 0, 26) on hpbandster.run_42.worker.metaex24.39510 finished
+19:49:08 job_id: (0, 0, 26)
+kwargs: {'config': {'burn_in': 0.5818823939167872, 'l_rate': 9.751878890054153e-06, 'mdecay': 0.41686087695455365, 'n_units_1': 111, 'n_units_2': 95}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 9.951406240463257}}
+exception: None
+
+19:49:08 job_callback for (0, 0, 26) started
+19:49:08 DISPATCHER: Trying to submit another job.
+19:49:08 job_callback for (0, 0, 26) got condition
+19:49:08 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:08 done building a new model for budget 370.370370 based on 6/21 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:49:08 HBMASTER: Trying to run another job!
+19:49:08 job_callback for (0, 0, 26) finished
+19:49:08 start sampling a new configuration.
+19:49:08 done sampling a new configuration.
+19:49:08 HBMASTER: schedule new run for iteration 1
+19:49:08 HBMASTER: trying submitting job (1, 0, 1) to dispatcher
+19:49:08 HBMASTER: submitting job (1, 0, 1) to dispatcher
+19:49:08 DISPATCHER: trying to submit job (1, 0, 1)
+19:49:08 DISPATCHER: trying to notify the job_runner thread.
+19:49:08 HBMASTER: job (1, 0, 1) submitted to dispatcher
+19:49:08 DISPATCHER: Trying to submit another job.
+19:49:08 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:08 DISPATCHER: starting job (1, 0, 1) on hpbandster.run_42.worker.metaex24.39510
+19:49:08 DISPATCHER: job (1, 0, 1) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:49:08 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:10 DISPATCHER: job (0, 0, 24) finished
+19:49:10 DISPATCHER: register_result: lock acquired
+19:49:10 DISPATCHER: job (0, 0, 24) on hpbandster.run_42.worker.metaex19.34818 finished
+19:49:10 job_id: (0, 0, 24)
+kwargs: {'config': {'burn_in': 0.123819697978023, 'l_rate': 0.04979265901790533, 'mdecay': 0.7316198251594179, 'n_units_1': 201, 'n_units_2': 325}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 48.534142959287955, 'info': {'function_value': 48.534142959287955, 'cost': 19.465548515319824}}
+exception: None
+
+19:49:10 job_callback for (0, 0, 24) started
+19:49:10 DISPATCHER: Trying to submit another job.
+19:49:10 job_callback for (0, 0, 24) got condition
+19:49:10 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:10 done building a new model for budget 370.370370 based on 6/22 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:49:10 HBMASTER: Trying to run another job!
+19:49:10 job_callback for (0, 0, 24) finished
+19:49:10 start sampling a new configuration.
+19:49:10 best_vector: [0.13587919721144445, 0.9523807220848254, 0.691679159724157, 0.9007714045678148, 0.7696322455191221], 0.003827763349346748, 77.02998095007733, 0.29485253788158416
+19:49:10 done sampling a new configuration.
+19:49:10 DISPATCHER: job (0, 0, 23) finished
+19:49:10 HBMASTER: schedule new run for iteration 1
+19:49:10 DISPATCHER: register_result: lock acquired
+19:49:10 HBMASTER: trying submitting job (1, 0, 2) to dispatcher
+19:49:10 DISPATCHER: job (0, 0, 23) on hpbandster.run_42.worker.metaex24.39501 finished
+19:49:10 HBMASTER: submitting job (1, 0, 2) to dispatcher
+19:49:10 job_id: (0, 0, 23)
+kwargs: {'config': {'burn_in': 0.7312961860338041, 'l_rate': 8.209857088115294e-05, 'mdecay': 0.2840316634014639, 'n_units_1': 315, 'n_units_2': 180}, 'budget': 370.3703703703703, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': nan, 'info': {'function_value': nan, 'cost': 21.82620120048523}}
+exception: None
+
+19:49:10 DISPATCHER: trying to submit job (1, 0, 2)
+19:49:10 job_callback for (0, 0, 23) started
+19:49:10 DISPATCHER: trying to notify the job_runner thread.
+19:49:10 HBMASTER: job (1, 0, 2) submitted to dispatcher
+19:49:10 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:10 DISPATCHER: Trying to submit another job.
+19:49:10 job_callback for (0, 0, 23) got condition
+19:49:10 DISPATCHER: starting job (1, 0, 2) on hpbandster.run_42.worker.metaex24.39501
+19:49:10 DISPATCHER: job (1, 0, 2) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:49:10 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:10 done building a new model for budget 370.370370 based on 6/22 split
+Best loss for this budget:22.669229
+
+
+
+
+
+19:49:10 HBMASTER: Trying to run another job!
+19:49:10 job_callback for (0, 0, 23) finished
+19:49:10 ITERATION: Advancing config (0, 0, 1) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 8) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 15) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 16) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 17) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 18) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 21) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 24) to next budget 1111.111111
+19:49:10 ITERATION: Advancing config (0, 0, 25) to next budget 1111.111111
+19:49:10 HBMASTER: schedule new run for iteration 0
+19:49:10 HBMASTER: trying submitting job (0, 0, 1) to dispatcher
+19:49:10 HBMASTER: submitting job (0, 0, 1) to dispatcher
+19:49:10 DISPATCHER: trying to submit job (0, 0, 1)
+19:49:10 DISPATCHER: trying to notify the job_runner thread.
+19:49:10 HBMASTER: job (0, 0, 1) submitted to dispatcher
+19:49:10 DISPATCHER: Trying to submit another job.
+19:49:10 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:10 DISPATCHER: starting job (0, 0, 1) on hpbandster.run_42.worker.metaex19.34818
+19:49:10 DISPATCHER: job (0, 0, 1) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:49:10 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:12 Iter        0 : NLL =  9.6548e+02 MSE = 2.8168e+01 Time =  5.81
+19:49:15 Iter      100 : NLL =  2.3101e+01 MSE = 5.4683e-01 Samples= 1 Time =  8.66
+19:49:15 Iter      200 : NLL =  2.0289e+01 MSE = 2.0846e-01 Samples= 2 Time =  8.78
+19:49:15 Iter      300 : NLL =  1.9459e+01 MSE = 1.6221e-01 Samples= 3 Time =  8.86
+19:49:15 Iter      400 : NLL =  1.8595e+01 MSE = 1.2831e-01 Samples= 4 Time =  8.94
+19:49:15 Iter      500 : NLL =  1.7717e+01 MSE = 9.2839e-02 Samples= 5 Time =  9.01
+19:49:15 Iter      600 : NLL =  1.7009e+01 MSE = 7.4383e-02 Samples= 6 Time =  9.09
+19:49:16 Iter      700 : NLL =  1.6624e+01 MSE = 7.0764e-02 Samples= 7 Time =  9.17
+19:49:16 Iter      800 : NLL =  1.7746e+01 MSE = 1.3864e-01 Samples= 8 Time =  9.24
+19:49:16 Iter      900 : NLL =  2.0337e+01 MSE = 2.5496e-01 Samples= 9 Time =  9.32
+19:49:16 Iter     1000 : NLL =  1.5630e+01 MSE = 5.1269e-02 Samples= 10 Time =  9.46
+19:49:16 Iter     1100 : NLL =  1.7036e+01 MSE = 1.1561e-01 Samples= 11 Time =  9.59
+19:49:16 WORKER: done with job (1, 0, 0), trying to register it.
+19:49:16 WORKER: registered result for job (1, 0, 0) with dispatcher
+19:49:16 DISPATCHER: job (1, 0, 0) finished
+19:49:16 DISPATCHER: register_result: lock acquired
+19:49:16 DISPATCHER: job (1, 0, 0) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:49:16 job_id: (1, 0, 0)
+kwargs: {'config': {'burn_in': 0.06141992346213904, 'l_rate': 0.06493664341080427, 'mdecay': 0.7052280213977413, 'n_units_1': 70, 'n_units_2': 16}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 9.363036603445446, 'info': {'function_value': 9.363036603445446, 'cost': 9.658744096755981}}
+exception: None
+
+19:49:16 job_callback for (1, 0, 0) started
+19:49:16 DISPATCHER: Trying to submit another job.
+19:49:16 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:16 job_callback for (1, 0, 0) got condition
+19:49:16 Only 1 run(s) for budget 1111.111111 available, need more than 7 -> can't build model!
+19:49:16 HBMASTER: Trying to run another job!
+19:49:16 job_callback for (1, 0, 0) finished
+19:49:16 HBMASTER: schedule new run for iteration 0
+19:49:16 HBMASTER: trying submitting job (0, 0, 8) to dispatcher
+19:49:16 HBMASTER: submitting job (0, 0, 8) to dispatcher
+19:49:16 DISPATCHER: trying to submit job (0, 0, 8)
+19:49:16 DISPATCHER: trying to notify the job_runner thread.
+19:49:16 HBMASTER: job (0, 0, 8) submitted to dispatcher
+19:49:16 DISPATCHER: Trying to submit another job.
+19:49:16 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:16 DISPATCHER: starting job (0, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:49:16 DISPATCHER: job (0, 0, 8) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:49:16 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:16 WORKER: start processing job (0, 0, 8)
+19:49:16 WORKER: args: ()
+19:49:16 WORKER: kwargs: {'config': {'burn_in': 0.009335675509209818, 'l_rate': 0.004916380581632049, 'mdecay': 0.6737769174022753, 'n_units_1': 17, 'n_units_2': 58}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:49:17 Starting sampling
+19:49:19 DISPATCHER: job (1, 0, 1) finished
+19:49:19 DISPATCHER: register_result: lock acquired
+19:49:19 DISPATCHER: job (1, 0, 1) on hpbandster.run_42.worker.metaex24.39510 finished
+19:49:19 job_id: (1, 0, 1)
+kwargs: {'config': {'burn_in': 0.6269784722931857, 'l_rate': 0.0004344688158200519, 'mdecay': 0.015469595103513756, 'n_units_1': 123, 'n_units_2': 25}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 10923.726898385808, 'info': {'function_value': 10923.726898385808, 'cost': 10.910550355911255}}
+exception: None
+
+19:49:19 job_callback for (1, 0, 1) started
+19:49:19 DISPATCHER: Trying to submit another job.
+19:49:19 job_callback for (1, 0, 1) got condition
+19:49:19 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:19 Only 2 run(s) for budget 1111.111111 available, need more than 7 -> can't build model!
+19:49:19 HBMASTER: Trying to run another job!
+19:49:19 job_callback for (1, 0, 1) finished
+19:49:19 HBMASTER: schedule new run for iteration 0
+19:49:19 HBMASTER: trying submitting job (0, 0, 15) to dispatcher
+19:49:19 HBMASTER: submitting job (0, 0, 15) to dispatcher
+19:49:19 DISPATCHER: trying to submit job (0, 0, 15)
+19:49:19 DISPATCHER: trying to notify the job_runner thread.
+19:49:19 HBMASTER: job (0, 0, 15) submitted to dispatcher
+19:49:19 DISPATCHER: Trying to submit another job.
+19:49:19 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:19 DISPATCHER: starting job (0, 0, 15) on hpbandster.run_42.worker.metaex24.39510
+19:49:19 DISPATCHER: job (0, 0, 15) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:49:19 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:22 Iter        0 : NLL =  5.5232e+02 MSE = 1.1064e+00 Time =  5.59
+19:49:22 DISPATCHER: job (0, 0, 1) finished
+19:49:22 DISPATCHER: register_result: lock acquired
+19:49:22 DISPATCHER: job (0, 0, 1) on hpbandster.run_42.worker.metaex19.34818 finished
+19:49:22 job_id: (0, 0, 1)
+kwargs: {'config': {'burn_in': 0.1488581768523096, 'l_rate': 0.0049146356950688285, 'mdecay': 0.9995835848079807, 'n_units_1': 38, 'n_units_2': 336}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 142.55937799968206, 'info': {'function_value': 142.55937799968206, 'cost': 11.94784140586853}}
+exception: None
+
+19:49:22 job_callback for (0, 0, 1) started
+19:49:22 DISPATCHER: Trying to submit another job.
+19:49:22 job_callback for (0, 0, 1) got condition
+19:49:22 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:22 Only 3 run(s) for budget 1111.111111 available, need more than 7 -> can't build model!
+19:49:22 HBMASTER: Trying to run another job!
+19:49:22 job_callback for (0, 0, 1) finished
+19:49:22 HBMASTER: schedule new run for iteration 0
+19:49:22 HBMASTER: trying submitting job (0, 0, 16) to dispatcher
+19:49:22 HBMASTER: submitting job (0, 0, 16) to dispatcher
+19:49:22 DISPATCHER: trying to submit job (0, 0, 16)
+19:49:22 DISPATCHER: trying to notify the job_runner thread.
+19:49:22 HBMASTER: job (0, 0, 16) submitted to dispatcher
+19:49:22 DISPATCHER: Trying to submit another job.
+19:49:22 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:22 DISPATCHER: starting job (0, 0, 16) on hpbandster.run_42.worker.metaex19.34818
+19:49:22 DISPATCHER: job (0, 0, 16) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:49:22 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:24 Iter      100 : NLL =  4.6125e+02 MSE = 9.2916e-01 Samples= 1 Time =  8.40
+19:49:25 Iter      200 : NLL =  4.1358e+02 MSE = 8.3378e-01 Samples= 2 Time =  8.52
+19:49:25 Iter      300 : NLL =  3.7473e+02 MSE = 7.5587e-01 Samples= 3 Time =  8.68
+19:49:25 Iter      400 : NLL =  3.3543e+02 MSE = 6.7685e-01 Samples= 4 Time =  8.82
+19:49:25 Iter      500 : NLL =  3.0742e+02 MSE = 6.2029e-01 Samples= 5 Time =  8.94
+19:49:25 Iter      600 : NLL =  2.8308e+02 MSE = 5.7118e-01 Samples= 6 Time =  9.06
+19:49:25 Iter      700 : NLL =  2.6380e+02 MSE = 5.3229e-01 Samples= 7 Time =  9.22
+19:49:25 Iter      800 : NLL =  2.4215e+02 MSE = 4.8858e-01 Samples= 8 Time =  9.38
+19:49:26 Iter      900 : NLL =  2.2453e+02 MSE = 4.5277e-01 Samples= 9 Time =  9.50
+19:49:26 Iter     1000 : NLL =  2.0978e+02 MSE = 4.2277e-01 Samples= 10 Time =  9.67
+19:49:26 Iter     1100 : NLL =  1.9735e+02 MSE = 3.9751e-01 Samples= 11 Time =  9.80
+19:49:26 WORKER: done with job (0, 0, 8), trying to register it.
+19:49:26 WORKER: registered result for job (0, 0, 8) with dispatcher
+19:49:26 DISPATCHER: job (0, 0, 8) finished
+19:49:26 DISPATCHER: register_result: lock acquired
+19:49:26 DISPATCHER: job (0, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:49:26 job_id: (0, 0, 8)
+kwargs: {'config': {'burn_in': 0.009335675509209818, 'l_rate': 0.004916380581632049, 'mdecay': 0.6737769174022753, 'n_units_1': 17, 'n_units_2': 58}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 499.40863008655157, 'info': {'function_value': 499.40863008655157, 'cost': 9.894281387329102}}
+exception: None
+
+19:49:26 job_callback for (0, 0, 8) started
+19:49:26 DISPATCHER: Trying to submit another job.
+19:49:26 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:26 job_callback for (0, 0, 8) got condition
+19:49:26 Only 4 run(s) for budget 1111.111111 available, need more than 7 -> can't build model!
+19:49:26 HBMASTER: Trying to run another job!
+19:49:26 job_callback for (0, 0, 8) finished
+19:49:26 HBMASTER: schedule new run for iteration 0
+19:49:26 HBMASTER: trying submitting job (0, 0, 17) to dispatcher
+19:49:26 HBMASTER: submitting job (0, 0, 17) to dispatcher
+19:49:26 DISPATCHER: trying to submit job (0, 0, 17)
+19:49:26 DISPATCHER: trying to notify the job_runner thread.
+19:49:26 HBMASTER: job (0, 0, 17) submitted to dispatcher
+19:49:26 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:26 DISPATCHER: Trying to submit another job.
+19:49:26 DISPATCHER: starting job (0, 0, 17) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:49:26 DISPATCHER: job (0, 0, 17) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:49:26 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:26 WORKER: start processing job (0, 0, 17)
+19:49:26 WORKER: args: ()
+19:49:26 WORKER: kwargs: {'config': {'burn_in': 0.13324956361293347, 'l_rate': 0.013396733503239267, 'mdecay': 0.7104639152901427, 'n_units_1': 278, 'n_units_2': 258}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:49:28 Starting sampling
+19:49:32 Iter        0 : NLL =  1.0787e+04 MSE = 2.8383e+01 Time =  5.84
+19:49:45 Iter      200 : NLL =  5.0139e+01 MSE = 1.3831e-01 Samples= 1 Time = 19.52
+19:49:48 DISPATCHER: job (0, 0, 16) finished
+19:49:48 DISPATCHER: register_result: lock acquired
+19:49:48 DISPATCHER: job (0, 0, 16) on hpbandster.run_42.worker.metaex19.34818 finished
+19:49:48 job_id: (0, 0, 16)
+kwargs: {'config': {'burn_in': 0.14942471239119823, 'l_rate': 0.0780372452311741, 'mdecay': 0.9976079898131723, 'n_units_1': 243, 'n_units_2': 143}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 32.55246987072005, 'info': {'function_value': 32.55246987072005, 'cost': 25.239529609680176}}
+exception: None
+
+19:49:48 job_callback for (0, 0, 16) started
+19:49:48 job_callback for (0, 0, 16) got condition
+19:49:48 DISPATCHER: Trying to submit another job.
+19:49:48 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:48 Only 5 run(s) for budget 1111.111111 available, need more than 7 -> can't build model!
+19:49:48 HBMASTER: Trying to run another job!
+19:49:48 job_callback for (0, 0, 16) finished
+19:49:48 HBMASTER: schedule new run for iteration 0
+19:49:48 HBMASTER: trying submitting job (0, 0, 18) to dispatcher
+19:49:48 HBMASTER: submitting job (0, 0, 18) to dispatcher
+19:49:48 DISPATCHER: trying to submit job (0, 0, 18)
+19:49:48 DISPATCHER: trying to notify the job_runner thread.
+19:49:48 HBMASTER: job (0, 0, 18) submitted to dispatcher
+19:49:48 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:48 DISPATCHER: Trying to submit another job.
+19:49:48 DISPATCHER: starting job (0, 0, 18) on hpbandster.run_42.worker.metaex19.34818
+19:49:48 DISPATCHER: job (0, 0, 18) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:49:48 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:50 Iter      300 : NLL =  3.6422e+01 MSE = 9.8061e-02 Samples= 2 Time = 23.73
+19:49:54 Iter      400 : NLL =  3.1766e+01 MSE = 8.4514e-02 Samples= 3 Time = 27.92
+19:49:57 DISPATCHER: job (0, 0, 18) finished
+19:49:57 DISPATCHER: register_result: lock acquired
+19:49:57 DISPATCHER: job (0, 0, 18) on hpbandster.run_42.worker.metaex19.34818 finished
+19:49:57 job_id: (0, 0, 18)
+kwargs: {'config': {'burn_in': 0.047005534451331765, 'l_rate': 0.09613193382258516, 'mdecay': 0.7569634178505533, 'n_units_1': 27, 'n_units_2': 25}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4.717308795247905, 'info': {'function_value': 4.717308795247905, 'cost': 9.447808027267456}}
+exception: None
+
+19:49:57 job_callback for (0, 0, 18) started
+19:49:57 DISPATCHER: Trying to submit another job.
+19:49:57 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:49:57 job_callback for (0, 0, 18) got condition
+19:49:57 HBMASTER: Trying to run another job!
+19:49:57 job_callback for (0, 0, 18) finished
+19:49:57 HBMASTER: schedule new run for iteration 0
+19:49:57 HBMASTER: trying submitting job (0, 0, 21) to dispatcher
+19:49:57 HBMASTER: submitting job (0, 0, 21) to dispatcher
+19:49:57 DISPATCHER: trying to submit job (0, 0, 21)
+19:49:57 DISPATCHER: trying to notify the job_runner thread.
+19:49:57 HBMASTER: job (0, 0, 21) submitted to dispatcher
+19:49:57 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:49:57 DISPATCHER: Trying to submit another job.
+19:49:57 DISPATCHER: starting job (0, 0, 21) on hpbandster.run_42.worker.metaex19.34818
+19:49:57 DISPATCHER: job (0, 0, 21) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:49:57 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:49:58 Iter      500 : NLL =  2.4381e+01 MSE = 6.1441e-02 Samples= 4 Time = 32.13
+19:50:02 Iter      600 : NLL =  2.2162e+01 MSE = 5.4613e-02 Samples= 5 Time = 36.34
+19:50:06 DISPATCHER: job (0, 0, 21) finished
+19:50:07 DISPATCHER: register_result: lock acquired
+19:50:07 DISPATCHER: job (0, 0, 21) on hpbandster.run_42.worker.metaex19.34818 finished
+19:50:07 job_id: (0, 0, 21)
+kwargs: {'config': {'burn_in': 0.06980992931522086, 'l_rate': 0.033716884965698614, 'mdecay': 0.894925933621048, 'n_units_1': 16, 'n_units_2': 20}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 14.08611733922131, 'info': {'function_value': 14.08611733922131, 'cost': 9.141146421432495}}
+exception: None
+
+19:50:07 job_callback for (0, 0, 21) started
+19:50:07 job_callback for (0, 0, 21) got condition
+19:50:07 DISPATCHER: Trying to submit another job.
+19:50:07 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:07 Iter      700 : NLL =  2.1127e+01 MSE = 5.1554e-02 Samples= 6 Time = 40.55
+19:50:07 HBMASTER: Trying to run another job!
+19:50:07 job_callback for (0, 0, 21) finished
+19:50:07 HBMASTER: schedule new run for iteration 0
+19:50:07 HBMASTER: trying submitting job (0, 0, 24) to dispatcher
+19:50:07 HBMASTER: submitting job (0, 0, 24) to dispatcher
+19:50:07 DISPATCHER: trying to submit job (0, 0, 24)
+19:50:07 DISPATCHER: trying to notify the job_runner thread.
+19:50:07 HBMASTER: job (0, 0, 24) submitted to dispatcher
+19:50:07 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:07 DISPATCHER: Trying to submit another job.
+19:50:07 DISPATCHER: starting job (0, 0, 24) on hpbandster.run_42.worker.metaex19.34818
+19:50:07 DISPATCHER: job (0, 0, 24) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:50:07 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:11 Iter      800 : NLL =  1.9559e+01 MSE = 4.6549e-02 Samples= 7 Time = 44.75
+19:50:13 DISPATCHER: job (1, 0, 2) finished
+19:50:13 DISPATCHER: register_result: lock acquired
+19:50:13 DISPATCHER: job (1, 0, 2) on hpbandster.run_42.worker.metaex24.39501 finished
+19:50:13 job_id: (1, 0, 2)
+kwargs: {'config': {'burn_in': 0.10870335776915557, 'l_rate': 0.057796775599991156, 'mdecay': 0.691679159724157, 'n_units_1': 362, 'n_units_2': 229}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 195.30421330418247, 'info': {'function_value': 195.30421330418247, 'cost': 62.128626346588135}}
+exception: None
+
+19:50:13 job_callback for (1, 0, 2) started
+19:50:13 DISPATCHER: Trying to submit another job.
+19:50:13 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:13 job_callback for (1, 0, 2) got condition
+19:50:13 HBMASTER: Trying to run another job!
+19:50:13 job_callback for (1, 0, 2) finished
+19:50:13 HBMASTER: schedule new run for iteration 0
+19:50:13 HBMASTER: trying submitting job (0, 0, 25) to dispatcher
+19:50:13 HBMASTER: submitting job (0, 0, 25) to dispatcher
+19:50:13 DISPATCHER: trying to submit job (0, 0, 25)
+19:50:13 DISPATCHER: trying to notify the job_runner thread.
+19:50:13 HBMASTER: job (0, 0, 25) submitted to dispatcher
+19:50:13 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:13 DISPATCHER: Trying to submit another job.
+19:50:13 DISPATCHER: starting job (0, 0, 25) on hpbandster.run_42.worker.metaex24.39501
+19:50:13 DISPATCHER: job (0, 0, 25) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:50:13 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:15 Iter      900 : NLL =  1.8335e+01 MSE = 4.2656e-02 Samples= 8 Time = 48.95
+19:50:19 Iter     1000 : NLL =  1.7853e+01 MSE = 4.1355e-02 Samples= 9 Time = 53.14
+19:50:23 Iter     1100 : NLL =  1.7110e+01 MSE = 3.8990e-02 Samples= 10 Time = 57.34
+19:50:23 DISPATCHER: job (0, 0, 25) finished
+19:50:23 DISPATCHER: register_result: lock acquired
+19:50:23 DISPATCHER: job (0, 0, 25) on hpbandster.run_42.worker.metaex24.39501 finished
+19:50:23 job_id: (0, 0, 25)
+kwargs: {'config': {'burn_in': 0.1542426087571268, 'l_rate': 0.004281978838038023, 'mdecay': 0.9059685091053697, 'n_units_1': 26, 'n_units_2': 245}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 398.7687503159282, 'info': {'function_value': 398.7687503159282, 'cost': 10.745737552642822}}
+exception: None
+
+19:50:23 job_callback for (0, 0, 25) started
+19:50:23 job_callback for (0, 0, 25) got condition
+19:50:23 DISPATCHER: Trying to submit another job.
+19:50:23 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:23 HBMASTER: Trying to run another job!
+19:50:23 job_callback for (0, 0, 25) finished
+19:50:23 start sampling a new configuration.
+19:50:24 best_vector: [0.1991512044883153, 0.8645475115074001, 0.6952715712220763, 0.7156353326167619, 0.9989361671664906], 0.0013612148470325493, 52.44066475697227, 0.0713830114554472
+19:50:24 done sampling a new configuration.
+19:50:24 HBMASTER: schedule new run for iteration 1
+19:50:24 HBMASTER: trying submitting job (1, 0, 3) to dispatcher
+19:50:24 HBMASTER: submitting job (1, 0, 3) to dispatcher
+19:50:24 DISPATCHER: trying to submit job (1, 0, 3)
+19:50:24 DISPATCHER: trying to notify the job_runner thread.
+19:50:24 HBMASTER: job (1, 0, 3) submitted to dispatcher
+19:50:24 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:24 DISPATCHER: Trying to submit another job.
+19:50:24 DISPATCHER: starting job (1, 0, 3) on hpbandster.run_42.worker.metaex24.39501
+19:50:24 DISPATCHER: job (1, 0, 3) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:50:24 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:24 WORKER: done with job (0, 0, 17), trying to register it.
+19:50:24 WORKER: registered result for job (0, 0, 17) with dispatcher
+19:50:24 DISPATCHER: job (0, 0, 17) finished
+19:50:24 DISPATCHER: register_result: lock acquired
+19:50:24 DISPATCHER: job (0, 0, 17) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:50:24 job_id: (0, 0, 17)
+kwargs: {'config': {'burn_in': 0.13324956361293347, 'l_rate': 0.013396733503239267, 'mdecay': 0.7104639152901427, 'n_units_1': 278, 'n_units_2': 258}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 58.79775905980274, 'info': {'function_value': 58.79775905980274, 'cost': 58.095804929733276}}
+exception: None
+
+19:50:24 job_callback for (0, 0, 17) started
+19:50:24 DISPATCHER: Trying to submit another job.
+19:50:24 job_callback for (0, 0, 17) got condition
+19:50:24 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:24 HBMASTER: Trying to run another job!
+19:50:24 job_callback for (0, 0, 17) finished
+19:50:24 start sampling a new configuration.
+19:50:24 best_vector: [0.07732474424801689, 0.9872039927214937, 0.7569629277910069, 0.013393758816222321, 0.007387965546511194], 0.0009943453822455295, 59.579648350503795, 0.05924274821313592
+19:50:24 done sampling a new configuration.
+19:50:24 HBMASTER: schedule new run for iteration 1
+19:50:24 HBMASTER: trying submitting job (1, 0, 4) to dispatcher
+19:50:24 HBMASTER: submitting job (1, 0, 4) to dispatcher
+19:50:24 DISPATCHER: trying to submit job (1, 0, 4)
+19:50:24 DISPATCHER: trying to notify the job_runner thread.
+19:50:24 HBMASTER: job (1, 0, 4) submitted to dispatcher
+19:50:24 DISPATCHER: Trying to submit another job.
+19:50:24 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:24 DISPATCHER: starting job (1, 0, 4) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:24 DISPATCHER: job (1, 0, 4) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:24 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:24 WORKER: start processing job (1, 0, 4)
+19:50:24 WORKER: args: ()
+19:50:24 WORKER: kwargs: {'config': {'burn_in': 0.06185979539841351, 'l_rate': 0.08630182179946082, 'mdecay': 0.7569629277910069, 'n_units_1': 16, 'n_units_2': 16}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:50:26 Starting sampling
+19:50:29 DISPATCHER: job (0, 0, 15) finished
+19:50:29 DISPATCHER: register_result: lock acquired
+19:50:29 DISPATCHER: job (0, 0, 15) on hpbandster.run_42.worker.metaex24.39510 finished
+19:50:29 job_id: (0, 0, 15)
+kwargs: {'config': {'burn_in': 0.08260847561880807, 'l_rate': 0.08598386834251442, 'mdecay': 0.7789611562114385, 'n_units_1': 223, 'n_units_2': 393}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 1253.39156713435, 'info': {'function_value': 1253.39156713435, 'cost': 69.59802770614624}}
+exception: None
+
+19:50:29 job_callback for (0, 0, 15) started
+19:50:29 job_callback for (0, 0, 15) got condition
+19:50:29 DISPATCHER: Trying to submit another job.
+19:50:29 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:29 HBMASTER: Trying to run another job!
+19:50:29 job_callback for (0, 0, 15) finished
+19:50:29 start sampling a new configuration.
+19:50:29 best_vector: [0.18492267301237097, 0.9125662439614245, 0.6432340481552781, 0.8943405554449145, 0.9567133266001003], 0.0013608091399218796, 46.73351437492709, 0.06359539350207133
+19:50:29 done sampling a new configuration.
+19:50:29 HBMASTER: schedule new run for iteration 1
+19:50:29 HBMASTER: trying submitting job (1, 0, 5) to dispatcher
+19:50:29 HBMASTER: submitting job (1, 0, 5) to dispatcher
+19:50:29 DISPATCHER: trying to submit job (1, 0, 5)
+19:50:29 DISPATCHER: trying to notify the job_runner thread.
+19:50:29 HBMASTER: job (1, 0, 5) submitted to dispatcher
+19:50:29 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:29 DISPATCHER: Trying to submit another job.
+19:50:29 DISPATCHER: starting job (1, 0, 5) on hpbandster.run_42.worker.metaex24.39510
+19:50:29 DISPATCHER: job (1, 0, 5) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:50:29 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:30 Iter        0 : NLL =  1.7609e+02 MSE = 8.3523e+00 Time =  5.70
+19:50:33 Iter      100 : NLL =  2.5826e+01 MSE = 1.0236e+00 Samples= 1 Time =  8.42
+19:50:33 Iter      200 : NLL =  2.2770e+01 MSE = 4.6401e-01 Samples= 2 Time =  8.47
+19:50:33 Iter      300 : NLL =  2.1186e+01 MSE = 3.1556e-01 Samples= 3 Time =  8.52
+19:50:33 Iter      400 : NLL =  2.0090e+01 MSE = 2.5430e-01 Samples= 4 Time =  8.56
+19:50:33 Iter      500 : NLL =  2.1082e+01 MSE = 3.3344e-01 Samples= 5 Time =  8.61
+19:50:33 Iter      600 : NLL =  1.9454e+01 MSE = 2.1521e-01 Samples= 6 Time =  8.66
+19:50:33 Iter      700 : NLL =  1.9300e+01 MSE = 2.0095e-01 Samples= 7 Time =  8.71
+19:50:33 Iter      800 : NLL =  2.3725e+01 MSE = 5.0739e-01 Samples= 8 Time =  8.76
+19:50:33 Iter      900 : NLL =  1.8575e+01 MSE = 1.5732e-01 Samples= 9 Time =  8.80
+19:50:33 Iter     1000 : NLL =  1.7647e+01 MSE = 1.2452e-01 Samples= 10 Time =  8.85
+19:50:33 Iter     1100 : NLL =  2.0143e+01 MSE = 2.6348e-01 Samples= 11 Time =  8.90
+19:50:33 WORKER: done with job (1, 0, 4), trying to register it.
+19:50:33 WORKER: registered result for job (1, 0, 4) with dispatcher
+19:50:33 DISPATCHER: job (1, 0, 4) finished
+19:50:33 DISPATCHER: register_result: lock acquired
+19:50:33 DISPATCHER: job (1, 0, 4) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:50:33 job_id: (1, 0, 4)
+kwargs: {'config': {'burn_in': 0.06185979539841351, 'l_rate': 0.08630182179946082, 'mdecay': 0.7569629277910069, 'n_units_1': 16, 'n_units_2': 16}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4.435195229876885, 'info': {'function_value': 4.435195229876885, 'cost': 8.929308414459229}}
+exception: None
+
+19:50:33 job_callback for (1, 0, 4) started
+19:50:33 job_callback for (1, 0, 4) got condition
+19:50:33 DISPATCHER: Trying to submit another job.
+19:50:33 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:33 done building a new model for budget 1111.111111 based on 6/10 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:50:33 HBMASTER: Trying to run another job!
+19:50:33 job_callback for (1, 0, 4) finished
+19:50:33 start sampling a new configuration.
+19:50:33 best_vector: [0.13323793785828808, 0.9601584010957775, 0.6326351149295754, 0.40677952716959154, 0.021984462190828835], 0.0025541465253237266, 41.12099648066071, 0.10502905027892873
+19:50:33 done sampling a new configuration.
+19:50:33 HBMASTER: schedule new run for iteration 1
+19:50:33 HBMASTER: trying submitting job (1, 0, 6) to dispatcher
+19:50:33 HBMASTER: submitting job (1, 0, 6) to dispatcher
+19:50:33 DISPATCHER: trying to submit job (1, 0, 6)
+19:50:33 DISPATCHER: trying to notify the job_runner thread.
+19:50:33 HBMASTER: job (1, 0, 6) submitted to dispatcher
+19:50:33 DISPATCHER: Trying to submit another job.
+19:50:33 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:33 DISPATCHER: starting job (1, 0, 6) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:33 DISPATCHER: job (1, 0, 6) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:33 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:33 WORKER: start processing job (1, 0, 6)
+19:50:33 WORKER: args: ()
+19:50:33 WORKER: kwargs: {'config': {'burn_in': 0.10659035028663047, 'l_rate': 0.06321090459936772, 'mdecay': 0.6326351149295754, 'n_units_1': 64, 'n_units_2': 17}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:50:35 Starting sampling
+19:50:39 Iter        0 : NLL =  1.0384e+03 MSE = 4.9089e+00 Time =  5.64
+19:50:42 Iter      200 : NLL =  1.6387e+01 MSE = 9.3885e-02 Samples= 1 Time =  8.49
+19:50:42 Iter      300 : NLL =  1.5605e+01 MSE = 7.8380e-02 Samples= 2 Time =  8.57
+19:50:42 Iter      400 : NLL =  1.4733e+01 MSE = 6.0915e-02 Samples= 3 Time =  8.64
+19:50:42 Iter      500 : NLL =  1.4267e+01 MSE = 5.2723e-02 Samples= 4 Time =  8.71
+19:50:42 Iter      600 : NLL =  1.4046e+01 MSE = 5.0146e-02 Samples= 5 Time =  8.79
+19:50:42 Iter      700 : NLL =  1.3782e+01 MSE = 4.6359e-02 Samples= 6 Time =  8.86
+19:50:42 Iter      800 : NLL =  1.3493e+01 MSE = 4.2425e-02 Samples= 7 Time =  8.93
+19:50:42 Iter      900 : NLL =  1.3295e+01 MSE = 4.0365e-02 Samples= 8 Time =  9.01
+19:50:42 Iter     1000 : NLL =  1.3189e+01 MSE = 3.9167e-02 Samples= 9 Time =  9.08
+19:50:42 Iter     1100 : NLL =  1.2816e+01 MSE = 3.4933e-02 Samples= 10 Time =  9.15
+19:50:42 WORKER: done with job (1, 0, 6), trying to register it.
+19:50:42 WORKER: registered result for job (1, 0, 6) with dispatcher
+19:50:42 DISPATCHER: job (1, 0, 6) finished
+19:50:42 DISPATCHER: register_result: lock acquired
+19:50:42 DISPATCHER: job (1, 0, 6) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:50:42 job_id: (1, 0, 6)
+kwargs: {'config': {'burn_in': 0.10659035028663047, 'l_rate': 0.06321090459936772, 'mdecay': 0.6326351149295754, 'n_units_1': 64, 'n_units_2': 17}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 16.137517282594356, 'info': {'function_value': 16.137517282594356, 'cost': 9.186427116394043}}
+exception: None
+
+19:50:42 job_callback for (1, 0, 6) started
+19:50:42 DISPATCHER: Trying to submit another job.
+19:50:42 job_callback for (1, 0, 6) got condition
+19:50:42 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:42 done building a new model for budget 1111.111111 based on 6/11 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:50:42 HBMASTER: Trying to run another job!
+19:50:42 job_callback for (1, 0, 6) finished
+19:50:42 start sampling a new configuration.
+19:50:42 best_vector: [0.05557412396577186, 0.950940438123772, 0.7362846822268171, 0.5112048056220113, 0.12895726866010673], 0.0005712509892367737, 260.80545928685194, 0.14898537661596528
+19:50:42 done sampling a new configuration.
+19:50:42 HBMASTER: schedule new run for iteration 1
+19:50:42 HBMASTER: trying submitting job (1, 0, 7) to dispatcher
+19:50:42 HBMASTER: submitting job (1, 0, 7) to dispatcher
+19:50:42 DISPATCHER: trying to submit job (1, 0, 7)
+19:50:42 DISPATCHER: trying to notify the job_runner thread.
+19:50:42 HBMASTER: job (1, 0, 7) submitted to dispatcher
+19:50:42 DISPATCHER: Trying to submit another job.
+19:50:42 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:42 DISPATCHER: starting job (1, 0, 7) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:42 DISPATCHER: job (1, 0, 7) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:42 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:42 WORKER: start processing job (1, 0, 7)
+19:50:42 WORKER: args: ()
+19:50:42 WORKER: kwargs: {'config': {'burn_in': 0.04445929917261749, 'l_rate': 0.05684629842181459, 'mdecay': 0.7362846822268171, 'n_units_1': 93, 'n_units_2': 24}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:50:44 Starting sampling
+19:50:48 DISPATCHER: job (0, 0, 24) finished
+19:50:48 DISPATCHER: register_result: lock acquired
+19:50:48 DISPATCHER: job (0, 0, 24) on hpbandster.run_42.worker.metaex19.34818 finished
+19:50:48 job_id: (0, 0, 24)
+kwargs: {'config': {'burn_in': 0.123819697978023, 'l_rate': 0.04979265901790533, 'mdecay': 0.7316198251594179, 'n_units_1': 201, 'n_units_2': 325}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 41.5895211153119, 'info': {'function_value': 41.5895211153119, 'cost': 41.28551244735718}}
+exception: None
+
+19:50:48 job_callback for (0, 0, 24) started
+19:50:48 DISPATCHER: Trying to submit another job.
+19:50:48 job_callback for (0, 0, 24) got condition
+19:50:48 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:48 done building a new model for budget 1111.111111 based on 6/11 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:50:48 HBMASTER: Trying to run another job!
+19:50:48 job_callback for (0, 0, 24) finished
+19:50:48 ITERATION: Advancing config (0, 0, 16) to next budget 3333.333333
+19:50:48 ITERATION: Advancing config (0, 0, 18) to next budget 3333.333333
+19:50:48 ITERATION: Advancing config (0, 0, 21) to next budget 3333.333333
+19:50:48 HBMASTER: schedule new run for iteration 0
+19:50:48 HBMASTER: trying submitting job (0, 0, 16) to dispatcher
+19:50:48 HBMASTER: submitting job (0, 0, 16) to dispatcher
+19:50:48 DISPATCHER: trying to submit job (0, 0, 16)
+19:50:48 DISPATCHER: trying to notify the job_runner thread.
+19:50:48 HBMASTER: job (0, 0, 16) submitted to dispatcher
+19:50:48 DISPATCHER: Trying to submit another job.
+19:50:48 DISPATCHER: starting job (0, 0, 16) on hpbandster.run_42.worker.metaex19.34818
+19:50:48 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:48 Iter        0 : NLL =  1.6532e+03 MSE = 4.3906e+00 Time =  5.75
+19:50:48 DISPATCHER: job (0, 0, 16) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:50:48 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:51 Iter      100 : NLL =  2.8705e+02 MSE = 1.5627e+00 Samples= 1 Time =  8.73
+19:50:51 Iter      200 : NLL =  9.7666e+01 MSE = 5.9677e-01 Samples= 2 Time =  8.94
+19:50:52 Iter      300 : NLL =  7.4172e+01 MSE = 4.7712e-01 Samples= 3 Time =  9.16
+19:50:52 Iter      400 : NLL =  6.3486e+01 MSE = 4.2685e-01 Samples= 4 Time =  9.37
+19:50:52 Iter      500 : NLL =  5.4363e+01 MSE = 3.7368e-01 Samples= 5 Time =  9.59
+19:50:52 Iter      600 : NLL =  4.7607e+01 MSE = 3.3197e-01 Samples= 6 Time =  9.80
+19:50:52 Iter      700 : NLL =  4.2153e+01 MSE = 2.9538e-01 Samples= 7 Time = 10.01
+19:50:53 Iter      800 : NLL =  3.8427e+01 MSE = 2.7085e-01 Samples= 8 Time = 10.23
+19:50:53 Iter      900 : NLL =  3.3625e+01 MSE = 2.3097e-01 Samples= 9 Time = 10.44
+19:50:53 Iter     1000 : NLL =  3.0616e+01 MSE = 2.0570e-01 Samples= 10 Time = 10.66
+19:50:53 Iter     1100 : NLL =  2.7865e+01 MSE = 1.8166e-01 Samples= 11 Time = 10.88
+19:50:53 WORKER: done with job (1, 0, 7), trying to register it.
+19:50:53 WORKER: registered result for job (1, 0, 7) with dispatcher
+19:50:53 DISPATCHER: job (1, 0, 7) finished
+19:50:53 DISPATCHER: register_result: lock acquired
+19:50:53 DISPATCHER: job (1, 0, 7) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:50:53 job_id: (1, 0, 7)
+kwargs: {'config': {'burn_in': 0.04445929917261749, 'l_rate': 0.05684629842181459, 'mdecay': 0.7362846822268171, 'n_units_1': 93, 'n_units_2': 24}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 61.64459492440662, 'info': {'function_value': 61.64459492440662, 'cost': 10.963283777236938}}
+exception: None
+
+19:50:53 job_callback for (1, 0, 7) started
+19:50:53 DISPATCHER: Trying to submit another job.
+19:50:53 job_callback for (1, 0, 7) got condition
+19:50:53 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:50:53 done building a new model for budget 1111.111111 based on 6/12 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:50:53 HBMASTER: Trying to run another job!
+19:50:53 job_callback for (1, 0, 7) finished
+19:50:53 HBMASTER: schedule new run for iteration 0
+19:50:53 HBMASTER: trying submitting job (0, 0, 18) to dispatcher
+19:50:53 HBMASTER: submitting job (0, 0, 18) to dispatcher
+19:50:53 DISPATCHER: trying to submit job (0, 0, 18)
+19:50:53 DISPATCHER: trying to notify the job_runner thread.
+19:50:53 HBMASTER: job (0, 0, 18) submitted to dispatcher
+19:50:53 DISPATCHER: Trying to submit another job.
+19:50:53 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:50:53 DISPATCHER: starting job (0, 0, 18) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:53 DISPATCHER: job (0, 0, 18) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:50:53 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:50:53 WORKER: start processing job (0, 0, 18)
+19:50:53 WORKER: args: ()
+19:50:53 WORKER: kwargs: {'config': {'burn_in': 0.047005534451331765, 'l_rate': 0.09613193382258516, 'mdecay': 0.7569634178505533, 'n_units_1': 27, 'n_units_2': 25}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:50:55 Starting sampling
+19:50:59 Iter        0 : NLL =  4.1369e+02 MSE = 5.0650e+01 Time =  5.56
+19:51:02 Iter      200 : NLL =  2.7527e+01 MSE = 1.4432e+00 Samples= 1 Time =  8.35
+19:51:02 Iter      300 : NLL =  2.5517e+01 MSE = 8.9752e-01 Samples= 2 Time =  8.41
+19:51:02 Iter      400 : NLL =  2.3895e+01 MSE = 5.9867e-01 Samples= 3 Time =  8.47
+19:51:02 Iter      500 : NLL =  2.5751e+01 MSE = 9.5618e-01 Samples= 4 Time =  8.53
+19:51:02 Iter      600 : NLL =  2.3150e+01 MSE = 5.1435e-01 Samples= 5 Time =  8.59
+19:51:02 Iter      700 : NLL =  2.1151e+01 MSE = 3.1837e-01 Samples= 6 Time =  8.65
+19:51:02 Iter      800 : NLL =  2.4181e+01 MSE = 6.6112e-01 Samples= 7 Time =  8.71
+19:51:02 Iter      900 : NLL =  2.1454e+01 MSE = 2.9962e-01 Samples= 8 Time =  8.77
+19:51:02 Iter     1000 : NLL =  2.5468e+01 MSE = 7.6516e-01 Samples= 9 Time =  8.82
+19:51:02 Iter     1100 : NLL =  2.3852e+01 MSE = 6.5229e-01 Samples= 10 Time =  8.88
+19:51:02 Iter     1200 : NLL =  2.2460e+01 MSE = 4.6620e-01 Samples= 11 Time =  8.94
+19:51:02 Iter     1300 : NLL =  2.0941e+01 MSE = 3.1632e-01 Samples= 12 Time =  9.00
+19:51:03 Iter     1400 : NLL =  2.7232e+01 MSE = 1.2652e+00 Samples= 13 Time =  9.06
+19:51:03 Iter     1500 : NLL =  1.9278e+01 MSE = 1.3210e-01 Samples= 14 Time =  9.12
+19:51:03 Iter     1600 : NLL =  2.7363e+01 MSE = 1.0649e+00 Samples= 15 Time =  9.18
+19:51:03 Iter     1700 : NLL =  2.0544e+01 MSE = 2.7139e-01 Samples= 16 Time =  9.24
+19:51:03 Iter     1800 : NLL =  2.5062e+01 MSE = 8.1977e-01 Samples= 17 Time =  9.30
+19:51:03 Iter     1900 : NLL =  2.4914e+01 MSE = 7.3955e-01 Samples= 18 Time =  9.35
+19:51:03 Iter     2000 : NLL =  1.9482e+01 MSE = 1.9769e-01 Samples= 19 Time =  9.41
+19:51:03 Iter     2100 : NLL =  2.0547e+01 MSE = 2.6933e-01 Samples= 20 Time =  9.47
+19:51:03 Iter     2200 : NLL =  2.4554e+01 MSE = 7.6586e-01 Samples= 21 Time =  9.53
+19:51:03 Iter     2300 : NLL =  2.1195e+01 MSE = 3.4053e-01 Samples= 22 Time =  9.59
+19:51:03 Iter     2400 : NLL =  1.9687e+01 MSE = 1.8787e-01 Samples= 23 Time =  9.65
+19:51:03 Iter     2500 : NLL =  2.4146e+01 MSE = 5.7975e-01 Samples= 24 Time =  9.70
+19:51:03 Iter     2600 : NLL =  1.8419e+01 MSE = 1.3277e-01 Samples= 25 Time =  9.76
+19:51:03 Iter     2700 : NLL =  2.6324e+01 MSE = 6.2697e-01 Samples= 26 Time =  9.82
+19:51:03 Iter     2800 : NLL =  1.9618e+01 MSE = 2.2745e-01 Samples= 27 Time =  9.88
+19:51:03 Iter     2900 : NLL =  1.8654e+01 MSE = 1.7926e-01 Samples= 28 Time =  9.94
+19:51:03 Iter     3000 : NLL =  1.7906e+01 MSE = 1.4175e-01 Samples= 29 Time = 10.00
+19:51:04 Iter     3100 : NLL =  3.0748e+01 MSE = 6.6452e-01 Samples= 30 Time = 10.06
+19:51:04 Iter     3200 : NLL =  1.7637e+01 MSE = 1.3214e-01 Samples= 31 Time = 10.11
+19:51:04 Iter     3300 : NLL =  1.6357e+01 MSE = 7.4977e-02 Samples= 32 Time = 10.17
+19:51:04 WORKER: done with job (0, 0, 18), trying to register it.
+19:51:04 WORKER: registered result for job (0, 0, 18) with dispatcher
+19:51:04 DISPATCHER: job (0, 0, 18) finished
+19:51:04 DISPATCHER: register_result: lock acquired
+19:51:04 DISPATCHER: job (0, 0, 18) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:51:04 job_id: (0, 0, 18)
+kwargs: {'config': {'burn_in': 0.047005534451331765, 'l_rate': 0.09613193382258516, 'mdecay': 0.7569634178505533, 'n_units_1': 27, 'n_units_2': 25}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 3.5544695715688364, 'info': {'function_value': 3.5544695715688364, 'cost': 10.225754022598267}}
+exception: None
+
+19:51:04 job_callback for (0, 0, 18) started
+19:51:04 DISPATCHER: Trying to submit another job.
+19:51:04 job_callback for (0, 0, 18) got condition
+19:51:04 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:04 Only 1 run(s) for budget 3333.333333 available, need more than 7 -> can't build model!
+19:51:04 HBMASTER: Trying to run another job!
+19:51:04 job_callback for (0, 0, 18) finished
+19:51:04 HBMASTER: schedule new run for iteration 0
+19:51:04 HBMASTER: trying submitting job (0, 0, 21) to dispatcher
+19:51:04 HBMASTER: submitting job (0, 0, 21) to dispatcher
+19:51:04 DISPATCHER: trying to submit job (0, 0, 21)
+19:51:04 DISPATCHER: trying to notify the job_runner thread.
+19:51:04 HBMASTER: job (0, 0, 21) submitted to dispatcher
+19:51:04 DISPATCHER: Trying to submit another job.
+19:51:04 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:04 DISPATCHER: starting job (0, 0, 21) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:04 DISPATCHER: job (0, 0, 21) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:04 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:04 WORKER: start processing job (0, 0, 21)
+19:51:04 WORKER: args: ()
+19:51:04 WORKER: kwargs: {'config': {'burn_in': 0.06980992931522086, 'l_rate': 0.033716884965698614, 'mdecay': 0.894925933621048, 'n_units_1': 16, 'n_units_2': 20}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:05 Starting sampling
+19:51:09 Iter        0 : NLL =  9.8877e+02 MSE = 2.2493e+00 Time =  5.67
+19:51:12 Iter      300 : NLL =  4.7228e+01 MSE = 1.3815e-01 Samples= 1 Time =  8.52
+19:51:12 Iter      400 : NLL =  4.0192e+01 MSE = 1.2152e-01 Samples= 2 Time =  8.57
+19:51:12 Iter      500 : NLL =  3.4536e+01 MSE = 1.0668e-01 Samples= 3 Time =  8.62
+19:51:12 Iter      600 : NLL =  3.0600e+01 MSE = 9.4882e-02 Samples= 4 Time =  8.66
+19:51:12 Iter      700 : NLL =  2.8482e+01 MSE = 9.0193e-02 Samples= 5 Time =  8.71
+19:51:12 Iter      800 : NLL =  2.5943e+01 MSE = 8.1896e-02 Samples= 6 Time =  8.76
+19:51:13 Iter      900 : NLL =  2.3935e+01 MSE = 7.5165e-02 Samples= 7 Time =  8.81
+19:51:13 Iter     1000 : NLL =  2.2442e+01 MSE = 7.0158e-02 Samples= 8 Time =  8.86
+19:51:13 Iter     1100 : NLL =  2.2166e+01 MSE = 6.9861e-02 Samples= 9 Time =  8.91
+19:51:13 Iter     1200 : NLL =  2.0704e+01 MSE = 6.4476e-02 Samples= 10 Time =  8.96
+19:51:13 Iter     1300 : NLL =  1.9754e+01 MSE = 6.1081e-02 Samples= 11 Time =  9.01
+19:51:13 Iter     1400 : NLL =  1.8999e+01 MSE = 5.8100e-02 Samples= 12 Time =  9.06
+19:51:13 Iter     1500 : NLL =  1.8339e+01 MSE = 5.5590e-02 Samples= 13 Time =  9.11
+19:51:13 Iter     1600 : NLL =  1.8378e+01 MSE = 5.6593e-02 Samples= 14 Time =  9.16
+19:51:13 Iter     1700 : NLL =  1.7220e+01 MSE = 5.1380e-02 Samples= 15 Time =  9.21
+19:51:13 Iter     1800 : NLL =  1.7058e+01 MSE = 5.0907e-02 Samples= 16 Time =  9.26
+19:51:13 Iter     1900 : NLL =  1.6482e+01 MSE = 4.8527e-02 Samples= 17 Time =  9.31
+19:51:13 Iter     2000 : NLL =  1.6149e+01 MSE = 4.7119e-02 Samples= 18 Time =  9.35
+19:51:13 Iter     2100 : NLL =  1.5624e+01 MSE = 4.4759e-02 Samples= 19 Time =  9.40
+19:51:13 Iter     2200 : NLL =  1.5501e+01 MSE = 4.4320e-02 Samples= 20 Time =  9.45
+19:51:13 Iter     2300 : NLL =  1.5243e+01 MSE = 4.3042e-02 Samples= 21 Time =  9.50
+19:51:13 Iter     2400 : NLL =  1.5072e+01 MSE = 4.2353e-02 Samples= 22 Time =  9.55
+19:51:13 Iter     2500 : NLL =  1.5027e+01 MSE = 4.2306e-02 Samples= 23 Time =  9.60
+19:51:13 Iter     2600 : NLL =  1.4617e+01 MSE = 4.0062e-02 Samples= 24 Time =  9.65
+19:51:13 Iter     2700 : NLL =  1.4599e+01 MSE = 4.0179e-02 Samples= 25 Time =  9.70
+19:51:13 Iter     2800 : NLL =  1.4475e+01 MSE = 3.9596e-02 Samples= 26 Time =  9.75
+19:51:14 Iter     2900 : NLL =  1.4213e+01 MSE = 3.8199e-02 Samples= 27 Time =  9.80
+19:51:14 Iter     3000 : NLL =  1.4065e+01 MSE = 3.7535e-02 Samples= 28 Time =  9.85
+19:51:14 Iter     3100 : NLL =  1.3964e+01 MSE = 3.7066e-02 Samples= 29 Time =  9.90
+19:51:14 Iter     3200 : NLL =  1.3811e+01 MSE = 3.6338e-02 Samples= 30 Time =  9.95
+19:51:14 Iter     3300 : NLL =  1.3807e+01 MSE = 3.6339e-02 Samples= 31 Time = 10.00
+19:51:14 WORKER: done with job (0, 0, 21), trying to register it.
+19:51:14 WORKER: registered result for job (0, 0, 21) with dispatcher
+19:51:14 DISPATCHER: job (0, 0, 21) finished
+19:51:14 DISPATCHER: register_result: lock acquired
+19:51:14 DISPATCHER: job (0, 0, 21) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:51:14 job_id: (0, 0, 21)
+kwargs: {'config': {'burn_in': 0.06980992931522086, 'l_rate': 0.033716884965698614, 'mdecay': 0.894925933621048, 'n_units_1': 16, 'n_units_2': 20}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 12.00280567255805, 'info': {'function_value': 12.00280567255805, 'cost': 10.046711683273315}}
+exception: None
+
+19:51:14 job_callback for (0, 0, 21) started
+19:51:14 DISPATCHER: Trying to submit another job.
+19:51:14 job_callback for (0, 0, 21) got condition
+19:51:14 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:14 Only 2 run(s) for budget 3333.333333 available, need more than 7 -> can't build model!
+19:51:14 HBMASTER: Trying to run another job!
+19:51:14 job_callback for (0, 0, 21) finished
+19:51:14 start sampling a new configuration.
+19:51:14 best_vector: [0.0236288112879249, 0.9897399575415913, 0.6939716441485484, 0.12121035133466955, 0.24044264204851618], 0.005736698999883028, 224.16803593159662, 1.285984547534533
+19:51:14 done sampling a new configuration.
+19:51:14 HBMASTER: schedule new run for iteration 1
+19:51:14 HBMASTER: trying submitting job (1, 0, 8) to dispatcher
+19:51:14 HBMASTER: submitting job (1, 0, 8) to dispatcher
+19:51:14 DISPATCHER: trying to submit job (1, 0, 8)
+19:51:14 DISPATCHER: trying to notify the job_runner thread.
+19:51:14 HBMASTER: job (1, 0, 8) submitted to dispatcher
+19:51:14 DISPATCHER: Trying to submit another job.
+19:51:14 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:14 DISPATCHER: starting job (1, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:14 DISPATCHER: job (1, 0, 8) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:14 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:14 WORKER: start processing job (1, 0, 8)
+19:51:14 WORKER: args: ()
+19:51:14 WORKER: kwargs: {'config': {'burn_in': 0.01890304903033992, 'l_rate': 0.08885866572284534, 'mdecay': 0.6939716441485484, 'n_units_1': 24, 'n_units_2': 36}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:15 DISPATCHER: job (1, 0, 5) finished
+19:51:15 DISPATCHER: register_result: lock acquired
+19:51:15 DISPATCHER: job (1, 0, 5) on hpbandster.run_42.worker.metaex24.39510 finished
+19:51:15 job_id: (1, 0, 5)
+kwargs: {'config': {'burn_in': 0.14793813840989678, 'l_rate': 0.03654527378378508, 'mdecay': 0.6432340481552781, 'n_units_1': 354, 'n_units_2': 440}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 16.36371055901106, 'info': {'function_value': 16.36371055901106, 'cost': 45.40995764732361}}
+exception: None
+
+19:51:15 job_callback for (1, 0, 5) started
+19:51:15 DISPATCHER: Trying to submit another job.
+19:51:15 job_callback for (1, 0, 5) got condition
+19:51:15 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:15 done building a new model for budget 1111.111111 based on 6/13 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:51:15 HBMASTER: Trying to run another job!
+19:51:15 job_callback for (1, 0, 5) finished
+19:51:15 start sampling a new configuration.
+19:51:15 best_vector: [0.040090325992625755, 0.8980360722310314, 0.8724037902423979, 0.034117446498297926, 0.2150807596333208], 0.013901154541784885, 94.0296616873418, 1.3071208586274876
+19:51:15 done sampling a new configuration.
+19:51:15 HBMASTER: schedule new run for iteration 2
+19:51:15 HBMASTER: trying submitting job (2, 0, 0) to dispatcher
+19:51:15 HBMASTER: submitting job (2, 0, 0) to dispatcher
+19:51:15 DISPATCHER: trying to submit job (2, 0, 0)
+19:51:15 DISPATCHER: trying to notify the job_runner thread.
+19:51:15 HBMASTER: job (2, 0, 0) submitted to dispatcher
+19:51:15 DISPATCHER: Trying to submit another job.
+19:51:15 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:15 DISPATCHER: starting job (2, 0, 0) on hpbandster.run_42.worker.metaex24.39510
+19:51:15 DISPATCHER: job (2, 0, 0) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:51:15 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:16 Starting sampling
+19:51:20 Iter        0 : NLL =  6.2654e+01 MSE = 2.2021e+02 Time =  5.81
+19:51:22 Iter      100 : NLL =  6.2867e+01 MSE = 6.8754e+01 Samples= 1 Time =  8.66
+19:51:23 Iter      200 : NLL =  6.2428e+01 MSE = 4.5945e+01 Samples= 2 Time =  8.81
+19:51:23 Iter      300 : NLL =  6.1975e+01 MSE = 2.9606e+01 Samples= 3 Time =  8.97
+19:51:23 Iter      400 : NLL =  6.1541e+01 MSE = 3.1995e+01 Samples= 4 Time =  9.12
+19:51:23 Iter      500 : NLL =  6.1053e+01 MSE = 2.3337e+01 Samples= 5 Time =  9.28
+19:51:23 Iter      600 : NLL =  6.0599e+01 MSE = 2.2744e+01 Samples= 6 Time =  9.45
+19:51:23 Iter      700 : NLL =  6.0240e+01 MSE = 2.2331e+01 Samples= 7 Time =  9.62
+19:51:24 Iter      800 : NLL =  5.9848e+01 MSE = 1.7389e+01 Samples= 8 Time =  9.79
+19:51:24 Iter      900 : NLL =  5.9450e+01 MSE = 1.7619e+01 Samples= 9 Time =  9.96
+19:51:24 Iter     1000 : NLL =  5.8982e+01 MSE = 1.8651e+01 Samples= 10 Time = 10.13
+19:51:24 Iter     1100 : NLL =  5.8638e+01 MSE = 1.7184e+01 Samples= 11 Time = 10.29
+19:51:24 WORKER: done with job (1, 0, 8), trying to register it.
+19:51:24 WORKER: registered result for job (1, 0, 8) with dispatcher
+19:51:24 DISPATCHER: job (1, 0, 8) finished
+19:51:24 DISPATCHER: register_result: lock acquired
+19:51:24 DISPATCHER: job (1, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:51:24 job_id: (1, 0, 8)
+kwargs: {'config': {'burn_in': 0.01890304903033992, 'l_rate': 0.08885866572284534, 'mdecay': 0.6939716441485484, 'n_units_1': 24, 'n_units_2': 36}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 5.170117108624219, 'info': {'function_value': 5.170117108624219, 'cost': 10.386160850524902}}
+exception: None
+
+19:51:24 job_callback for (1, 0, 8) started
+19:51:24 DISPATCHER: Trying to submit another job.
+19:51:24 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:24 job_callback for (1, 0, 8) got condition
+19:51:24 done building a new model for budget 1111.111111 based on 6/14 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:51:24 HBMASTER: Trying to run another job!
+19:51:24 job_callback for (1, 0, 8) finished
+19:51:24 start sampling a new configuration.
+19:51:24 best_vector: [0.054420844098776185, 0.9946618749375941, 0.8343959013697574, 0.10568356816782061, 0.01801297674618897], 0.0006634490161786616, 1304.2336727583036, 0.8652925470585789
+19:51:24 done sampling a new configuration.
+19:51:24 HBMASTER: schedule new run for iteration 2
+19:51:24 HBMASTER: trying submitting job (2, 0, 1) to dispatcher
+19:51:24 HBMASTER: submitting job (2, 0, 1) to dispatcher
+19:51:24 DISPATCHER: trying to submit job (2, 0, 1)
+19:51:24 DISPATCHER: trying to notify the job_runner thread.
+19:51:24 HBMASTER: job (2, 0, 1) submitted to dispatcher
+19:51:24 DISPATCHER: Trying to submit another job.
+19:51:24 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:24 DISPATCHER: starting job (2, 0, 1) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:24 DISPATCHER: job (2, 0, 1) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:24 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:24 WORKER: start processing job (2, 0, 1)
+19:51:24 WORKER: args: ()
+19:51:24 WORKER: kwargs: {'config': {'burn_in': 0.04353667527902095, 'l_rate': 0.09403929718058544, 'mdecay': 0.8343959013697574, 'n_units_1': 22, 'n_units_2': 17}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:26 Starting sampling
+19:51:27 DISPATCHER: job (2, 0, 0) finished
+19:51:27 DISPATCHER: register_result: lock acquired
+19:51:27 DISPATCHER: job (2, 0, 0) on hpbandster.run_42.worker.metaex24.39510 finished
+19:51:27 job_id: (2, 0, 0)
+kwargs: {'config': {'burn_in': 0.0320722607941006, 'l_rate': 0.03091579089179985, 'mdecay': 0.8724037902423979, 'n_units_1': 17, 'n_units_2': 33}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 24.364013724875583, 'info': {'function_value': 24.364013724875583, 'cost': 12.671653270721436}}
+exception: None
+
+19:51:27 job_callback for (2, 0, 0) started
+19:51:27 DISPATCHER: Trying to submit another job.
+19:51:27 job_callback for (2, 0, 0) got condition
+19:51:27 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:27 Only 3 run(s) for budget 3333.333333 available, need more than 7 -> can't build model!
+19:51:27 HBMASTER: Trying to run another job!
+19:51:27 job_callback for (2, 0, 0) finished
+19:51:27 start sampling a new configuration.
+19:51:27 done sampling a new configuration.
+19:51:27 HBMASTER: schedule new run for iteration 2
+19:51:27 HBMASTER: trying submitting job (2, 0, 2) to dispatcher
+19:51:27 HBMASTER: submitting job (2, 0, 2) to dispatcher
+19:51:27 DISPATCHER: trying to submit job (2, 0, 2)
+19:51:27 DISPATCHER: trying to notify the job_runner thread.
+19:51:27 HBMASTER: job (2, 0, 2) submitted to dispatcher
+19:51:27 DISPATCHER: Trying to submit another job.
+19:51:27 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:27 DISPATCHER: starting job (2, 0, 2) on hpbandster.run_42.worker.metaex24.39510
+19:51:28 DISPATCHER: job (2, 0, 2) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:51:28 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:30 Iter        0 : NLL =  5.6164e+01 MSE = 1.3141e+01 Time =  5.68
+19:51:33 Iter      200 : NLL =  6.9597e+01 MSE = 3.0140e+01 Samples= 1 Time =  8.50
+19:51:33 Iter      300 : NLL =  6.8361e+01 MSE = 2.4026e+01 Samples= 2 Time =  8.55
+19:51:33 Iter      400 : NLL =  6.7192e+01 MSE = 2.6270e+01 Samples= 3 Time =  8.60
+19:51:33 Iter      500 : NLL =  6.6019e+01 MSE = 3.0587e+01 Samples= 4 Time =  8.66
+19:51:33 Iter      600 : NLL =  6.4983e+01 MSE = 2.7421e+01 Samples= 5 Time =  8.71
+19:51:33 Iter      700 : NLL =  6.3961e+01 MSE = 2.2665e+01 Samples= 6 Time =  8.76
+19:51:33 Iter      800 : NLL =  6.2952e+01 MSE = 2.4456e+01 Samples= 7 Time =  8.82
+19:51:33 Iter      900 : NLL =  6.1988e+01 MSE = 2.8699e+01 Samples= 8 Time =  8.87
+19:51:33 Iter     1000 : NLL =  6.1012e+01 MSE = 2.9528e+01 Samples= 9 Time =  8.92
+19:51:33 Iter     1100 : NLL =  5.9980e+01 MSE = 2.5478e+01 Samples= 10 Time =  8.98
+19:51:33 Iter     1200 : NLL =  5.8930e+01 MSE = 2.4416e+01 Samples= 11 Time =  9.03
+19:51:33 Iter     1300 : NLL =  5.7892e+01 MSE = 1.8889e+01 Samples= 12 Time =  9.08
+19:51:33 Iter     1400 : NLL =  5.6880e+01 MSE = 1.9766e+01 Samples= 13 Time =  9.14
+19:51:34 Iter     1500 : NLL =  5.5811e+01 MSE = 1.7935e+01 Samples= 14 Time =  9.19
+19:51:34 Iter     1600 : NLL =  5.5046e+01 MSE = 1.4222e+01 Samples= 15 Time =  9.24
+19:51:34 Iter     1700 : NLL =  5.4229e+01 MSE = 1.1261e+01 Samples= 16 Time =  9.30
+19:51:34 Iter     1800 : NLL =  5.3444e+01 MSE = 1.1719e+01 Samples= 17 Time =  9.35
+19:51:34 Iter     1900 : NLL =  5.2453e+01 MSE = 9.3406e+00 Samples= 18 Time =  9.40
+19:51:34 Iter     2000 : NLL =  5.1611e+01 MSE = 9.5954e+00 Samples= 19 Time =  9.46
+19:51:34 Iter     2100 : NLL =  5.0737e+01 MSE = 9.2497e+00 Samples= 20 Time =  9.51
+19:51:34 Iter     2200 : NLL =  4.9836e+01 MSE = 8.0754e+00 Samples= 21 Time =  9.56
+19:51:34 Iter     2300 : NLL =  4.9033e+01 MSE = 7.7263e+00 Samples= 22 Time =  9.62
+19:51:34 Iter     2400 : NLL =  4.8296e+01 MSE = 7.6597e+00 Samples= 23 Time =  9.67
+19:51:34 Iter     2500 : NLL =  4.7616e+01 MSE = 8.0805e+00 Samples= 24 Time =  9.72
+19:51:34 Iter     2600 : NLL =  4.6825e+01 MSE = 7.2455e+00 Samples= 25 Time =  9.78
+19:51:34 Iter     2700 : NLL =  4.6087e+01 MSE = 7.7877e+00 Samples= 26 Time =  9.83
+19:51:34 Iter     2800 : NLL =  4.5133e+01 MSE = 6.4448e+00 Samples= 27 Time =  9.88
+19:51:34 Iter     2900 : NLL =  4.4327e+01 MSE = 6.5653e+00 Samples= 28 Time =  9.93
+19:51:34 Iter     3000 : NLL =  4.3473e+01 MSE = 5.5140e+00 Samples= 29 Time =  9.99
+19:51:34 Iter     3100 : NLL =  4.2707e+01 MSE = 4.6748e+00 Samples= 30 Time = 10.04
+19:51:34 Iter     3200 : NLL =  4.1975e+01 MSE = 4.1892e+00 Samples= 31 Time = 10.09
+19:51:34 Iter     3300 : NLL =  4.1204e+01 MSE = 3.6026e+00 Samples= 32 Time = 10.15
+19:51:35 WORKER: done with job (2, 0, 1), trying to register it.
+19:51:35 WORKER: registered result for job (2, 0, 1) with dispatcher
+19:51:35 DISPATCHER: job (2, 0, 1) finished
+19:51:35 DISPATCHER: register_result: lock acquired
+19:51:35 DISPATCHER: job (2, 0, 1) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:51:35 job_id: (2, 0, 1)
+kwargs: {'config': {'burn_in': 0.04353667527902095, 'l_rate': 0.09403929718058544, 'mdecay': 0.8343959013697574, 'n_units_1': 22, 'n_units_2': 17}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4.703007880439715, 'info': {'function_value': 4.703007880439715, 'cost': 10.19675350189209}}
+exception: None
+
+19:51:35 job_callback for (2, 0, 1) started
+19:51:35 DISPATCHER: Trying to submit another job.
+19:51:35 job_callback for (2, 0, 1) got condition
+19:51:35 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:35 Only 4 run(s) for budget 3333.333333 available, need more than 7 -> can't build model!
+19:51:35 HBMASTER: Trying to run another job!
+19:51:35 job_callback for (2, 0, 1) finished
+19:51:35 start sampling a new configuration.
+19:51:35 best_vector: [0.07067890068020703, 0.9814419258526963, 0.7837976562945072, 0.09769808562108243, 0.013916062850840398], 0.0003453886692055763, 2733.541224551816, 0.9441341657665331
+19:51:35 done sampling a new configuration.
+19:51:35 HBMASTER: schedule new run for iteration 2
+19:51:35 HBMASTER: trying submitting job (2, 0, 3) to dispatcher
+19:51:35 HBMASTER: submitting job (2, 0, 3) to dispatcher
+19:51:35 DISPATCHER: trying to submit job (2, 0, 3)
+19:51:35 DISPATCHER: trying to notify the job_runner thread.
+19:51:35 HBMASTER: job (2, 0, 3) submitted to dispatcher
+19:51:35 DISPATCHER: Trying to submit another job.
+19:51:35 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:35 DISPATCHER: starting job (2, 0, 3) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:35 DISPATCHER: job (2, 0, 3) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:35 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:35 WORKER: start processing job (2, 0, 3)
+19:51:35 WORKER: args: ()
+19:51:35 WORKER: kwargs: {'config': {'burn_in': 0.05654312054416563, 'l_rate': 0.0807624767947169, 'mdecay': 0.7837976562945072, 'n_units_1': 22, 'n_units_2': 16}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:36 Starting sampling
+19:51:39 DISPATCHER: job (1, 0, 3) finished
+19:51:39 DISPATCHER: register_result: lock acquired
+19:51:39 DISPATCHER: job (1, 0, 3) on hpbandster.run_42.worker.metaex24.39501 finished
+19:51:39 job_id: (1, 0, 3)
+kwargs: {'config': {'burn_in': 0.15932096359065226, 'l_rate': 0.021025075186985986, 'mdecay': 0.6952715712220763, 'n_units_1': 190, 'n_units_2': 511}, 'budget': 1111.111111111111, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 49.62827674300549, 'info': {'function_value': 49.62827674300549, 'cost': 75.08892941474915}}
+exception: None
+
+19:51:39 job_callback for (1, 0, 3) started
+19:51:39 job_callback for (1, 0, 3) got condition
+19:51:39 DISPATCHER: Trying to submit another job.
+19:51:39 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:39 done building a new model for budget 1111.111111 based on 6/15 split
+Best loss for this budget:4.435195
+
+
+
+
+
+19:51:39 HBMASTER: Trying to run another job!
+19:51:39 job_callback for (1, 0, 3) finished
+19:51:39 ITERATION: Advancing config (1, 0, 0) to next budget 3333.333333
+19:51:39 ITERATION: Advancing config (1, 0, 4) to next budget 3333.333333
+19:51:39 ITERATION: Advancing config (1, 0, 8) to next budget 3333.333333
+19:51:39 HBMASTER: schedule new run for iteration 1
+19:51:39 HBMASTER: trying submitting job (1, 0, 0) to dispatcher
+19:51:39 HBMASTER: submitting job (1, 0, 0) to dispatcher
+19:51:39 DISPATCHER: trying to submit job (1, 0, 0)
+19:51:39 DISPATCHER: trying to notify the job_runner thread.
+19:51:39 HBMASTER: job (1, 0, 0) submitted to dispatcher
+19:51:39 DISPATCHER: Trying to submit another job.
+19:51:39 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:39 DISPATCHER: starting job (1, 0, 0) on hpbandster.run_42.worker.metaex24.39501
+19:51:39 DISPATCHER: job (1, 0, 0) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:51:39 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:40 Iter        0 : NLL =  2.2427e+02 MSE = 1.0801e+01 Time =  5.62
+19:51:43 Iter      200 : NLL =  2.2733e+01 MSE = 5.0064e-01 Samples= 1 Time =  8.45
+19:51:43 Iter      300 : NLL =  2.0588e+01 MSE = 2.3395e-01 Samples= 2 Time =  8.50
+19:51:43 Iter      400 : NLL =  2.0097e+01 MSE = 2.4812e-01 Samples= 3 Time =  8.55
+19:51:43 Iter      500 : NLL =  2.0656e+01 MSE = 2.8207e-01 Samples= 4 Time =  8.60
+19:51:43 Iter      600 : NLL =  2.0610e+01 MSE = 2.8439e-01 Samples= 5 Time =  8.66
+19:51:43 Iter      700 : NLL =  1.8406e+01 MSE = 1.6617e-01 Samples= 6 Time =  8.71
+19:51:43 Iter      800 : NLL =  1.6058e+01 MSE = 7.8835e-02 Samples= 7 Time =  8.76
+19:51:43 Iter      900 : NLL =  1.6379e+01 MSE = 9.5619e-02 Samples= 8 Time =  8.81
+19:51:44 Iter     1000 : NLL =  1.8470e+01 MSE = 1.2475e-01 Samples= 9 Time =  8.87
+19:51:44 Iter     1100 : NLL =  1.5973e+01 MSE = 7.8895e-02 Samples= 10 Time =  8.92
+19:51:44 Iter     1200 : NLL =  1.6996e+01 MSE = 1.1375e-01 Samples= 11 Time =  8.97
+19:51:44 Iter     1300 : NLL =  1.6585e+01 MSE = 1.0316e-01 Samples= 12 Time =  9.02
+19:51:44 Iter     1400 : NLL =  1.5005e+01 MSE = 5.9399e-02 Samples= 13 Time =  9.07
+19:51:44 Iter     1500 : NLL =  1.7659e+01 MSE = 1.3287e-01 Samples= 14 Time =  9.13
+19:51:44 Iter     1600 : NLL =  1.6307e+01 MSE = 9.1633e-02 Samples= 15 Time =  9.18
+19:51:44 Iter     1700 : NLL =  1.4238e+01 MSE = 4.7661e-02 Samples= 16 Time =  9.23
+19:51:44 Iter     1800 : NLL =  1.7114e+01 MSE = 1.0740e-01 Samples= 17 Time =  9.29
+19:51:44 Iter     1900 : NLL =  1.4922e+01 MSE = 6.4826e-02 Samples= 18 Time =  9.35
+19:51:44 Iter     2000 : NLL =  1.3669e+01 MSE = 4.3379e-02 Samples= 19 Time =  9.40
+19:51:44 Iter     2100 : NLL =  1.4192e+01 MSE = 5.2003e-02 Samples= 20 Time =  9.46
+19:51:44 Iter     2200 : NLL =  1.5665e+01 MSE = 8.0012e-02 Samples= 21 Time =  9.52
+19:51:44 DISPATCHER: job (2, 0, 2) finished
+19:51:44 DISPATCHER: register_result: lock acquired
+19:51:44 DISPATCHER: job (2, 0, 2) on hpbandster.run_42.worker.metaex24.39510 finished
+19:51:44 job_id: (2, 0, 2)
+kwargs: {'config': {'burn_in': 0.5215429841817897, 'l_rate': 6.493536545745706e-05, 'mdecay': 0.6586653975618391, 'n_units_1': 29, 'n_units_2': 232}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 57961460.74077411, 'info': {'function_value': 57961460.74077411, 'cost': 16.331539154052734}}
+exception: None
+
+19:51:44 job_callback for (2, 0, 2) started
+19:51:44 job_callback for (2, 0, 2) got condition
+19:51:44 DISPATCHER: Trying to submit another job.
+19:51:44 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:44 Iter     2300 : NLL =  1.4692e+01 MSE = 6.0563e-02 Samples= 22 Time =  9.58
+19:51:44 Iter     2400 : NLL =  1.3297e+01 MSE = 3.6236e-02 Samples= 23 Time =  9.63
+19:51:44 Iter     2500 : NLL =  1.3331e+01 MSE = 3.7221e-02 Samples= 24 Time =  9.69
+19:51:44 Iter     2600 : NLL =  1.3398e+01 MSE = 3.9141e-02 Samples= 25 Time =  9.74
+19:51:44 Iter     2700 : NLL =  1.3166e+01 MSE = 3.3566e-02 Samples= 26 Time =  9.80
+19:51:45 Iter     2800 : NLL =  1.3284e+01 MSE = 3.7358e-02 Samples= 27 Time =  9.86
+19:51:45 Only 5 run(s) for budget 3333.333333 available, need more than 7 -> can't build model!
+19:51:45 Iter     2900 : NLL =  1.3724e+01 MSE = 4.5247e-02 Samples= 28 Time =  9.91
+19:51:45 HBMASTER: Trying to run another job!
+19:51:45 Iter     3000 : NLL =  1.3210e+01 MSE = 3.6937e-02 Samples= 29 Time =  9.97
+19:51:45 job_callback for (2, 0, 2) finished
+19:51:45 HBMASTER: schedule new run for iteration 1
+19:51:45 Iter     3100 : NLL =  1.3850e+01 MSE = 4.7446e-02 Samples= 30 Time = 10.03
+19:51:45 HBMASTER: trying submitting job (1, 0, 4) to dispatcher
+19:51:45 HBMASTER: submitting job (1, 0, 4) to dispatcher
+19:51:45 Iter     3200 : NLL =  1.4275e+01 MSE = 5.3801e-02 Samples= 31 Time = 10.08
+19:51:45 DISPATCHER: trying to submit job (1, 0, 4)
+19:51:45 Iter     3300 : NLL =  1.8318e+01 MSE = 1.0923e-01 Samples= 32 Time = 10.14
+19:51:45 DISPATCHER: trying to notify the job_runner thread.
+19:51:45 HBMASTER: job (1, 0, 4) submitted to dispatcher
+19:51:45 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:45 DISPATCHER: Trying to submit another job.
+19:51:45 DISPATCHER: starting job (1, 0, 4) on hpbandster.run_42.worker.metaex24.39510
+19:51:45 WORKER: done with job (2, 0, 3), trying to register it.
+19:51:45 DISPATCHER: job (1, 0, 4) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:51:45 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:45 WORKER: registered result for job (2, 0, 3) with dispatcher
+19:51:45 DISPATCHER: job (2, 0, 3) finished
+19:51:45 DISPATCHER: register_result: lock acquired
+19:51:45 DISPATCHER: job (2, 0, 3) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:51:45 job_id: (2, 0, 3)
+kwargs: {'config': {'burn_in': 0.05654312054416563, 'l_rate': 0.0807624767947169, 'mdecay': 0.7837976562945072, 'n_units_1': 22, 'n_units_2': 16}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 3.7251771837358896, 'info': {'function_value': 3.7251771837358896, 'cost': 10.196737051010132}}
+exception: None
+
+19:51:45 job_callback for (2, 0, 3) started
+19:51:45 DISPATCHER: Trying to submit another job.
+19:51:45 job_callback for (2, 0, 3) got condition
+19:51:45 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:45 HBMASTER: Trying to run another job!
+19:51:45 job_callback for (2, 0, 3) finished
+19:51:45 HBMASTER: schedule new run for iteration 1
+19:51:45 HBMASTER: trying submitting job (1, 0, 8) to dispatcher
+19:51:45 HBMASTER: submitting job (1, 0, 8) to dispatcher
+19:51:45 DISPATCHER: trying to submit job (1, 0, 8)
+19:51:45 DISPATCHER: trying to notify the job_runner thread.
+19:51:45 HBMASTER: job (1, 0, 8) submitted to dispatcher
+19:51:45 DISPATCHER: Trying to submit another job.
+19:51:45 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:45 DISPATCHER: starting job (1, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:45 DISPATCHER: job (1, 0, 8) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:45 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:45 WORKER: start processing job (1, 0, 8)
+19:51:45 WORKER: args: ()
+19:51:45 WORKER: kwargs: {'config': {'burn_in': 0.01890304903033992, 'l_rate': 0.08885866572284534, 'mdecay': 0.6939716441485484, 'n_units_1': 24, 'n_units_2': 36}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:51:47 Starting sampling
+19:51:51 Iter        0 : NLL =  5.5446e+01 MSE = 4.9509e+01 Time =  5.73
+19:51:53 Iter      100 : NLL =  4.8694e+01 MSE = 1.4130e+01 Samples= 1 Time =  8.57
+19:51:54 Iter      200 : NLL =  4.7581e+01 MSE = 7.8344e+00 Samples= 2 Time =  8.74
+19:51:54 Iter      300 : NLL =  4.6531e+01 MSE = 4.7173e+00 Samples= 3 Time =  8.92
+19:51:54 Iter      400 : NLL =  4.5637e+01 MSE = 5.0965e+00 Samples= 4 Time =  9.10
+19:51:54 Iter      500 : NLL =  4.4944e+01 MSE = 4.7693e+00 Samples= 5 Time =  9.28
+19:51:54 Iter      600 : NLL =  4.4105e+01 MSE = 4.1677e+00 Samples= 6 Time =  9.46
+19:51:54 DISPATCHER: job (1, 0, 0) finished
+19:51:54 DISPATCHER: register_result: lock acquired
+19:51:54 DISPATCHER: job (1, 0, 0) on hpbandster.run_42.worker.metaex24.39501 finished
+19:51:54 job_id: (1, 0, 0)
+kwargs: {'config': {'burn_in': 0.06141992346213904, 'l_rate': 0.06493664341080427, 'mdecay': 0.7052280213977413, 'n_units_1': 70, 'n_units_2': 16}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 5.911280203195693, 'info': {'function_value': 5.911280203195693, 'cost': 14.897528648376465}}
+exception: None
+
+19:51:54 job_callback for (1, 0, 0) started
+19:51:54 job_callback for (1, 0, 0) got condition
+19:51:54 DISPATCHER: Trying to submit another job.
+19:51:54 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:54 HBMASTER: Trying to run another job!
+19:51:54 job_callback for (1, 0, 0) finished
+19:51:54 start sampling a new configuration.
+19:51:54 done sampling a new configuration.
+19:51:54 HBMASTER: schedule new run for iteration 2
+19:51:54 HBMASTER: trying submitting job (2, 0, 4) to dispatcher
+19:51:54 HBMASTER: submitting job (2, 0, 4) to dispatcher
+19:51:54 DISPATCHER: trying to submit job (2, 0, 4)
+19:51:54 DISPATCHER: trying to notify the job_runner thread.
+19:51:54 HBMASTER: job (2, 0, 4) submitted to dispatcher
+19:51:54 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:54 DISPATCHER: Trying to submit another job.
+19:51:54 DISPATCHER: starting job (2, 0, 4) on hpbandster.run_42.worker.metaex24.39501
+19:51:54 DISPATCHER: job (2, 0, 4) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:51:54 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:55 Iter      700 : NLL =  4.3289e+01 MSE = 4.4303e+00 Samples= 7 Time =  9.65
+19:51:55 Iter      800 : NLL =  4.2393e+01 MSE = 3.1338e+00 Samples= 8 Time =  9.83
+19:51:55 Iter      900 : NLL =  4.1678e+01 MSE = 3.0396e+00 Samples= 9 Time = 10.01
+19:51:55 DISPATCHER: job (1, 0, 4) finished
+19:51:55 DISPATCHER: register_result: lock acquired
+19:51:55 DISPATCHER: job (1, 0, 4) on hpbandster.run_42.worker.metaex24.39510 finished
+19:51:55 job_id: (1, 0, 4)
+kwargs: {'config': {'burn_in': 0.06185979539841351, 'l_rate': 0.08630182179946082, 'mdecay': 0.7569629277910069, 'n_units_1': 16, 'n_units_2': 16}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 7.973067302195768, 'info': {'function_value': 7.973067302195768, 'cost': 10.015197038650513}}
+exception: None
+
+19:51:55 job_callback for (1, 0, 4) started
+19:51:55 DISPATCHER: Trying to submit another job.
+19:51:55 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:55 job_callback for (1, 0, 4) got condition
+19:51:55 HBMASTER: Trying to run another job!
+19:51:55 job_callback for (1, 0, 4) finished
+19:51:55 start sampling a new configuration.
+19:51:55 best_vector: [0.06213267843740452, 0.9791992351059039, 0.7887449191986589, 0.2580226841363785, 0.07047001169335267], 0.0013433453245425813, 1890.781679888434, 2.539972729408895
+19:51:55 done sampling a new configuration.
+19:51:55 HBMASTER: schedule new run for iteration 2
+19:51:55 HBMASTER: trying submitting job (2, 0, 5) to dispatcher
+19:51:55 HBMASTER: submitting job (2, 0, 5) to dispatcher
+19:51:55 DISPATCHER: trying to submit job (2, 0, 5)
+19:51:55 DISPATCHER: trying to notify the job_runner thread.
+19:51:55 HBMASTER: job (2, 0, 5) submitted to dispatcher
+19:51:55 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:55 DISPATCHER: Trying to submit another job.
+19:51:55 DISPATCHER: starting job (2, 0, 5) on hpbandster.run_42.worker.metaex24.39510
+19:51:55 DISPATCHER: job (2, 0, 5) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:51:55 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:55 Iter     1000 : NLL =  4.0949e+01 MSE = 2.2479e+00 Samples= 10 Time = 10.28
+19:51:55 Iter     1100 : NLL =  4.0483e+01 MSE = 3.7586e+00 Samples= 11 Time = 10.47
+19:51:55 Iter     1200 : NLL =  3.9944e+01 MSE = 4.0883e+00 Samples= 12 Time = 10.62
+19:51:56 Iter     1300 : NLL =  3.9085e+01 MSE = 2.4944e+00 Samples= 13 Time = 10.76
+19:51:56 DISPATCHER: job (0, 0, 16) finished
+19:51:56 DISPATCHER: register_result: lock acquired
+19:51:56 DISPATCHER: job (0, 0, 16) on hpbandster.run_42.worker.metaex19.34818 finished
+19:51:56 job_id: (0, 0, 16)
+kwargs: {'config': {'burn_in': 0.14942471239119823, 'l_rate': 0.0780372452311741, 'mdecay': 0.9976079898131723, 'n_units_1': 243, 'n_units_2': 143}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 6.211871315339258, 'info': {'function_value': 6.211871315339258, 'cost': 67.39923453330994}}
+exception: None
+
+19:51:56 job_callback for (0, 0, 16) started
+19:51:56 DISPATCHER: Trying to submit another job.
+19:51:56 job_callback for (0, 0, 16) got condition
+19:51:56 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:56 HBMASTER: Trying to run another job!
+19:51:56 job_callback for (0, 0, 16) finished
+19:51:56 ITERATION: Advancing config (0, 0, 18) to next budget 10000.000000
+19:51:56 HBMASTER: schedule new run for iteration 0
+19:51:56 HBMASTER: trying submitting job (0, 0, 18) to dispatcher
+19:51:56 HBMASTER: submitting job (0, 0, 18) to dispatcher
+19:51:56 DISPATCHER: trying to submit job (0, 0, 18)
+19:51:56 DISPATCHER: trying to notify the job_runner thread.
+19:51:56 HBMASTER: job (0, 0, 18) submitted to dispatcher
+19:51:56 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:56 DISPATCHER: Trying to submit another job.
+19:51:56 DISPATCHER: starting job (0, 0, 18) on hpbandster.run_42.worker.metaex19.34818
+19:51:56 DISPATCHER: job (0, 0, 18) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:51:56 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:56 Iter     1400 : NLL =  3.8397e+01 MSE = 1.8482e+00 Samples= 14 Time = 10.91
+19:51:56 Iter     1500 : NLL =  3.8046e+01 MSE = 3.6360e+00 Samples= 15 Time = 11.08
+19:51:56 Iter     1600 : NLL =  3.7085e+01 MSE = 2.3155e+00 Samples= 16 Time = 11.24
+19:51:56 Iter     1700 : NLL =  3.6516e+01 MSE = 2.5233e+00 Samples= 17 Time = 11.37
+19:51:56 Iter     1800 : NLL =  3.6176e+01 MSE = 2.9564e+00 Samples= 18 Time = 11.55
+19:51:57 Iter     1900 : NLL =  3.5521e+01 MSE = 2.3379e+00 Samples= 19 Time = 11.66
+19:51:57 Iter     2000 : NLL =  3.4747e+01 MSE = 1.3754e+00 Samples= 20 Time = 11.84
+19:51:57 Iter     2100 : NLL =  3.4609e+01 MSE = 2.6513e+00 Samples= 21 Time = 11.96
+19:51:57 Iter     2200 : NLL =  3.4426e+01 MSE = 3.3981e+00 Samples= 22 Time = 12.13
+19:51:57 Iter     2300 : NLL =  3.3135e+01 MSE = 1.2415e+00 Samples= 23 Time = 12.26
+19:51:57 Iter     2400 : NLL =  3.4348e+01 MSE = 5.0355e+00 Samples= 24 Time = 12.43
+19:51:57 Iter     2500 : NLL =  3.2446e+01 MSE = 1.5767e+00 Samples= 25 Time = 12.56
+19:51:58 Iter     2600 : NLL =  3.2839e+01 MSE = 3.0562e+00 Samples= 26 Time = 12.73
+19:51:58 Iter     2700 : NLL =  3.1401e+01 MSE = 1.2270e+00 Samples= 27 Time = 12.86
+19:51:58 Iter     2800 : NLL =  3.0869e+01 MSE = 1.0301e+00 Samples= 28 Time = 13.03
+19:51:58 Iter     2900 : NLL =  3.0856e+01 MSE = 1.6798e+00 Samples= 29 Time = 13.15
+19:51:58 Iter     3000 : NLL =  2.9993e+01 MSE = 9.8483e-01 Samples= 30 Time = 13.32
+19:51:58 Iter     3100 : NLL =  2.9459e+01 MSE = 7.5213e-01 Samples= 31 Time = 13.44
+19:51:58 Iter     3200 : NLL =  3.0420e+01 MSE = 2.2095e+00 Samples= 32 Time = 13.61
+19:51:59 Iter     3300 : NLL =  3.0389e+01 MSE = 2.3303e+00 Samples= 33 Time = 13.73
+19:51:59 WORKER: done with job (1, 0, 8), trying to register it.
+19:51:59 WORKER: registered result for job (1, 0, 8) with dispatcher
+19:51:59 DISPATCHER: job (1, 0, 8) finished
+19:51:59 DISPATCHER: register_result: lock acquired
+19:51:59 DISPATCHER: job (1, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:51:59 job_id: (1, 0, 8)
+kwargs: {'config': {'burn_in': 0.01890304903033992, 'l_rate': 0.08885866572284534, 'mdecay': 0.6939716441485484, 'n_units_1': 24, 'n_units_2': 36}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4.200284054507373, 'info': {'function_value': 4.200284054507373, 'cost': 13.835619926452637}}
+exception: None
+
+19:51:59 job_callback for (1, 0, 8) started
+19:51:59 job_callback for (1, 0, 8) got condition
+19:51:59 DISPATCHER: Trying to submit another job.
+19:51:59 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:51:59 HBMASTER: Trying to run another job!
+19:51:59 job_callback for (1, 0, 8) finished
+19:51:59 ITERATION: Advancing config (1, 0, 8) to next budget 10000.000000
+19:51:59 HBMASTER: schedule new run for iteration 1
+19:51:59 HBMASTER: trying submitting job (1, 0, 8) to dispatcher
+19:51:59 HBMASTER: submitting job (1, 0, 8) to dispatcher
+19:51:59 DISPATCHER: trying to submit job (1, 0, 8)
+19:51:59 DISPATCHER: trying to notify the job_runner thread.
+19:51:59 HBMASTER: job (1, 0, 8) submitted to dispatcher
+19:51:59 DISPATCHER: Trying to submit another job.
+19:51:59 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:51:59 DISPATCHER: starting job (1, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:59 DISPATCHER: job (1, 0, 8) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:51:59 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:51:59 WORKER: start processing job (1, 0, 8)
+19:51:59 WORKER: args: ()
+19:51:59 WORKER: kwargs: {'config': {'burn_in': 0.01890304903033992, 'l_rate': 0.08885866572284534, 'mdecay': 0.6939716441485484, 'n_units_1': 24, 'n_units_2': 36}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:52:00 Starting sampling
+19:52:04 Iter        0 : NLL =  1.6680e+04 MSE = 1.1551e+02 Time =  5.68
+19:52:05 DISPATCHER: job (2, 0, 5) finished
+19:52:05 DISPATCHER: register_result: lock acquired
+19:52:05 DISPATCHER: job (2, 0, 5) on hpbandster.run_42.worker.metaex24.39510 finished
+19:52:05 job_id: (2, 0, 5)
+kwargs: {'config': {'burn_in': 0.04970614274992362, 'l_rate': 0.07870388588676042, 'mdecay': 0.7887449191986589, 'n_units_1': 38, 'n_units_2': 20}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 6.96299719171723, 'info': {'function_value': 6.96299719171723, 'cost': 10.413968086242676}}
+exception: None
+
+19:52:05 job_callback for (2, 0, 5) started
+19:52:05 DISPATCHER: Trying to submit another job.
+19:52:05 job_callback for (2, 0, 5) got condition
+19:52:05 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:05 HBMASTER: Trying to run another job!
+19:52:05 job_callback for (2, 0, 5) finished
+19:52:05 start sampling a new configuration.
+19:52:06 best_vector: [0.10218620795122016, 0.907982162828701, 0.88528952664517, 0.05260203319514511, 0.089017115300608], 0.0003233675537302479, 2352.4639161430678, 0.7607105018018628
+19:52:06 done sampling a new configuration.
+19:52:06 HBMASTER: schedule new run for iteration 3
+19:52:06 HBMASTER: trying submitting job (3, 0, 0) to dispatcher
+19:52:06 HBMASTER: submitting job (3, 0, 0) to dispatcher
+19:52:06 DISPATCHER: trying to submit job (3, 0, 0)
+19:52:06 DISPATCHER: trying to notify the job_runner thread.
+19:52:06 HBMASTER: job (3, 0, 0) submitted to dispatcher
+19:52:06 DISPATCHER: Trying to submit another job.
+19:52:06 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:52:06 DISPATCHER: starting job (3, 0, 0) on hpbandster.run_42.worker.metaex24.39510
+19:52:06 DISPATCHER: job (3, 0, 0) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:52:06 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:52:08 Iter      200 : NLL =  4.3025e+01 MSE = 4.6330e+00 Samples= 1 Time =  8.93
+19:52:08 Iter      300 : NLL =  3.2384e+01 MSE = 3.2388e+00 Samples= 2 Time =  9.11
+19:52:08 Iter      400 : NLL =  3.0215e+01 MSE = 2.6077e+00 Samples= 3 Time =  9.24
+19:52:08 Iter      500 : NLL =  2.9373e+01 MSE = 2.2606e+00 Samples= 4 Time =  9.41
+19:52:08 Iter      600 : NLL =  2.8836e+01 MSE = 2.0279e+00 Samples= 5 Time =  9.57
+19:52:08 Iter      700 : NLL =  2.8344e+01 MSE = 1.8188e+00 Samples= 6 Time =  9.73
+19:52:09 Iter      800 : NLL =  2.7842e+01 MSE = 1.6172e+00 Samples= 7 Time =  9.89
+19:52:09 Iter      900 : NLL =  2.7265e+01 MSE = 1.4159e+00 Samples= 8 Time = 10.05
+19:52:09 Iter     1000 : NLL =  2.6740e+01 MSE = 1.2501e+00 Samples= 9 Time = 10.21
+19:52:09 Iter     1100 : NLL =  2.6247e+01 MSE = 1.1176e+00 Samples= 10 Time = 10.36
+19:52:09 Iter     1200 : NLL =  2.5911e+01 MSE = 1.0415e+00 Samples= 11 Time = 10.52
+19:52:09 Iter     1300 : NLL =  2.5418e+01 MSE = 9.2919e-01 Samples= 12 Time = 10.68
+19:52:10 Iter     1400 : NLL =  2.5105e+01 MSE = 8.6532e-01 Samples= 13 Time = 10.84
+19:52:10 Iter     1500 : NLL =  2.4681e+01 MSE = 7.8348e-01 Samples= 14 Time = 10.99
+19:52:10 Iter     1600 : NLL =  2.4176e+01 MSE = 6.9171e-01 Samples= 15 Time = 11.15
+19:52:10 Iter     1700 : NLL =  2.3733e+01 MSE = 6.2453e-01 Samples= 16 Time = 11.31
+19:52:10 Iter     1800 : NLL =  2.3408e+01 MSE = 5.7824e-01 Samples= 17 Time = 11.47
+19:52:10 Iter     1900 : NLL =  2.3141e+01 MSE = 5.3885e-01 Samples= 18 Time = 11.63
+19:52:10 DISPATCHER: job (0, 0, 18) finished
+19:52:10 DISPATCHER: register_result: lock acquired
+19:52:10 DISPATCHER: job (0, 0, 18) on hpbandster.run_42.worker.metaex19.34818 finished
+19:52:10 job_id: (0, 0, 18)
+kwargs: {'config': {'burn_in': 0.047005534451331765, 'l_rate': 0.09613193382258516, 'mdecay': 0.7569634178505533, 'n_units_1': 27, 'n_units_2': 25}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4.833583172299178, 'info': {'function_value': 4.833583172299178, 'cost': 14.573287010192871}}
+exception: None
+
+19:52:10 job_callback for (0, 0, 18) started
+19:52:10 job_callback for (0, 0, 18) got condition
+19:52:10 DISPATCHER: Trying to submit another job.
+19:52:10 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:10 Only 1 run(s) for budget 10000.000000 available, need more than 7 -> can't build model!
+19:52:10 HBMASTER: Trying to run another job!
+19:52:10 job_callback for (0, 0, 18) finished
+19:52:10 start sampling a new configuration.
+19:52:10 done sampling a new configuration.
+19:52:10 HBMASTER: schedule new run for iteration 3
+19:52:10 HBMASTER: trying submitting job (3, 0, 1) to dispatcher
+19:52:10 HBMASTER: submitting job (3, 0, 1) to dispatcher
+19:52:10 DISPATCHER: trying to submit job (3, 0, 1)
+19:52:10 DISPATCHER: trying to notify the job_runner thread.
+19:52:10 HBMASTER: job (3, 0, 1) submitted to dispatcher
+19:52:10 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:52:10 DISPATCHER: Trying to submit another job.
+19:52:10 DISPATCHER: starting job (3, 0, 1) on hpbandster.run_42.worker.metaex19.34818
+19:52:10 DISPATCHER: job (3, 0, 1) dispatched on hpbandster.run_42.worker.metaex19.34818
+19:52:11 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:52:11 Iter     2000 : NLL =  2.2767e+01 MSE = 4.9274e-01 Samples= 19 Time = 11.79
+19:52:11 Iter     2100 : NLL =  2.2443e+01 MSE = 4.5297e-01 Samples= 20 Time = 11.95
+19:52:11 Iter     2200 : NLL =  2.2031e+01 MSE = 4.0923e-01 Samples= 21 Time = 12.10
+19:52:11 Iter     2300 : NLL =  2.1743e+01 MSE = 3.8468e-01 Samples= 22 Time = 12.26
+19:52:11 Iter     2400 : NLL =  2.1830e+01 MSE = 3.9852e-01 Samples= 23 Time = 12.42
+19:52:11 Iter     2500 : NLL =  2.1429e+01 MSE = 3.5852e-01 Samples= 24 Time = 12.57
+19:52:11 Iter     2600 : NLL =  2.1147e+01 MSE = 3.3516e-01 Samples= 25 Time = 12.73
+19:52:12 Iter     2700 : NLL =  2.0947e+01 MSE = 3.2089e-01 Samples= 26 Time = 12.89
+19:52:12 Iter     2800 : NLL =  2.1098e+01 MSE = 3.3295e-01 Samples= 27 Time = 13.04
+19:52:12 Iter     2900 : NLL =  2.0792e+01 MSE = 3.0869e-01 Samples= 28 Time = 13.20
+19:52:12 DISPATCHER: job (2, 0, 4) finished
+19:52:12 DISPATCHER: register_result: lock acquired
+19:52:12 DISPATCHER: job (2, 0, 4) on hpbandster.run_42.worker.metaex24.39501 finished
+19:52:12 job_id: (2, 0, 4)
+kwargs: {'config': {'burn_in': 0.010179240580805882, 'l_rate': 1.2409594290515e-05, 'mdecay': 0.23544208789791854, 'n_units_1': 136, 'n_units_2': 29}, 'budget': 3333.333333333333, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 321723864.9075325, 'info': {'function_value': 321723864.9075325, 'cost': 17.482415437698364}}
+exception: None
+
+19:52:12 job_callback for (2, 0, 4) started
+19:52:12 DISPATCHER: Trying to submit another job.
+19:52:12 job_callback for (2, 0, 4) got condition
+19:52:12 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:12 done building a new model for budget 3333.333333 based on 6/10 split
+Best loss for this budget:3.554470
+
+
+
+
+
+19:52:12 HBMASTER: Trying to run another job!
+19:52:12 job_callback for (2, 0, 4) finished
+19:52:12 ITERATION: Advancing config (2, 0, 1) to next budget 10000.000000
+19:52:12 ITERATION: Advancing config (2, 0, 3) to next budget 10000.000000
+19:52:12 HBMASTER: schedule new run for iteration 2
+19:52:12 HBMASTER: trying submitting job (2, 0, 1) to dispatcher
+19:52:12 HBMASTER: submitting job (2, 0, 1) to dispatcher
+19:52:12 DISPATCHER: trying to submit job (2, 0, 1)
+19:52:12 DISPATCHER: trying to notify the job_runner thread.
+19:52:12 HBMASTER: job (2, 0, 1) submitted to dispatcher
+19:52:12 DISPATCHER: Trying to submit another job.
+19:52:12 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:52:12 DISPATCHER: starting job (2, 0, 1) on hpbandster.run_42.worker.metaex24.39501
+19:52:12 DISPATCHER: job (2, 0, 1) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:52:12 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:52:12 Iter     3000 : NLL =  2.0567e+01 MSE = 2.9137e-01 Samples= 29 Time = 13.37
+19:52:12 Iter     3100 : NLL =  1.9944e+01 MSE = 2.4897e-01 Samples= 30 Time = 13.52
+19:52:12 Iter     3200 : NLL =  2.0318e+01 MSE = 2.7275e-01 Samples= 31 Time = 13.68
+19:52:13 Iter     3300 : NLL =  1.9450e+01 MSE = 2.1893e-01 Samples= 32 Time = 13.84
+19:52:13 Iter     3400 : NLL =  1.9487e+01 MSE = 2.2169e-01 Samples= 33 Time = 14.00
+19:52:13 Iter     3500 : NLL =  1.9439e+01 MSE = 2.1892e-01 Samples= 34 Time = 14.16
+19:52:13 Iter     3600 : NLL =  1.9250e+01 MSE = 2.0851e-01 Samples= 35 Time = 14.32
+19:52:13 Iter     3700 : NLL =  2.1490e+01 MSE = 3.2949e-01 Samples= 36 Time = 14.48
+19:52:13 Iter     3800 : NLL =  1.8610e+01 MSE = 1.7471e-01 Samples= 37 Time = 14.64
+19:52:14 Iter     3900 : NLL =  1.9660e+01 MSE = 2.2949e-01 Samples= 38 Time = 14.80
+19:52:14 Iter     4000 : NLL =  1.9762e+01 MSE = 2.3788e-01 Samples= 39 Time = 14.95
+19:52:14 Iter     4100 : NLL =  1.8370e+01 MSE = 1.6124e-01 Samples= 40 Time = 15.11
+19:52:14 Iter     4200 : NLL =  1.8150e+01 MSE = 1.5277e-01 Samples= 41 Time = 15.27
+19:52:14 Iter     4300 : NLL =  1.7914e+01 MSE = 1.4441e-01 Samples= 42 Time = 15.43
+19:52:14 Iter     4400 : NLL =  1.7752e+01 MSE = 1.3925e-01 Samples= 43 Time = 15.59
+19:52:14 Iter     4500 : NLL =  1.8852e+01 MSE = 1.8683e-01 Samples= 44 Time = 15.75
+19:52:15 Iter     4600 : NLL =  1.8879e+01 MSE = 1.8775e-01 Samples= 45 Time = 15.91
+19:52:15 Iter     4700 : NLL =  1.8246e+01 MSE = 1.6037e-01 Samples= 46 Time = 16.07
+19:52:15 Iter     4800 : NLL =  1.7788e+01 MSE = 1.3468e-01 Samples= 47 Time = 16.23
+19:52:15 Iter     4900 : NLL =  1.7493e+01 MSE = 1.2567e-01 Samples= 48 Time = 16.39
+19:52:15 Iter     5000 : NLL =  1.8308e+01 MSE = 1.6306e-01 Samples= 49 Time = 16.54
+19:52:15 Iter     5100 : NLL =  1.9846e+01 MSE = 2.2788e-01 Samples= 50 Time = 16.70
+19:52:16 Iter     5200 : NLL =  1.7629e+01 MSE = 1.3540e-01 Samples= 51 Time = 16.86
+19:52:16 Iter     5300 : NLL =  1.8524e+01 MSE = 1.7209e-01 Samples= 52 Time = 17.01
+19:52:16 Iter     5400 : NLL =  1.7551e+01 MSE = 1.3259e-01 Samples= 53 Time = 17.17
+19:52:16 Iter     5500 : NLL =  1.9257e+01 MSE = 1.9711e-01 Samples= 54 Time = 17.33
+19:52:16 Iter     5600 : NLL =  1.7182e+01 MSE = 1.1725e-01 Samples= 55 Time = 17.49
+19:52:16 Iter     5700 : NLL =  1.7334e+01 MSE = 1.2409e-01 Samples= 56 Time = 17.65
+19:52:17 Iter     5800 : NLL =  1.6829e+01 MSE = 1.0616e-01 Samples= 57 Time = 17.80
+19:52:17 Iter     5900 : NLL =  1.7298e+01 MSE = 1.2328e-01 Samples= 58 Time = 17.96
+19:52:17 Iter     6000 : NLL =  1.6935e+01 MSE = 1.0774e-01 Samples= 59 Time = 18.12
+19:52:17 Iter     6100 : NLL =  1.7885e+01 MSE = 1.4538e-01 Samples= 60 Time = 18.27
+19:52:17 Iter     6200 : NLL =  1.7712e+01 MSE = 1.3901e-01 Samples= 61 Time = 18.43
+19:52:17 Iter     6300 : NLL =  1.6725e+01 MSE = 9.3758e-02 Samples= 62 Time = 18.58
+19:52:17 Iter     6400 : NLL =  1.6576e+01 MSE = 9.2970e-02 Samples= 63 Time = 18.74
+19:52:18 Iter     6500 : NLL =  1.7498e+01 MSE = 1.3131e-01 Samples= 64 Time = 18.89
+19:52:18 Iter     6600 : NLL =  1.6676e+01 MSE = 1.0196e-01 Samples= 65 Time = 19.05
+19:52:18 Iter     6700 : NLL =  1.8260e+01 MSE = 1.5958e-01 Samples= 66 Time = 19.21
+19:52:18 Iter     6800 : NLL =  1.7429e+01 MSE = 1.2879e-01 Samples= 67 Time = 19.36
+19:52:18 Iter     6900 : NLL =  1.8370e+01 MSE = 1.6158e-01 Samples= 68 Time = 19.52
+19:52:18 Iter     7000 : NLL =  1.6079e+01 MSE = 8.4080e-02 Samples= 69 Time = 19.68
+19:52:19 Iter     7100 : NLL =  2.8748e+01 MSE = 5.3796e-01 Samples= 70 Time = 19.84
+19:52:19 Iter     7200 : NLL =  1.6364e+01 MSE = 9.0494e-02 Samples= 71 Time = 20.00
+19:52:19 Iter     7300 : NLL =  1.6385e+01 MSE = 9.1780e-02 Samples= 72 Time = 20.16
+19:52:19 Iter     7400 : NLL =  1.5807e+01 MSE = 7.5764e-02 Samples= 73 Time = 20.31
+19:52:19 Iter     7500 : NLL =  1.6364e+01 MSE = 9.5830e-02 Samples= 74 Time = 20.47
+19:52:19 Iter     7600 : NLL =  2.1779e+01 MSE = 3.5399e-01 Samples= 75 Time = 20.63
+19:52:19 Iter     7700 : NLL =  1.6775e+01 MSE = 8.0172e-02 Samples= 76 Time = 20.78
+19:52:20 DISPATCHER: job (3, 0, 0) finished
+19:52:20 DISPATCHER: register_result: lock acquired
+19:52:20 DISPATCHER: job (3, 0, 0) on hpbandster.run_42.worker.metaex24.39510 finished
+19:52:20 job_id: (3, 0, 0)
+kwargs: {'config': {'burn_in': 0.08174896636097613, 'l_rate': 0.03466656525689674, 'mdecay': 0.88528952664517, 'n_units_1': 19, 'n_units_2': 21}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 10.29109516534213, 'info': {'function_value': 10.29109516534213, 'cost': 14.017883062362671}}
+exception: None
+
+19:52:20 job_callback for (3, 0, 0) started
+19:52:20 DISPATCHER: Trying to submit another job.
+19:52:20 job_callback for (3, 0, 0) got condition
+19:52:20 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:20 Only 2 run(s) for budget 10000.000000 available, need more than 7 -> can't build model!
+19:52:20 HBMASTER: Trying to run another job!
+19:52:20 job_callback for (3, 0, 0) finished
+19:52:20 HBMASTER: schedule new run for iteration 2
+19:52:20 Iter     7800 : NLL =  1.6270e+01 MSE = 7.1071e-02 Samples= 77 Time = 20.95
+19:52:20 HBMASTER: trying submitting job (2, 0, 3) to dispatcher
+19:52:20 HBMASTER: submitting job (2, 0, 3) to dispatcher
+19:52:20 DISPATCHER: trying to submit job (2, 0, 3)
+19:52:20 DISPATCHER: trying to notify the job_runner thread.
+19:52:20 HBMASTER: job (2, 0, 3) submitted to dispatcher
+19:52:20 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:52:20 DISPATCHER: Trying to submit another job.
+19:52:20 DISPATCHER: starting job (2, 0, 3) on hpbandster.run_42.worker.metaex24.39510
+19:52:20 DISPATCHER: job (2, 0, 3) dispatched on hpbandster.run_42.worker.metaex24.39510
+19:52:20 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:52:20 Iter     7900 : NLL =  1.5836e+01 MSE = 6.6579e-02 Samples= 78 Time = 21.11
+19:52:20 Iter     8000 : NLL =  1.5654e+01 MSE = 6.7316e-02 Samples= 79 Time = 21.26
+19:52:20 Iter     8100 : NLL =  1.6130e+01 MSE = 8.2786e-02 Samples= 80 Time = 21.42
+19:52:20 Iter     8200 : NLL =  1.5650e+01 MSE = 7.1766e-02 Samples= 81 Time = 21.58
+19:52:20 Iter     8300 : NLL =  1.8203e+01 MSE = 1.4902e-01 Samples= 82 Time = 21.73
+19:52:21 Iter     8400 : NLL =  1.7266e+01 MSE = 1.0202e-01 Samples= 83 Time = 21.89
+19:52:21 Iter     8500 : NLL =  1.6263e+01 MSE = 6.7802e-02 Samples= 84 Time = 22.05
+19:52:21 Iter     8600 : NLL =  1.5708e+01 MSE = 6.1135e-02 Samples= 85 Time = 22.20
+19:52:21 Iter     8700 : NLL =  1.5482e+01 MSE = 6.4510e-02 Samples= 86 Time = 22.36
+19:52:21 Iter     8800 : NLL =  1.5617e+01 MSE = 6.8186e-02 Samples= 87 Time = 22.52
+19:52:21 Iter     8900 : NLL =  1.6023e+01 MSE = 8.1144e-02 Samples= 88 Time = 22.68
+19:52:22 Iter     9000 : NLL =  1.5798e+01 MSE = 7.7892e-02 Samples= 89 Time = 22.83
+19:52:22 Iter     9100 : NLL =  1.6295e+01 MSE = 9.4329e-02 Samples= 90 Time = 22.99
+19:52:22 Iter     9200 : NLL =  1.5194e+01 MSE = 6.4293e-02 Samples= 91 Time = 23.15
+19:52:22 Iter     9300 : NLL =  1.5444e+01 MSE = 7.2419e-02 Samples= 92 Time = 23.31
+19:52:22 Iter     9400 : NLL =  1.5448e+01 MSE = 6.8864e-02 Samples= 93 Time = 23.47
+19:52:22 Iter     9500 : NLL =  1.5828e+01 MSE = 8.1499e-02 Samples= 94 Time = 23.63
+19:52:23 Iter     9600 : NLL =  1.6089e+01 MSE = 8.9138e-02 Samples= 95 Time = 23.79
+19:52:23 Iter     9700 : NLL =  1.5976e+01 MSE = 7.5898e-02 Samples= 96 Time = 23.95
+19:52:23 Iter     9800 : NLL =  1.5276e+01 MSE = 6.1933e-02 Samples= 97 Time = 24.11
+19:52:23 Iter     9900 : NLL =  1.5283e+01 MSE = 6.6740e-02 Samples= 98 Time = 24.27
+19:52:23 WORKER: done with job (1, 0, 8), trying to register it.
+19:52:23 WORKER: registered result for job (1, 0, 8) with dispatcher
+19:52:23 DISPATCHER: job (1, 0, 8) finished
+19:52:23 DISPATCHER: register_result: lock acquired
+19:52:23 DISPATCHER: job (1, 0, 8) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:52:23 job_id: (1, 0, 8)
+kwargs: {'config': {'burn_in': 0.01890304903033992, 'l_rate': 0.08885866572284534, 'mdecay': 0.6939716441485484, 'n_units_1': 24, 'n_units_2': 36}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 9.235762525254563, 'info': {'function_value': 9.235762525254563, 'cost': 24.443583965301514}}
+exception: None
+
+19:52:23 job_callback for (1, 0, 8) started
+19:52:23 job_callback for (1, 0, 8) got condition
+19:52:23 DISPATCHER: Trying to submit another job.
+19:52:23 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:23 Only 3 run(s) for budget 10000.000000 available, need more than 7 -> can't build model!
+19:52:23 HBMASTER: Trying to run another job!
+19:52:23 job_callback for (1, 0, 8) finished
+19:52:23 start sampling a new configuration.
+19:52:23 best_vector: [0.1957506019329496, 0.9913693352868975, 0.8646638577209511, 0.9977163333285949, 0.577965102403591], 1.2289928119206641e-06, 84.46942360245122, 0.00010381231443449423
+19:52:23 done sampling a new configuration.
+19:52:23 HBMASTER: schedule new run for iteration 3
+19:52:23 HBMASTER: trying submitting job (3, 0, 2) to dispatcher
+19:52:23 HBMASTER: submitting job (3, 0, 2) to dispatcher
+19:52:23 DISPATCHER: trying to submit job (3, 0, 2)
+19:52:23 DISPATCHER: trying to notify the job_runner thread.
+19:52:23 HBMASTER: job (3, 0, 2) submitted to dispatcher
+19:52:23 DISPATCHER: Trying to submit another job.
+19:52:23 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:52:23 DISPATCHER: starting job (3, 0, 2) on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:52:23 DISPATCHER: job (3, 0, 2) dispatched on hpbandster.run_42.worker.metaex24.39502140518608500544
+19:52:23 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:52:23 WORKER: start processing job (3, 0, 2)
+19:52:23 WORKER: args: ()
+19:52:23 WORKER: kwargs: {'config': {'burn_in': 0.1566004815463597, 'l_rate': 0.09054128969944149, 'mdecay': 0.8646638577209511, 'n_units_1': 508, 'n_units_2': 117}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+19:52:25 Starting sampling
+19:52:26 DISPATCHER: job (2, 0, 1) finished
+19:52:26 DISPATCHER: register_result: lock acquired
+19:52:26 DISPATCHER: job (2, 0, 1) on hpbandster.run_42.worker.metaex24.39501 finished
+19:52:26 job_id: (2, 0, 1)
+kwargs: {'config': {'burn_in': 0.04353667527902095, 'l_rate': 0.09403929718058544, 'mdecay': 0.8343959013697574, 'n_units_1': 22, 'n_units_2': 17}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 4.703958988079346, 'info': {'function_value': 4.703958988079346, 'cost': 13.696217060089111}}
+exception: None
+
+19:52:26 job_callback for (2, 0, 1) started
+19:52:26 DISPATCHER: Trying to submit another job.
+19:52:26 job_callback for (2, 0, 1) got condition
+19:52:26 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:26 Only 4 run(s) for budget 10000.000000 available, need more than 7 -> can't build model!
+19:52:26 HBMASTER: Trying to run another job!
+19:52:26 job_callback for (2, 0, 1) finished
+19:52:26 start sampling a new configuration.
+19:52:26 done sampling a new configuration.
+19:52:26 HBMASTER: schedule new run for iteration 3
+19:52:26 HBMASTER: trying submitting job (3, 0, 3) to dispatcher
+19:52:26 HBMASTER: submitting job (3, 0, 3) to dispatcher
+19:52:26 DISPATCHER: trying to submit job (3, 0, 3)
+19:52:26 DISPATCHER: trying to notify the job_runner thread.
+19:52:26 HBMASTER: job (3, 0, 3) submitted to dispatcher
+19:52:26 DISPATCHER: Trying to submit another job.
+19:52:26 HBMASTER: running jobs: 4, queue sizes: (3, 4) -> wait
+19:52:26 DISPATCHER: starting job (3, 0, 3) on hpbandster.run_42.worker.metaex24.39501
+19:52:26 DISPATCHER: job (3, 0, 3) dispatched on hpbandster.run_42.worker.metaex24.39501
+19:52:26 DISPATCHER: jobs to submit = 0, number of idle workers = 0 -> waiting!
+19:52:29 Iter        0 : NLL =  6.1210e+03 MSE = 2.4376e+03 Time =  5.72
+19:52:33 DISPATCHER: job (2, 0, 3) finished
+19:52:33 DISPATCHER: register_result: lock acquired
+19:52:33 DISPATCHER: job (2, 0, 3) on hpbandster.run_42.worker.metaex24.39510 finished
+19:52:33 job_id: (2, 0, 3)
+kwargs: {'config': {'burn_in': 0.05654312054416563, 'l_rate': 0.0807624767947169, 'mdecay': 0.7837976562945072, 'n_units_1': 22, 'n_units_2': 16}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 3.6328016615623193, 'info': {'function_value': 3.6328016615623193, 'cost': 13.595810651779175}}
+exception: None
+
+19:52:33 job_callback for (2, 0, 3) started
+19:52:33 DISPATCHER: Trying to submit another job.
+19:52:33 DISPATCHER: jobs to submit = 0, number of idle workers = 1 -> waiting!
+19:52:33 job_callback for (2, 0, 3) got condition
+19:52:33 Only 5 run(s) for budget 10000.000000 available, need more than 7 -> can't build model!
+19:52:33 HBMASTER: Trying to run another job!
+19:52:33 job_callback for (2, 0, 3) finished
+19:52:49 DISPATCHER: job (3, 0, 3) finished
+19:52:49 DISPATCHER: register_result: lock acquired
+19:52:49 DISPATCHER: job (3, 0, 3) on hpbandster.run_42.worker.metaex24.39501 finished
+19:52:49 job_id: (3, 0, 3)
+kwargs: {'config': {'burn_in': 0.41080566356693576, 'l_rate': 0.0004945585892874694, 'mdecay': 0.1252817797848388, 'n_units_1': 79, 'n_units_2': 39}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 618.5428513507716, 'info': {'function_value': 618.5428513507716, 'cost': 22.836720943450928}}
+exception: None
+
+19:52:49 job_callback for (3, 0, 3) started
+19:52:49 DISPATCHER: Trying to submit another job.
+19:52:49 DISPATCHER: jobs to submit = 0, number of idle workers = 2 -> waiting!
+19:52:49 job_callback for (3, 0, 3) got condition
+19:52:49 HBMASTER: Trying to run another job!
+19:52:49 job_callback for (3, 0, 3) finished
+19:52:56 Iter      512 : NLL =  3.7433e+01 MSE = 1.1348e+01 Time = 32.57
+19:53:23 Iter     1024 : NLL =  3.8107e+01 MSE = 1.2739e+01 Time = 59.43
+19:53:50 Iter     1536 : NLL =  4.0837e+01 MSE = 2.2689e+01 Time = 86.33
+19:53:56 Iter     1600 : NLL =  3.9002e+01 MSE = 1.6040e+01 Samples= 1 Time = 92.45
+19:53:59 Iter     1700 : NLL =  3.7888e+01 MSE = 1.2759e+01 Samples= 2 Time = 96.24
+19:54:03 Iter     1800 : NLL =  4.0428e+01 MSE = 1.9968e+01 Samples= 3 Time = 100.06
+19:54:07 Iter     1900 : NLL =  3.8652e+01 MSE = 1.5253e+01 Samples= 4 Time = 103.83
+19:54:11 Iter     2000 : NLL =  3.8013e+01 MSE = 1.3370e+01 Samples= 5 Time = 107.59
+19:54:15 Iter     2100 : NLL =  3.8693e+01 MSE = 1.5373e+01 Samples= 6 Time = 111.35
+19:54:18 Iter     2200 : NLL =  3.8351e+01 MSE = 1.4350e+01 Samples= 7 Time = 115.10
+19:54:22 Iter     2300 : NLL =  3.9385e+01 MSE = 1.7431e+01 Samples= 8 Time = 118.87
+19:54:26 Iter     2400 : NLL =  4.0051e+01 MSE = 1.9641e+01 Samples= 9 Time = 122.64
+19:54:30 Iter     2500 : NLL =  4.0258e+01 MSE = 1.9975e+01 Samples= 10 Time = 126.41
+19:54:33 Iter     2600 : NLL =  4.0143e+01 MSE = 1.9344e+01 Samples= 11 Time = 130.17
+19:54:37 Iter     2700 : NLL =  3.7195e+01 MSE = 1.1268e+01 Samples= 12 Time = 133.93
+19:54:41 Iter     2800 : NLL =  3.6901e+01 MSE = 1.0780e+01 Samples= 13 Time = 137.70
+19:54:45 Iter     2900 : NLL =  3.7340e+01 MSE = 1.1603e+01 Samples= 14 Time = 141.48
+19:54:49 Iter     3000 : NLL =  4.0024e+01 MSE = 1.8911e+01 Samples= 15 Time = 145.26
+19:54:52 Iter     3100 : NLL =  3.9405e+01 MSE = 1.6943e+01 Samples= 16 Time = 149.03
+19:54:56 Iter     3200 : NLL =  3.8495e+01 MSE = 1.4429e+01 Samples= 17 Time = 152.80
+19:55:00 Iter     3300 : NLL =  3.7784e+01 MSE = 1.2750e+01 Samples= 18 Time = 156.59
+19:55:04 Iter     3400 : NLL =  3.7324e+01 MSE = 1.1757e+01 Samples= 19 Time = 160.36
+19:55:07 Iter     3500 : NLL =  3.6668e+01 MSE = 1.0356e+01 Samples= 20 Time = 164.13
+19:55:11 Iter     3600 : NLL =  3.6306e+01 MSE = 9.4703e+00 Samples= 21 Time = 167.91
+19:55:15 Iter     3700 : NLL =  3.4629e+01 MSE = 6.6198e+00 Samples= 22 Time = 171.69
+19:55:19 Iter     3800 : NLL =  3.5212e+01 MSE = 7.6659e+00 Samples= 23 Time = 175.48
+19:55:23 Iter     3900 : NLL =  3.5059e+01 MSE = 7.4730e+00 Samples= 24 Time = 179.26
+19:55:26 Iter     4000 : NLL =  4.0055e+01 MSE = 1.5070e+01 Samples= 25 Time = 183.01
+19:55:30 Iter     4100 : NLL =  3.4851e+01 MSE = 7.1489e+00 Samples= 26 Time = 186.78
+19:55:34 Iter     4200 : NLL =  3.4583e+01 MSE = 6.8263e+00 Samples= 27 Time = 190.54
+19:55:38 Iter     4300 : NLL =  3.7640e+01 MSE = 1.2140e+01 Samples= 28 Time = 194.29
+19:55:41 Iter     4400 : NLL =  3.4974e+01 MSE = 7.2749e+00 Samples= 29 Time = 198.05
+19:55:45 Iter     4500 : NLL =  3.7198e+01 MSE = 1.1025e+01 Samples= 30 Time = 201.81
+19:55:47 DISPATCHER: job (3, 0, 1) finished
+19:55:47 DISPATCHER: register_result: lock acquired
+19:55:47 DISPATCHER: job (3, 0, 1) on hpbandster.run_42.worker.metaex19.34818 finished
+19:55:47 job_id: (3, 0, 1)
+kwargs: {'config': {'burn_in': 0.17835112589192406, 'l_rate': 0.0003888975446069146, 'mdecay': 0.43711609097561555, 'n_units_1': 365, 'n_units_2': 99}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 340.5696644396992, 'info': {'function_value': 340.5696644396992, 'cost': 216.61236476898193}}
+exception: None
+
+19:55:47 job_callback for (3, 0, 1) started
+19:55:47 DISPATCHER: Trying to submit another job.
+19:55:47 DISPATCHER: jobs to submit = 0, number of idle workers = 3 -> waiting!
+19:55:47 job_callback for (3, 0, 1) got condition
+19:55:47 HBMASTER: Trying to run another job!
+19:55:47 job_callback for (3, 0, 1) finished
+19:55:49 Iter     4600 : NLL =  3.7189e+01 MSE = 1.1278e+01 Samples= 31 Time = 205.56
+19:55:53 Iter     4700 : NLL =  3.4210e+01 MSE = 6.1537e+00 Samples= 32 Time = 209.32
+19:55:56 Iter     4800 : NLL =  3.3667e+01 MSE = 5.5670e+00 Samples= 33 Time = 213.07
+19:56:00 Iter     4900 : NLL =  3.4471e+01 MSE = 6.6719e+00 Samples= 34 Time = 216.81
+19:56:04 Iter     5000 : NLL =  3.4918e+01 MSE = 7.2772e+00 Samples= 35 Time = 220.58
+19:56:08 Iter     5100 : NLL =  3.4018e+01 MSE = 6.0768e+00 Samples= 36 Time = 224.33
+19:56:11 Iter     5200 : NLL =  3.4321e+01 MSE = 6.4562e+00 Samples= 37 Time = 228.08
+19:56:15 Iter     5300 : NLL =  3.6977e+01 MSE = 1.0585e+01 Samples= 38 Time = 231.83
+19:56:19 Iter     5400 : NLL =  3.3290e+01 MSE = 4.9697e+00 Samples= 39 Time = 235.59
+19:56:23 Iter     5500 : NLL =  3.4313e+01 MSE = 6.4616e+00 Samples= 40 Time = 239.34
+19:56:26 Iter     5600 : NLL =  3.4381e+01 MSE = 6.4138e+00 Samples= 41 Time = 243.09
+19:56:30 Iter     5700 : NLL =  3.4115e+01 MSE = 6.2023e+00 Samples= 42 Time = 246.84
+19:56:34 Iter     5800 : NLL =  3.4725e+01 MSE = 6.9229e+00 Samples= 43 Time = 250.61
+19:56:38 Iter     5900 : NLL =  3.3392e+01 MSE = 5.2781e+00 Samples= 44 Time = 254.37
+19:56:41 Iter     6000 : NLL =  3.3038e+01 MSE = 4.8441e+00 Samples= 45 Time = 258.12
+19:56:45 Iter     6100 : NLL =  3.2236e+01 MSE = 4.1909e+00 Samples= 46 Time = 261.88
+19:56:49 Iter     6200 : NLL =  3.4027e+01 MSE = 6.0238e+00 Samples= 47 Time = 265.65
+19:56:53 Iter     6300 : NLL =  3.2719e+01 MSE = 4.6446e+00 Samples= 48 Time = 269.41
+19:56:56 Iter     6400 : NLL =  3.2584e+01 MSE = 4.5120e+00 Samples= 49 Time = 273.16
+19:57:00 Iter     6500 : NLL =  3.3429e+01 MSE = 5.1576e+00 Samples= 50 Time = 276.92
+19:57:04 Iter     6600 : NLL =  3.4772e+01 MSE = 6.8583e+00 Samples= 51 Time = 280.68
+19:57:08 Iter     6700 : NLL =  3.2484e+01 MSE = 4.3338e+00 Samples= 52 Time = 284.44
+19:57:11 Iter     6800 : NLL =  3.1910e+01 MSE = 3.9176e+00 Samples= 53 Time = 288.21
+19:57:15 Iter     6900 : NLL =  3.3943e+01 MSE = 5.9388e+00 Samples= 54 Time = 291.97
+19:57:19 Iter     7000 : NLL =  3.0478e+01 MSE = 2.7675e+00 Samples= 55 Time = 295.76
+19:57:23 Iter     7100 : NLL =  3.1672e+01 MSE = 3.7058e+00 Samples= 56 Time = 299.52
+19:57:27 Iter     7200 : NLL =  3.4354e+01 MSE = 6.1194e+00 Samples= 57 Time = 303.28
+19:57:30 Iter     7300 : NLL =  3.2395e+01 MSE = 4.3525e+00 Samples= 58 Time = 307.05
+19:57:34 Iter     7400 : NLL =  3.7517e+01 MSE = 9.8873e+00 Samples= 59 Time = 310.82
+19:57:38 Iter     7500 : NLL =  3.5166e+01 MSE = 7.4003e+00 Samples= 60 Time = 314.58
+19:57:42 Iter     7600 : NLL =  3.3555e+01 MSE = 5.5301e+00 Samples= 61 Time = 318.37
+19:57:45 Iter     7700 : NLL =  3.1032e+01 MSE = 3.1051e+00 Samples= 62 Time = 322.14
+19:57:49 Iter     7800 : NLL =  3.1240e+01 MSE = 3.4152e+00 Samples= 63 Time = 325.91
+19:57:53 Iter     7900 : NLL =  3.5788e+01 MSE = 6.6020e+00 Samples= 64 Time = 329.68
+19:57:57 Iter     8000 : NLL =  3.2627e+01 MSE = 4.5680e+00 Samples= 65 Time = 333.45
+19:58:00 Iter     8100 : NLL =  3.1460e+01 MSE = 3.5778e+00 Samples= 66 Time = 337.23
+19:58:04 Iter     8200 : NLL =  3.2414e+01 MSE = 4.2518e+00 Samples= 67 Time = 341.01
+19:58:08 Iter     8300 : NLL =  5.1467e+01 MSE = 2.4144e+01 Samples= 68 Time = 344.80
+19:58:12 Iter     8400 : NLL =  3.3178e+01 MSE = 4.9082e+00 Samples= 69 Time = 348.58
+19:58:16 Iter     8500 : NLL =  3.2418e+01 MSE = 4.3284e+00 Samples= 70 Time = 352.38
+19:58:19 Iter     8600 : NLL =  3.4041e+01 MSE = 5.6308e+00 Samples= 71 Time = 356.14
+19:58:23 Iter     8700 : NLL =  3.3652e+01 MSE = 5.4698e+00 Samples= 72 Time = 359.91
+19:58:27 Iter     8800 : NLL =  3.1414e+01 MSE = 3.5243e+00 Samples= 73 Time = 363.68
+19:58:31 Iter     8900 : NLL =  3.2256e+01 MSE = 4.1245e+00 Samples= 74 Time = 367.45
+19:58:34 Iter     9000 : NLL =  3.3794e+01 MSE = 5.7622e+00 Samples= 75 Time = 371.21
+19:58:38 Iter     9100 : NLL =  3.0443e+01 MSE = 2.7279e+00 Samples= 76 Time = 374.97
+19:58:42 Iter     9200 : NLL =  3.0644e+01 MSE = 3.0067e+00 Samples= 77 Time = 378.74
+19:58:46 Iter     9300 : NLL =  3.5766e+01 MSE = 7.1322e+00 Samples= 78 Time = 382.51
+19:58:50 Iter     9400 : NLL =  3.1070e+01 MSE = 3.2670e+00 Samples= 79 Time = 386.26
+19:58:53 Iter     9500 : NLL =  2.9654e+01 MSE = 2.3132e+00 Samples= 80 Time = 390.03
+19:58:57 Iter     9600 : NLL =  3.2194e+01 MSE = 4.0110e+00 Samples= 81 Time = 393.79
+19:59:01 Iter     9700 : NLL =  3.0453e+01 MSE = 2.7768e+00 Samples= 82 Time = 397.55
+19:59:05 Iter     9800 : NLL =  3.0676e+01 MSE = 3.0224e+00 Samples= 83 Time = 401.31
+19:59:08 Iter     9900 : NLL =  3.3041e+01 MSE = 4.8524e+00 Samples= 84 Time = 405.07
+19:59:13 WORKER: done with job (3, 0, 2), trying to register it.
+19:59:13 WORKER: registered result for job (3, 0, 2) with dispatcher
+19:59:13 DISPATCHER: job (3, 0, 2) finished
+19:59:13 DISPATCHER: register_result: lock acquired
+19:59:13 DISPATCHER: job (3, 0, 2) on hpbandster.run_42.worker.metaex24.39502140518608500544 finished
+19:59:13 job_id: (3, 0, 2)
+kwargs: {'config': {'burn_in': 0.1566004815463597, 'l_rate': 0.09054128969944149, 'mdecay': 0.8646638577209511, 'n_units_1': 508, 'n_units_2': 117}, 'budget': 10000.0, 'working_directory': 'opt_results/bnn/bostonhousing/bohb'}
+result: {'loss': 5.168218587993604, 'info': {'function_value': 5.168218587993604, 'cost': 409.8114848136902}}
+exception: None
+
+19:59:13 job_callback for (3, 0, 2) started
+19:59:13 job_callback for (3, 0, 2) got condition
+19:59:13 DISPATCHER: Trying to submit another job.
+19:59:13 DISPATCHER: jobs to submit = 0, number of idle workers = 4 -> waiting!
+19:59:13 HBMASTER: Trying to run another job!
+19:59:13 job_callback for (3, 0, 2) finished
+19:59:13 HBMASTER: shutdown initiated, shutdown_workers = True
+19:59:13 WORKER: shutting down now!
+19:59:13 DISPATCHER: Dispatcher shutting down
+19:59:13 DISPATCHER: Trying to submit another job.
+19:59:13 DISPATCHER: job_runner shutting down
+19:59:13 DISPATCHER: discover_workers shutting down
+19:59:13 DISPATCHER: 'discover_worker' thread exited
+19:59:13 DISPATCHER: 'job_runner' thread exited
+19:59:13 DISPATCHER: shut down complete

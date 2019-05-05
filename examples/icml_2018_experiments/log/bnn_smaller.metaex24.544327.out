@@ -1,0 +1,48 @@
+Workingdir: /home/marbenj/BOHBsCAVE/examples/icml_2018_experiments
+Started at Sun Apr 28 19:44:53 CEST 2019
+Running job bnn_smaller using 4 cpus per node with given JID 544327 on queue cpu_ivy
+SLURM_ARRAY_TASK_ID: 1
+bostonhousing bohb
+42
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+... compiling theano function
+DONE
+Finished at Sun Apr 28 19:59:14 CEST 2019

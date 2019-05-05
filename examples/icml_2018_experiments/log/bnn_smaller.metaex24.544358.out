@@ -1,0 +1,6 @@
+Workingdir: /home/marbenj/BOHBsCAVE/examples/icml_2018_experiments
+Started at Sun Apr 28 20:11:07 CEST 2019
+Running job bnn_smaller using 6 cpus per node with given JID 544358 on queue cpu_ivy
+SLURM_ARRAY_TASK_ID: 4
+DONE
+Finished at Sun Apr 28 20:11:07 CEST 2019
