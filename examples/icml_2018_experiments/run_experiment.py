@@ -25,7 +25,9 @@ def standard_parser_args(parser):
     parser.add_argument('--run_id', type=str, default=0)
     parser.add_argument('--working_directory', type=str, help='Directory holding live rundata. Should be shared across all nodes for parallel optimization.', default='/tmp/')
     # Only relevant for some experiments
-    parser.add_argument('--dataset', type=str, help='Only for bnn. Choose from toyfunction, bostonhousing, proteinstructure.', default=None)
+    parser.add_argument('--dataset_bnn', type=str, help='Only for bnn. Choose from toyfunction, bostonhousing, proteinstructure.', default=None)
+    parser.add_argument('--dataset_paramnet_surrogates', choices=['adult', 'higgs', 'letter', 'mnist', 'optdigits', 'poker'], help="name of the dataset used", default='mnist')
+    parser.add_argument('--surrogate_path', type=str, help='Path to the pickled surrogate models. If None, HPOlib2 will automatically download the surrogates to the .hpolib directory in your home directory.', default=None)
     return parser
 
 def get_optimizer(parsed_args, config_space, **kwargs):
@@ -41,15 +43,21 @@ def get_optimizer(parsed_args, config_space, **kwargs):
         raise ValueError("Unknown method %s"%parsed_args.method)
     return opt(config_space, eta=eta, **kwargs)
 
-def get_worker(args):
+def get_worker(args, host=None):
     exp_name = args.exp_name
     if exp_name == 'bnn':
-        if not args.dataset:
+        if not args.dataset_bnn:
             raise ValueError("Specify a dataset for bnn experiment!")
-        worker = BNNWorker(dataset=args.dataset, measure_test_loss=False, run_id=args.run_id, max_budget=args.max_budget)
+        worker = BNNWorker(dataset=args.dataset_bnn, measure_test_loss=False, run_id=args.run_id,
+                           max_budget=args.max_budget, host=host)
     elif exp_name == 'cartpole':
-        worker = CartpoleWorker(measure_test_loss=False, run_id=args.run_id)
-
+        worker = CartpoleWorker(measure_test_loss=False, run_id=args.run_id, host=host)
+    elif exp_name == 'svm_surrogate':
+        # this is a synthetic benchmark, so we will use the run_id to separate the independent runs JM: what's that supposed to mean?
+        worker = Worker(surrogate_path=args.surrogate_path, measure_test_loss=True, run_id=args.run_id, host=host)
+    elif exp_name == 'paramnet_surrogates':
+        worker = Worker(dataset=args.dataset_paramnet_surrogates, surrogate_path=args.surrogate_path,
+                        measure_test_loss=False, run_id=args.run_id, host=host)
     else:
         raise ValueError("{} not a valid experiment name".format(exp_name))
     return worker
