@@ -54,10 +54,8 @@ import ConfigSpace.hyperparameters as CSH
 def get_configspace():
     """ Returns the configuration space for the network to be configured in the example. """
     config_space = CS.ConfigurationSpace()
-    config_space.add_hyperparameters([
-        CSH.CategoricalHyperparameter('activation', ['tanh', 'relu']),
-        CS.UniformFloatHyperparameter(
-            'learning_rate_init', lower=1e-6, upper=1e-2, log=True)])
+    config_space.add_hyperparameter(CSH.CategoricalHyperparameter('activation', ['tanh', 'relu']))
+    config_space.add_hyperparameter(CS.UniformFloatHyperparameter('learning_rate_init', lower=1e-6, upper=1e-2, log=True))
     
     solver = CSH.CategoricalHyperparameter('solver', ['sgd', 'adam'])
     config_space.add_hyperparameter(solver)
@@ -75,51 +73,3 @@ def get_configspace():
     config_space.add_condition(condition)
     
     return config_space
-
-
-def optimize_mlp_on_digits(train, valid, budget, **config):
-    """
-    Overwrite the *compute* methode: the training of the model happens here
-
-    Args:
-        train (tuple(np.ndarray, npndarray): data and labels for training
-        valid (tuple(np.ndarray, npndarray): data and labels for training
-        config (ConfigSpace.configuration): a sampled configuration from the
-            configuration space
-        budget (float): budget, which is passed by the BOHB optimizer
-
-    Returns:
-        loss (float): validation loss
-    """
-    train_x, train_y = train
-    valid_x, valid_y = valid
-
-    beta_1 = 0 if 'beta_1' not in config else config['beta_1']
-    beta_2 = 0 if 'beta_2' not in config else config['beta_2']
-
-    clf = neural_network.MLPClassifier(max_iter=int(budget),
-                                       learning_rate='constant',
-                                       learning_rate_init=config[
-                                           'learning_rate_init'],
-                                       activation=config['activation'],
-                                       solver=config['solver'],
-                                       beta_1=beta_1,
-                                       beta_2=beta_2
-                                       )
-    clf.fit(train_x, train_y, )
-
-    loss_valid = metrics.log_loss(valid_y, clf.predict_proba(valid_x))
-    return loss_valid
-
-
-def load_digits():
-    digits = datasets.load_digits()  # load the digits dataset
-    n_samples = len(digits.images)
-    data = digits.images.reshape((n_samples, -1))
-
-    # split it into training and validation set.
-    split = n_samples // 2
-    train_x, valid_x = data[:split], data[split:]
-    train_y, valid_y = digits.target[:split], digits.target[split:]
-
-    return (train_x, train_y), (valid_x, valid_y)
