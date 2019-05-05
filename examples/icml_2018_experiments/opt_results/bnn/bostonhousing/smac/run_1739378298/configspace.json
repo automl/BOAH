@@ -1,0 +1,48 @@
+{
+  "hyperparameters": [
+    {
+      "name": "burn_in",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 0.8,
+      "default": 0.3
+    },
+    {
+      "name": "l_rate",
+      "type": "uniform_float",
+      "log": true,
+      "lower": 1e-06,
+      "upper": 0.1,
+      "default": 0.01
+    },
+    {
+      "name": "mdecay",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.05
+    },
+    {
+      "name": "n_units_1",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 16,
+      "upper": 512,
+      "default": 64
+    },
+    {
+      "name": "n_units_2",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 16,
+      "upper": 512,
+      "default": 64
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.4.10",
+  "json_format_version": 0.1
+}

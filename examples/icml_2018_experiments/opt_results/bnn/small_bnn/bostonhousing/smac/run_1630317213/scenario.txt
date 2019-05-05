@@ -1,0 +1,12 @@
+execdir = .
+deterministic = True
+run_obj = quality
+overall_obj = par10
+par_factor = 10
+cost_for_crash = 2147483647.0
+algo_runs_timelimit = inf
+wallclock_limit = inf
+always_race_default = False
+ta_run_limit = 2.0
+initial_incumbent = RANDOM
+pcs_fn = opt_results/small_bnn/bostonhousing/smac/run_1630317213/configspace.json

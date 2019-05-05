@@ -1,0 +1,10 @@
+cython
+matplotlib
+git+https://github.com/hyperopt/hyperopt.git
+git+https://github.com/automl/sgmcmc.git
+git+https://github.com/Lasagne/Lasagne.git
+git+https://github.com/automl/HPOlib2.git@new_benchmarks
+theano
+tensorforce
+tensorflow
+gym
