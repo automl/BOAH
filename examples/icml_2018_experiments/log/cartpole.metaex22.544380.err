@@ -1,6 +1,0 @@
-cpu-bind=MASK - metaex22, task  0  0 [123621]: mask 0x3f00 set
-usage: cartpole.py [-h] [--dest_dir DEST_DIR] [--run_id RUN_ID]
-                   [--working_directory WORKING_DIRECTORY] [--method METHOD]
-                   [--nic_name NIC_NAME] [--eta ETA] [--min_budget MIN_BUDGET]
-                   [--max_budget MAX_BUDGET] [--num_iterations NUM_ITERATIONS]
-cartpole.py: error: unrecognized arguments: --worker

@@ -1,4 +1,0 @@
-Workingdir: /home/marbenj/BOHBsCAVE/examples/icml_2018_experiments
-Started at Sun Apr 28 20:16:37 CEST 2019
-Running job cartpole using 6 cpus per node with given JID 544379 on queue cpu_ivy
-SLURM_ARRAY_TASK_ID: 1
