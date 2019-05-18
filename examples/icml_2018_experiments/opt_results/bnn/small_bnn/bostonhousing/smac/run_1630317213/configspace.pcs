@@ -1,5 +1,0 @@
-burn_in real [0.0, 0.8] [0.3]
-l_rate real [1e-06, 0.1] [0.01]log
-mdecay real [0.0, 1.0] [0.05]
-n_units_1 integer [16, 512] [64]log
-n_units_2 integer [16, 512] [64]log
