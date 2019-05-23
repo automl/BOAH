@@ -1,3 +1,7 @@
+# Folders for cluster / local results
+examples/icml_2018_experiments/CAVE_reports
+examples/icml_2018_experiments/log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

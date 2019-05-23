@@ -1,0 +1,56 @@
+{
+  "hyperparameters": [
+    {
+      "name": "x0",
+      "type": "uniform_float",
+      "log": false,
+      "lower": -6.0,
+      "upper": -2.0,
+      "default": -4.0
+    },
+    {
+      "name": "x1",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 3.0,
+      "upper": 8.0,
+      "default": 5.5
+    },
+    {
+      "name": "x2",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 4.0,
+      "upper": 8.0,
+      "default": 6.0
+    },
+    {
+      "name": "x3",
+      "type": "uniform_float",
+      "log": false,
+      "lower": -4.0,
+      "upper": 0.0,
+      "default": -2.0
+    },
+    {
+      "name": "x4",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 5.0,
+      "default": 3.0
+    },
+    {
+      "name": "x5",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 0.5,
+      "default": 0.25
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.4.10",
+  "json_format_version": 0.1
+}

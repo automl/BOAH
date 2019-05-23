@@ -1,3 +1,4 @@
-hpbandster
-cave
+numpy
 jupyter
+cave
+hpbandster

@@ -1,0 +1,7 @@
+batch_size integer [8, 256] [64]log
+discount real [0.0, 1.0] [0.99]
+entropy_regularization real [0.0, 1.0] [0.01]
+learning_rate real [1e-07, 0.1] [0.001]log
+likelihood_ratio_clipping real [0.0, 1.0] [0.2]
+n_units_1 integer [8, 128] [64]log
+n_units_2 integer [8, 128] [64]log
