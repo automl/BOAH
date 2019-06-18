@@ -17,13 +17,13 @@ analysis of BOHB's optimization.
 
 ### Toy Example
 
-An easily adaptable [step-by-step tutorial](http://github.com/automl/BOHBsCAVE/examples/mlp_on_digits) on how to use
+An easily adaptable [step-by-step tutorial](http://github.com/automl/CBC/examples/mlp_on_digits) on how to use
 the ConfigSpace and BOHB with CAVE. In this notebook, we provide an
 exemplary optimization of a simple multi-layer perceptron on the digits dataset with a subsequent analysis through CAVE.
 
 ### ICML 2018 Experiments
 
-In this [series of notebooks](http://github.com/automl/BOHBsCAVE/examples/icml_2018_experiments) you can reproduce the
+In this [series of notebooks](http://github.com/automl/CBC/examples/icml_2018_experiments) you can reproduce the
 experiments described in
 [BOHB's introduction in 2018 (Falkner et al.)](http://proceedings.mlr.press/v80/falkner18a.html).
 The results are available precomputed and ready for analysis, however you can rerun the experiments - just keep in mind,
