@@ -15,6 +15,10 @@ This repository provides a simple example of how to construct a configuration sp
 how to use BOHB with minimal efforts and how to run CAVE to generate a comprehensive
 analysis of BOHB's optimization.
 
+### fmin Interface
+
+To improve the first-time usage experience, we provide an easy-to-use interface for using BOHB, called [fmin](https://github.com/automl/CBC/blob/master/examples/mlp_on_digits/FMin.py), inspired by the well-known \emph{fmin} interface of scipy. 
+
 ### Toy Example
 
 An easily adaptable [step-by-step tutorial](https://github.com/automl/CBC/tree/master/examples/mlp_on_digits) on how to use
@@ -28,10 +32,6 @@ experiments described in
 [BOHB's introduction in 2018 (Falkner et al.)](http://proceedings.mlr.press/v80/falkner18a.html).
 The results are available precomputed and ready for analysis, however you can rerun the experiments - just keep in mind,
 that the notebooks might run for a long time (several days) for some of the experiments.
-
-### Plug-and-Play your own example
-
-(coming soon)
 
 ## Requirements
 
