@@ -17,7 +17,7 @@ analysis of BOHB's optimization.
 
 ### Toy Example
 
-An easily adaptable [step-by-step tutorial](http://github.com/automl/CBC/examples/mlp_on_digits) on how to use
+An easily adaptable [step-by-step tutorial](https://github.com/automl/CBC/tree/master/examples/mlp_on_digits) on how to use
 the ConfigSpace and BOHB with CAVE. In this notebook, we provide an
 exemplary optimization of a simple multi-layer perceptron on the digits dataset with a subsequent analysis through CAVE.
 
