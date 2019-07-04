@@ -23,7 +23,7 @@ exemplary optimization of a simple multi-layer perceptron on the digits dataset 
 
 ### ICML 2018 Experiments
 
-In this [series of notebooks](http://github.com/automl/CBC/examples/icml_2018_experiments) you can reproduce the
+In this [series of notebooks](https://github.com/automl/CBC/tree/master/examples/icml_2018_experiments) you can reproduce the
 experiments described in
 [BOHB's introduction in 2018 (Falkner et al.)](http://proceedings.mlr.press/v80/falkner18a.html).
 The results are available precomputed and ready for analysis, however you can rerun the experiments - just keep in mind,
