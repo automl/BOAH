@@ -1,4 +1,4 @@
-# CBC
+# BOAH: Bayesian Optimization & Analysis of Hyperparameters
 
 Hyperparameter optimization and architecture search can easily become prohibitively expensive for regular black-box
 Bayesian optimization as training and validation of a single model can already take several hours. To overcome
