@@ -1,0 +1,64 @@
+{
+  "hyperparameters": [
+    {
+      "name": "batch_size",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 8,
+      "upper": 256,
+      "default": 64
+    },
+    {
+      "name": "discount",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.99
+    },
+    {
+      "name": "entropy_regularization",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.01
+    },
+    {
+      "name": "learning_rate",
+      "type": "uniform_float",
+      "log": true,
+      "lower": 1e-07,
+      "upper": 0.1,
+      "default": 0.001
+    },
+    {
+      "name": "likelihood_ratio_clipping",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.2
+    },
+    {
+      "name": "n_units_1",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 8,
+      "upper": 128,
+      "default": 64
+    },
+    {
+      "name": "n_units_2",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 8,
+      "upper": 128,
+      "default": 64
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.4.7",
+  "json_format_version": 0.1
+}

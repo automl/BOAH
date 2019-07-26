@@ -1,0 +1,54 @@
+#!/bin/bash
+#$ -S /bin/bash
+
+cd "/work/ws/nemo/fr_ke1011-BOHB_CAVE-0"
+jobs_file="/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_8.cmd"
+
+echo "Here's what we know from the MOAB environment"
+echo MOAB_MACHINE=$MOAB_MACHINE
+echo SHELL=$SHELL
+echo HOME=$HOME
+echo USER=$USER
+echo MOAB_JOBID=$MOAB_JOBID
+echo HOSTNAME=$HOSTNAME
+echo MOAB_JOBARRAYINDEX=$MOAB_JOBARRAYINDEX
+echo jobs_file=${jobs_file}
+echo PWD=`pwd`
+line=`head -n $MOAB_JOBARRAYINDEX "${jobs_file}" | tail -1`   # Get line of todoFilename.
+echo Calling: bash -c "$line"                                  #output
+
+export PATH=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/miniconda3/bin:$PATH
+
+mkdir -p ~/.lockdir/
+LOCKDIR=~/.lockdir/lock/
+VENVDIR="$1"
+
+for i in {1..10000}; do
+  if mkdir "$LOCKDIR"; then
+    echo "Locking succeeded - Going to activate Conda" >&2
+        source activate BC_36
+        break
+
+  else
+    echo "Lock failed - sleep and try again" >&2
+    pid=$$
+    sleeptime=$((pid%30))
+
+    sleep $((sleeptime+5))s
+  fi
+done
+
+rmdir "$LOCKDIR"
+
+
+echo "Job started at: `date`"
+
+echo
+bash -c "$line"
+echo
+
+echo "Job finished with exit code $? at: `date`" 
+
+echo DONE
+
+

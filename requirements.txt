@@ -1,4 +1,6 @@
+cython
 numpy
 jupyter
 cave
 hpbandster
+gym
