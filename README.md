@@ -32,19 +32,14 @@ experiments described in
 The results are available precomputed and ready for analysis, however you can rerun the experiments - just keep in mind,
 that the notebooks might run for a long time (several days) for some of the experiments.
 
+### PPO on Cartpole
+
+[PPO on Cartpole](https://github.com/automl/BOAH/tree/master/examples/PPO_on_cartpole) optimizes the Proximal Policy Optimization on the Cartpole Problem. We provide results from a cluster for the optimization data and a notebook to easily reproduce analysis.
+
 ## Requirements
 
 This is a Python3 package (developed under Python 3.6).  For convenience, we recommend to install Anaconda with a recent
 Python 3 (see also `setup.sh`). If you want to set up the package manually, you find requirements in the `requirements.txt` (or, for the ICML 2018 Experiments, in `eamples/icml_2018_experiments/requirements.txt`).
-
-## Content
-
- * `setup.sh` provides a simple BASH script to create an anaconda environment and installs all requirements from
-   `requirements.txt`
- * `examples/EasyOpt.py` provides an easy command line interface to run BOHB
- * `examples/notebook_mlp_on_digits.ipynb` is a Jyputer notebook showing and explaining how to use BOHB for optimizing
-   the hyperparameters of a simple MLP network on the DIGITS dataset
- * `examples/example_mlp_on_digits.py` implements the network and the hyperparameter optimization space
 
 ## License
 
