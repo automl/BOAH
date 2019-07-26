@@ -17,7 +17,7 @@ analysis of BOHB's optimization.
 
 ### fmin Interface
 
-To improve the first-time usage experience, we provide an easy-to-use interface for using BOHB, called [fmin](https://github.com/automl/CBC/blob/master/examples/mlp_on_digits/FMin.py), inspired by the well-known _fmin_ interface of scipy. 
+To improve the first-time usage experience, we provide an easy-to-use interface for using BOHB, called [fmin](https://github.com/automl/BOAH/blob/master/examples/mlp_on_digits/FMin.py), inspired by the well-known _fmin_ interface of scipy. 
 
 ### Toy Example
 
