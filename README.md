@@ -3,10 +3,10 @@
 Hyperparameter optimization and architecture search can easily become prohibitively expensive for regular black-box
 Bayesian optimization as training and validation of a single model can already take several hours. To overcome
 this, we introduce a tool suite for multi-fidelity Bayesian optimization that allows the specification of design spaces
-(via [**C**onfigSpace](https://github.com/automl/ConfigSpace))
+(via [ConfigSpace](https://github.com/automl/ConfigSpace))
 in Python, the efficient optimization of black-box functions using cheap approximations
-(via [**B**OHB](https://github.com/automl/HpBandSter))
-and an automatic analysis of the optimization process and results (via [**C**AVE](https://github.com/automl/CAVE)) to gain better understanding.
+(via [BOHB](https://github.com/automl/HpBandSter))
+and an automatic analysis of the optimization process and results (via [CAVE](https://github.com/automl/CAVE)) to gain better understanding.
 
 ## Content
 
