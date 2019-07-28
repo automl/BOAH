@@ -208,7 +208,7 @@ def fmin(func, config_space, func_args=(),
 
     # For hyperparameter importance analysis via CAVE we store the configuration
     # space definition to file.
-    with open(output_dir / 'configSpace.json', 'w') as f:
+    with open(output_dir / 'configspace.json', 'w') as f:
         f.write(json.write(config_space))
 
     # Set up a master, which is book keeping and decides what to run next.
