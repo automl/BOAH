@@ -40,7 +40,7 @@ Python 3 (see also `setup.sh`). If you want to set up the package manually, you 
 
 ### ConfigSpace
 
-<a href="https://github.com/automl/ConfigSpacae" target="_blank">ConfigSpace</a> is a python module to manage configuration spaces for algorithm configuration and hyperparameter optimization tasks. Supports all common types, like numericals, ordinals, categoricals and also log-scale sampling or conditions. Includes various scripts to translate between different text formats for configuration space description. 
+<a href="https://github.com/automl/ConfigSpace" target="_blank">ConfigSpace</a> is a python module to manage configuration spaces for algorithm configuration and hyperparameter optimization tasks. Supports all common types, like numericals, ordinals, categoricals and also log-scale sampling or conditions. Includes various scripts to translate between different text formats for configuration space description. 
 
 ### HpBandSter
 
