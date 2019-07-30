@@ -14,11 +14,12 @@ import hpbandster.core.result as hpres
 
 from workers.bnn_worker import BNNWorker
 from workers.cartpole_worker import CartpoleReducedWorker as CartpoleWorker
+from workers.pendulum_worker import PendulumReducedWorker as PendulumWorker
 from workers.paramnet_surrogates import ParamNetSurrogateWorker
 from workers.svm_surrogate import SVMSurrogateWorker
 
 def standard_parser_args(parser):
-    parser.add_argument('--exp_name', type=str, required=True, help='Possible choices: bnn, cartpole, svm_surrogate, paramnet_surrogates')
+    parser.add_argument('--exp_name', type=str, required=True, help='Possible choices: bnn, cartpole, cartpole_sample, svm_surrogate, paramnet_surrogates')
     parser.add_argument('--opt_method', type=str, default='bohb', help='Possible choices: randomsearch, bohb, hyperband, smac')
 
     parser.add_argument('--dest_dir', type=str, help='the destination directory. A new subfolder is created for each benchmark/dataset.',
@@ -68,6 +69,9 @@ def get_worker(args, host=None):
                            max_budget=args.max_budget, host=host)
     elif exp_name == 'cartpole':
         worker = CartpoleWorker(measure_test_loss=False, run_id=args.run_id, host=host)
+    elif exp_name == 'pendulum':
+        worker = PendulumWorker(measure_test_loss=False, run_id=args.run_id, host=host,
+                                max_budget=args.max_budget)
     elif exp_name == 'svm_surrogate':
         # this is a synthetic benchmark, so we will use the run_id to separate the independent runs (JM: what's that supposed to mean?)
         worker = SVMSurrogateWorker(surrogate_path=args.surrogate_path, measure_test_loss=True, run_id=args.run_id, host=host)

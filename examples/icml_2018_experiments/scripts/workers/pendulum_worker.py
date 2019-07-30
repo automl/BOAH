@@ -3,11 +3,11 @@ import numpy
 
 from hpbandster.core.worker import Worker
 
-from hpolib.benchmarks.rl.cartpole import CartpoleReduced as surrogate
+from hpolib.benchmarks.rl.pendulum import PendulumReduced as surrogate
 from .base_worker import BaseWorker
 
 
-class CartpoleReducedWorker(BaseWorker):
+class PendulumReducedWorker(BaseWorker):
     def __init__(self, max_budget=None, **kwargs):
 
         b = surrogate()
