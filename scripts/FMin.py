@@ -6,7 +6,7 @@ like BOHB.
 
 The function fmin is callable from the commandline, as well as in your code.
 
-To call it from command line, you must:
+To call it from commandline, you must:
 
 - provide the path to a file containing a function with the name opt_func.
 - provide the path to a configuration space definition in pcs or json file
@@ -42,7 +42,7 @@ class FMinWorker(Worker):
     Args:
         func (function): function to optimize. Must return a python scalar!
         func_args (tuple): arguments, passed to the function by the user,
-            e.g. the data (X,y). These arguments don't include optimized
+            e.g., the data (X,y). These arguments don't include optimized
              parameters. Those are defined in the configuration space object.
     """
 
@@ -63,20 +63,20 @@ def fmin(func, config_space, func_args=(),
     Starts a local BOHB optimization run for a function over a hyperparameter
     search space, which is referred to as configuration space.
     This function's purpose is to give a fast and easy way to run BOHB on a
-    optimisation objective on your local machine.
+    optimization objective on your local machine.
 
     The optimized function must satisfy the following conditions:
     - Contain a parameter ``budget``:
         This parameter is passed by the optimizer.
-        Its meaning is defined by your interpretation of budget used by your
+        Its meaning is defined by your interpretation of the budget used by your
         model. For example it may be the number of epochs for a neural network
         to train or the number of datapoints, the model receives.
 
         The idea is to run many configurations on a small budget and only
-        take the best 1/``eta`` of them to the next round. In the next iteration
-        the configurations run on the doubled budget. This is repeated, until
+        take the best 1/``eta`` of them to the next round. In the next iteration,
+        the configurations run on the doubled budget. This is repeated until
         only 2 configurations are left to run on the ``max_budget``.
-        Therefore, bad configuration are rejected fast, and the good
+        Therefore, bad configurations are rejected fast, and the good
         ones are explored more.
         The number of configurations with a minimum budget is calculated similar
         to the optimization run, just reversed. Having 2 configurations with
@@ -86,14 +86,14 @@ def fmin(func, config_space, func_args=(),
     - Hyperparameter from the configuration space object:
         The function must implement all hyperparameters defined in the
         configuration space. The parameter name in the function call must be
-        equal to the name of the hyperparameter. Otherwise a exception will
+        equal to the name of the hyperparameter. Otherwise, a exception will
         be thrown.
 
-    - Function arguments in right order:
+    - Function arguments in the right order:
         Function arguments, which are not hyperparameters and therefore not
         defined in the configuration space must be passed to the
         ``fmin`` call in the order of occurrence in the function signature.
-        In the example below, for instance the training data, X and y, is a
+        In the example below, the training data, X and y, is a
         use case for this kind of function arguments.
 
     Example::
@@ -126,25 +126,25 @@ def fmin(func, config_space, func_args=(),
 
     Args:
         func (function): function to optimize. Must return a python scalar!
-            See also section above
+            See also the section above
             **The optimized function must satisfy the following conditions**
         config_space (ConfigSpace.ConfigurationSpace):
             Definition of the search space containing all hyperparameters
             and their value ranges. You can find its definition in
             the `ConfiSpace repository <https://github.com/automl/ConfigSpace/>`_.
         func_args (tuple): arguments, passed to the function by the user,
-            e.g. the data (X,y). These arguments don't include
+            e.g., the data (X,y). These arguments don't include
             optimized parameters. Those are defined in the
             configuration space object and will be passed by the master directly
             to the function.
         eta (float): In each iteration, a complete run of sequential halving
             is executed. In it, after evaluating each configuration on the
-            same subset size, only a fraction of 1/eta of them ‘advances’ to
-            the next round. Must be greater or equal to 2
+            same subset size, only a fraction of 1/eta of them 'advances' to
+            the next round. Must be greater or equal to 2.
         min_budget (int, float, optional): Defines the minimum budget to
             evaluate configurations on it.
             In combination with the parameter `max_budget` and `eta`,
-            the number of configuartions to evaluate is determined.
+            the number of configurations to evaluate is determined.
             Read more about it in the
             `Quickstart <https://automl.github.io/HpBandSter/build/html/quickstart.html#id6>`_.
             By default `min_budget` and `max_budget` is set, so that only a few
@@ -208,7 +208,7 @@ def fmin(func, config_space, func_args=(),
 
     # For hyperparameter importance analysis via CAVE we store the configuration
     # space definition to file.
-    with open(output_dir / 'configSpace.json', 'w') as f:
+    with open(output_dir / 'configspace.json', 'w') as f:
         f.write(json.write(config_space))
 
     # Set up a master, which is book keeping and decides what to run next.

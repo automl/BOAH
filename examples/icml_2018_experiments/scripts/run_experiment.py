@@ -186,8 +186,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
     args.dest_dir = os.path.join(args.dest_dir, args.exp_name)
     if args.exp_name == 'bnn':
+        if args.dataset_bnn is None:
+            raise ValueError("Specify --dataset_bnn")
         args.dest_dir = os.path.join(args.dest_dir, args.dataset_bnn)
     if args.exp_name == 'paramnet_surrogates':
+        if args.dataset_paramnet_surrogates is None:
+            raise ValueError("Specify --dataset_bnn")
         args.dest_dir = os.path.join(args.dest_dir, args.dataset_paramnet_surrogates)
     args.dest_dir = os.path.join(args.dest_dir, args.opt_method)
 

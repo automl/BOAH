@@ -1,0 +1,160 @@
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[1]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=1
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[2]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=2
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[3]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=3
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[4]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=4
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[5]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=5
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[6]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=6
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[7]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=7
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[8]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=8
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[9]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=9
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Here's what we know from the MOAB environment
+MOAB_MACHINE=torque
+SHELL=/bin/bash
+HOME=/home/fr/fr_fr/fr_ke1011
+USER=fr_ke1011
+MOAB_JOBID=4606562[10]
+HOSTNAME=n4529.nemo.privat
+MOAB_JOBARRAYINDEX=10
+jobs_file=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0/job_10.cmd
+PWD=/work/ws/nemo/fr_ke1011-BOHB_CAVE-0
+Calling: bash -c python run_BOHB.py --n 128 --run_id 10 --shared_directory ./BC_10/ --interface boot0 --worker
+Job started at: Fri Dec 21 15:25:19 CET 2018
+
+Job started at: Fri Dec 21 15:25:33 CET 2018
+
+Job started at: Fri Dec 21 15:25:56 CET 2018
+
+Job started at: Fri Dec 21 15:26:02 CET 2018
+
+Job started at: Fri Dec 21 15:26:07 CET 2018
+
+Job started at: Fri Dec 21 15:26:14 CET 2018
+
+Job started at: Fri Dec 21 15:26:21 CET 2018
+
+Job started at: Fri Dec 21 15:26:26 CET 2018
+
+Job started at: Fri Dec 21 15:26:44 CET 2018
+
+Job started at: Fri Dec 21 15:27:04 CET 2018
+
+
+
+
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+DONE
+DONE
+
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+
+
+
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE
+
+Job finished with exit code 0 at: Fri Dec 21 20:51:15 CET 2018
+DONE

@@ -1,4 +1,9 @@
 cython
+numpy
+jupyter
+cave
+hpbandster
+gym
 matplotlib
 git+https://github.com/hyperopt/hyperopt.git
 git+https://github.com/automl/sgmcmc.git
@@ -7,4 +12,3 @@ git+https://github.com/automl/HPOlib2.git@new_benchmarks
 theano
 tensorforce
 tensorflow
-gym
