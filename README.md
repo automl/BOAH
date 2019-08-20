@@ -1,5 +1,7 @@
 # BOAH Tool Suite
 
+(see also [automl.org](https://www.automl.org/automl/boah/))
+
 ## Bayesian Optimization & Analysis of Hyperparameters
 
 Hyperparameter optimization and architecture search can easily become prohibitively expensive for regular black-box
