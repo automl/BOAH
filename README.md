@@ -58,3 +58,14 @@ This package is free software: you can redistribute it and/or modify it under th
 ## Contact
 
 This repository is developed by the [AutoML Group Freiburg](https://www.automl.org)
+
+## Citing BOAH
+
+```bibtex
+@journal{
+    title   = {BOAH: A Tool Suite for Multi-Fidelity Bayesian Optimization & Analysis of Hyperparameters},
+    author  = {M. Lindauer and K. Eggensperger and M. Feurer and A. Biedenkapp and J. Marben and P. Müller and F. Hutter},
+    journal = {arXiv:1908.06756 {[cs.LG]}},
+    date    = {2019},
+}
+```
