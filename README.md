@@ -1,6 +1,6 @@
 # BOAH Tool Suite
 
-(see also [automl.org](https://www.automl.org/automl/boah/))
+(see also [automl.org](https://www.automl.org/boah/))
 
 ## Bayesian Optimization & Analysis of Hyperparameters
 
